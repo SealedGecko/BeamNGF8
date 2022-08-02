@@ -1,0 +1,46 @@
+{
+  "0-100 km/h":10.1,
+  "0-100 mph":36.4,
+  "0-60 mph":9.5,
+  "100-0 km/h":40.1,
+  "60-0 mph":120.4,
+  "60-100 mph":26.9,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.6,
+      -1.42,
+      -0.3099
+    ],
+    [
+      1.7,
+      4.01,
+      1.41
+    ]
+  ],
+  "Braking G":0.98,
+  "Config Type":"Factory",
+  "Configuration":"D15 V8 4WD Long Bed (A)",
+  "Description":"Equipped with an 8-foot bed, 4-wheel drive and a powerful V8 engine",
+  "Drivetrain":"4WD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":41,
+  "Performance Class":"4",
+  "Population":7000,
+  "Power":197,
+  "PowerPeakRPM":"3950 - 4600",
+  "Propulsion":"ICE",
+  "Top Speed":48.535668,
+  "Torque":375,
+  "TorquePeakRPM":"2950 - 3650",
+  "Transmission":"Automatic",
+  "Value":7770,
+  "Weight":2120,
+  "Weight/Power":10.7614213,
+  "Years":{
+    "max":1997,
+    "min":1992
+  },
+  "defaultPaintName1":"Bermuda Blue"
+}

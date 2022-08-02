@@ -1,0 +1,48 @@
+{
+  "0-100 km/h":12.2,
+  "0-100 mph":47.3,
+  "0-120 mph":102.7,
+  "0-60 mph":11.5,
+  "100-0 km/h":43.8,
+  "60-0 mph":132.5,
+  "60-100 mph":35.8,
+  "60-120 mph":94,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.58,
+      -1.41,
+      -0.2999
+    ],
+    [
+      1.68,
+      4.153,
+      1.41
+    ]
+  ],
+  "Braking G":0.897,
+  "Config Type":"Factory",
+  "Configuration":"D15 V8 Extended Cab (M)",
+  "Description":"Extra passenger space in the form of a second bench and a 4.5L V8 make this low-end truck practical but powerful",
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":34,
+  "Performance Class":"3",
+  "Population":6000,
+  "Power":177,
+  "PowerPeakRPM":"3800 - 4400",
+  "Propulsion":"ICE",
+  "Top Speed":46.7652915,
+  "Torque":350,
+  "TorquePeakRPM":"2900 - 3500",
+  "Transmission":"Manual",
+  "Value":7000,
+  "Weight":2150,
+  "Weight/Power":12.1468927,
+  "Years":{
+    "max":1991,
+    "min":1986
+  },
+  "defaultPaintName1":"Opal Green"
+}

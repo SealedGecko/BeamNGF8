@@ -1,0 +1,46 @@
+{
+  "0-100 km/h":9.3,
+  "0-100 mph":30.4,
+  "0-60 mph":8.7,
+  "100-0 km/h":44,
+  "60-0 mph":133,
+  "60-100 mph":21.7,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.6,
+      -1.42,
+      -0.3099
+    ],
+    [
+      1.7,
+      4.4387,
+      1.41
+    ]
+  ],
+  "Braking G":0.894,
+  "Config Type":"Factory",
+  "Configuration":"D15 4WD Crew Cab Short Bed (A)",
+  "Description":"Uncommon factory configuration with 4 doors and a short bed",
+  "Drivetrain":"4WD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":34,
+  "Performance Class":"3",
+  "Population":2000,
+  "Power":233,
+  "PowerPeakRPM":"4100 - 4900",
+  "Propulsion":"ICE",
+  "Top Speed":51.3475967,
+  "Torque":425,
+  "TorquePeakRPM":"3000 - 3800",
+  "Transmission":"Automatic",
+  "Value":9900,
+  "Weight":2385,
+  "Weight/Power":10.2360515,
+  "Years":{
+    "max":2003,
+    "min":1998
+  },
+  "defaultPaintName1":"Quicksilver"
+}

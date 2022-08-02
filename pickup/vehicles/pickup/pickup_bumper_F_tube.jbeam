@@ -1,0 +1,548 @@
+{
+"pickup_bumper_F_tube": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Tubular Off-Road Front Bumper",
+        "value":700,
+    },
+    "slotType" : "pickup_bumper_F",
+    "slots": [
+        ["type", "default", "description"],
+        ["pickup_licenseplate_F","", "Front License Plate", {"nodeMove":{"x":0, "y":0.065, "z":0.035}}],
+    ],
+     "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_bumper_F_tube", ["pickup_bumper_F"], [], {"pos":{"x":0.0, "y":0, "z":0}, "scale":{"x":1,"y":1,"z":1}}],
+     ],
+     "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"group":"pickup_bumper_F"},
+         {"selfCollision":true},
+         {"collision":true},
+         {"nodeWeight":1},
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+         //front bumper
+         ["fb1rr", -0.54385, -2.21965, 0.67000],
+         ["fb1r", -0.28000, -2.33000, 0.66000],
+         ["fb1", 0.00000, -2.33000, 0.66000],
+         ["fb1l", 0.28000, -2.33000, 0.66000],
+         ["fb1ll", 0.54385, -2.21965, 0.67000],
+
+         ["fb2rr", -0.58240, -2.12861, 0.59000],
+         ["fb2r", -0.39000, -2.12861, 0.50000],
+         ["fb2", 0.00000, -2.12861, 0.50000],
+         ["fb2l", 0.39000, -2.12861, 0.50000],
+         ["fb2ll", 0.58240, -2.12861, 0.59000],
+
+         ["fb3rr", -0.77413, -2.11861, 0.68000],
+         ["fb3ll", 0.77413, -2.11861, 0.68000],
+
+         ["fb4r", -0.17000, -2.48000, 0.83000],
+         ["fb4", 0.00000, -2.48000, 0.83000, {"group":""}],
+         ["fb4l", 0.17000, -2.48000, 0.83000],
+
+         ["fb6", 0.00000, -2.55000, 0.92000],
+
+         //rigidifiers
+         {"selfCollision":false},
+         {"collision":false},
+         {"group":""},
+         {"nodeWeight":1.5},
+         ["fb5r", -0.37000, -2.04000, 0.74000],
+         ["fb5l", 0.37000, -2.04000, 0.74000],
+    ],
+    "rails": {
+        "bumper_F":{
+            "links:":["fb4r","fb4l"], "broken:":[], "looped":false, "capped":false,
+        },
+    },
+    "slidenodes": [
+        ["id:", "railName", "attached", "fixToRail", "tolerance", "spring", "strength", "capStrength"],
+        ["fb4", "bumper_F", true, true, 0.0, 2501000, "FLT_MAX", "FLT_MAX"],
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          {"breakGroupType":0},
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1, "beamShortBound":1},
+          {"beamDeform":40000,"beamStrength":"FLT_MAX"},
+          {"beamSpring":1501000,"beamDamp":40},
+          //front bumper main shape widthwise
+          {"deformLimitExpansion":1.1},
+          {"optional":false},
+          ["fb1rr","fb1r"],
+          ["fb1r","fb1"],
+          ["fb1l","fb1"],
+          ["fb1ll","fb1l"],
+          ["fb2rr","fb2r"],
+          ["fb2r","fb2"],
+          ["fb2l","fb2"],
+          ["fb2ll","fb2l"],
+
+          //lengthwise
+          ["fb1rr","fb3rr"],
+          ["fb1ll","fb3ll"],
+
+          //vertical
+          {"beamDeform":60000,"beamStrength":"FLT_MAX"},
+          ["fb1rr","fb2rr"],
+          ["fb1r","fb2r"],
+          ["fb1","fb2"],
+          ["fb1l","fb2l"],
+          ["fb1ll","fb2ll"],
+
+          //cross
+          {"deformLimitExpansion":""},
+          {"beamDeform":18000,"beamStrength":"FLT_MAX"},
+          ["fb1rr","fb2r"],
+          ["fb1r","fb2rr"],
+          ["fb1r","fb2"],
+          ["fb1","fb2r"],
+          ["fb1ll","fb2l"],
+          ["fb1l","fb2ll"],
+          ["fb1l","fb2"],
+          ["fb1","fb2l"],
+
+          ["fb1r","fb3rr"],
+          ["fb1l","fb3ll"],
+
+          //
+          ["fb2rr","fb3rr", {"deformLimitExpansion":1.1}],
+          ["fb2ll","fb3ll", {"deformLimitExpansion":1.1}],
+
+          //stinger main shape
+          {"deformLimitExpansion":1.1},
+          {"beamDeform":25000,"beamStrength":"FLT_MAX"},
+          ["fb1r", "fb4r"],
+          ["fb1l", "fb4l"],
+          ["fb4r", "fb6"],
+          ["fb4l", "fb6"],
+          ["fb1", "fb4l", {"deformLimitExpansion":""},],
+          ["fb1", "fb4r", {"deformLimitExpansion":""},],
+          ["fb1ll", "fb4l", {"deformLimitExpansion":""},],
+          ["fb1rr", "fb4r", {"deformLimitExpansion":""},],
+
+          //rigids
+          {"deformLimitExpansion":""},
+          {"beamSpring":501000,"beamDamp":25},
+          {"beamDeform":6000,"beamStrength":"FLT_MAX"},
+          ["fb1rr","fb1"],
+          ["fb1r","fb1l"],
+          ["fb1ll","fb1"],
+          ["fb2rr","fb2"],
+          ["fb2r","fb2l"],
+          ["fb2ll","fb2"],
+
+          ["fb3ll", "fb2l"],
+          ["fb3rr", "fb2r"],
+
+          //stinger rigids
+          ["fb1r", "fb6"],
+          ["fb1l", "fb6"],
+          ["fb4r", "fb4l", {"deformLimitExpansion":1.1},],
+          ["fb4r", "fb2r"],
+          ["fb4l", "fb2l"],
+
+          ["fb4r", "fb4"],
+          ["fb4l", "fb4"],
+
+          //rigidifier
+          {"beamSpring":1001000,"beamDamp":40},
+          {"beamDeform":8000,"beamStrength":"FLT_MAX"},
+          ["fb1rr","fb5r"],
+          ["fb1r","fb5r"],
+          ["fb1","fb5r"],
+          ["fb1l","fb5r"],
+          ["fb2rr","fb5r"],
+          ["fb2r","fb5r"],
+          ["fb2","fb5r"],
+          ["fb2l","fb5r"],
+          ["fb3rr","fb5r"],
+
+          ["fb1ll","fb5l"],
+          ["fb1l","fb5l"],
+          ["fb1","fb5l"],
+          ["fb1r","fb5l"],
+          ["fb2ll","fb5l"],
+          ["fb2l","fb5l"],
+          ["fb2","fb5l"],
+          ["fb2r","fb5l"],
+          ["fb3ll","fb5l"],
+
+          ["fb5r","fb5l"],
+
+          //stinger
+          {"beamDeform":10000,"beamStrength":"FLT_MAX"},
+          ["fb4l", "fb5l"],
+          ["fb4l", "fb5r"],
+          ["fb4r", "fb5r"],
+          ["fb4r", "fb5l"],
+          ["fb6", "fb5r"],
+          ["fb6", "fb5l"],
+
+          //attach
+          {"beamSpring":251000,"beamDamp":100},
+          {"beamDeform":5000,"beamStrength":35000},
+          //r
+          {"breakGroup":"bumper_F_R"},
+          ["fb5r","f1r"],
+          ["fb5r","f11r"],
+          ["fb5r","f2r"],
+          ["fb5r","f12r"],
+
+          {"beamSpring":1501000,"beamDamp":100},
+          {"beamDeform":20000,"beamStrength":45000},
+          ["fb1r","f1r"],
+          ["fb1r","f11r"],
+          ["fb2r","f1r"],
+          ["fb2r","f11r"],
+
+          {"beamSpring":501000,"beamDamp":100},
+          {"beamDeform":10000,"beamStrength":75000},
+          ["fb1rr","f11r"],
+          ["fb2rr","f1r"],
+          ["fb2rr","f11r"],
+          ["fb1rr","f1r"],
+
+          //l
+          {"beamSpring":251000,"beamDamp":100},
+          {"beamDeform":5000,"beamStrength":35000},
+          {"breakGroup":"bumper_F_L"},
+          ["fb5l","f1l"],
+          ["fb5l","f11l"],
+          ["fb5l","f2l"],
+          ["fb5l","f12l"],
+
+          {"beamSpring":1501000,"beamDamp":100},
+          {"beamDeform":20000,"beamStrength":45000},
+          ["fb1l","f1l"],
+          ["fb1l","f11l"],
+          ["fb2l","f1l"],
+          ["fb2l","f11l"],
+
+          {"beamSpring":501000,"beamDamp":100},
+          {"beamDeform":10000,"beamStrength":75000},
+          ["fb1ll","f11l"],
+          ["fb2ll","f1l"],
+          ["fb2ll","f11l"],
+          ["fb1ll","f1l"],
+          {"breakGroup":""},
+
+          //support beams
+          {"beamType":"|SUPPORT","beamLongBound":4},
+          {"beamSpring":501000,"beamDamp":50},
+          {"beamDeform":20000,"beamStrength":120000},
+          {"beamPrecompression":0.95},
+          ["fb1r","f12r"],
+          ["fb1l","f12l"],
+          ["fb2r","f2r"],
+          ["fb2l","f2l"],
+
+          {"optional":true},
+          ["fb1","bmf"],
+          ["fb2","bmf"],
+          //to wheel
+          {"beamPrecompression":0.7},
+          ["fb3rr","fax2r"],
+          ["fb3ll","fax2l"],
+          ["fb3rr","fax5r"],
+          ["fb3ll","fax5l"],
+          {"optional":false},
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1, "beamShortBound":1},
+          {"deformLimitExpansion":1.1},
+    ],
+    "triangles": [
+            ["id1:","id2:","id3:"],
+            {"dragCoef":8},
+            {"group":"pickup_bumper_F"},
+            ["fb1rr","fb2rr","fb2r"],
+            ["fb1rr","fb2r","fb1r"],
+            ["fb1r","fb2r","fb2"],
+            ["fb1r","fb2","fb1"],
+            ["fb2ll","fb1ll","fb2l"],
+            ["fb1ll","fb1l","fb2l"],
+            ["fb2l","fb1l","fb2"],
+            ["fb1l","fb1","fb2"],
+
+            ["fb3rr","fb2rr","fb1rr"],
+            ["fb2ll","fb3ll","fb1ll"],
+
+            ["fb1r", "fb1", "fb4r"],
+            ["fb1", "fb1l", "fb4l"],
+            //["fb1", "fb4l", "fb4r"],
+            //["fb4l", "fb6", "fb4r"],
+            ["fb6", "fb4r", "fb4"],
+            ["fb4", "fb4l", "fb6"],
+            ["fb4r", "fb1", "fb4"],
+            ["fb1", "fb4l", "fb4"],
+            {"group":""},
+    ],
+},
+"pickup_bumper_F_tube_alt": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Tubular Off-Road Front Bumper (Alternate)",
+        "value":600,
+    },
+    "slotType" : "pickup_bumper_F",
+    "slots": [
+        ["type", "default", "description"],
+        ["pickup_licenseplate_F","", "Front License Plate", {"nodeMove":{"x":0, "y":0.065, "z":0.035}}],
+    ],
+     "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_bumper_F_tube_alt", ["pickup_bumper_F"], [], {"pos":{"x":0.0, "y":0, "z":0}, "scale":{"x":1,"y":1,"z":1}}],
+     ],
+     "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"group":"pickup_bumper_F"},
+         {"selfCollision":true},
+         {"collision":true},
+         {"nodeWeight":1},
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+         //front bumper
+         ["fb1rr", -0.64, -2.22, 0.67],
+         ["fb1r", -0.36, -2.3, 0.66],
+         ["fb1", 0.0, -2.3, 0.66],
+         ["fb1l", 0.36, -2.3, 0.66],
+         ["fb1ll", 0.64, -2.22, 0.67],
+
+         ["fb2rr", -0.67, -2.13, 0.59],
+         ["fb2r", -0.5, -2.13, 0.47],
+         ["fb2", 0.0, -2.13, 0.47],
+         ["fb2l", 0.5, -2.13, 0.47],
+         ["fb2ll", 0.67, -2.13, 0.59],
+
+         ["fb3rr", -0.84, -2.12, 0.68],
+         ["fb3ll", 0.84, -2.12, 0.68],
+
+         ["fb4r", -0.26, -2.42, 0.78],
+         ["fb4", 0.0, -2.42, 0.78, {"group":""}],
+         ["fb4l", 0.26, -2.42, 0.78],
+
+         //rigidifiers
+         {"selfCollision":false},
+         {"collision":false},
+         {"group":""},
+         {"nodeWeight":1.5},
+         ["fb5r", -0.37, -2.04, 0.74],
+         ["fb5l", 0.37, -2.04, 0.74],
+    ],
+    "rails": {
+        "bumper_F":{
+            "links:":["fb4r","fb4l"], "broken:":[], "looped":false, "capped":false,
+        },
+    },
+    "slidenodes": [
+        ["id:", "railName", "attached", "fixToRail", "tolerance", "spring", "strength", "capStrength"],
+        ["fb4", "bumper_F", true, true, 0.0, 2501000, "FLT_MAX", "FLT_MAX"],
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          {"breakGroupType":0},
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1, "beamShortBound":1},
+          {"beamDeform":40000,"beamStrength":"FLT_MAX"},
+          {"beamSpring":1501000,"beamDamp":40},
+          //front bumper main shape widthwise
+          {"deformLimitExpansion":1.1},
+          {"optional":false},
+          ["fb1rr","fb1r"],
+          ["fb1r","fb1"],
+          ["fb1l","fb1"],
+          ["fb1ll","fb1l"],
+          ["fb2rr","fb2r"],
+          ["fb2r","fb2"],
+          ["fb2l","fb2"],
+          ["fb2ll","fb2l"],
+
+          //lengthwise
+          ["fb1rr","fb3rr"],
+          ["fb1ll","fb3ll"],
+
+          //vertical
+          {"beamDeform":60000,"beamStrength":"FLT_MAX"},
+          ["fb1rr","fb2rr"],
+          ["fb1r","fb2r"],
+          ["fb1","fb2"],
+          ["fb1l","fb2l"],
+          ["fb1ll","fb2ll"],
+
+          //cross
+          {"deformLimitExpansion":""},
+          {"beamDeform":18000,"beamStrength":"FLT_MAX"},
+          ["fb1rr","fb2r"],
+          ["fb1r","fb2rr"],
+          ["fb1r","fb2"],
+          ["fb1","fb2r"],
+          ["fb1ll","fb2l"],
+          ["fb1l","fb2ll"],
+          ["fb1l","fb2"],
+          ["fb1","fb2l"],
+
+          ["fb1r","fb3rr"],
+          ["fb1l","fb3ll"],
+
+          //
+          ["fb2rr","fb3rr", {"deformLimitExpansion":1.1}],
+          ["fb2ll","fb3ll", {"deformLimitExpansion":1.1}],
+
+          //stinger main shape
+          {"deformLimitExpansion":1.1},
+          {"beamDeform":25000,"beamStrength":"FLT_MAX"},
+          ["fb1r", "fb4r"],
+          ["fb1l", "fb4l"],
+          ["fb1", "fb4l", {"deformLimitExpansion":""},],
+          ["fb1", "fb4r", {"deformLimitExpansion":""},],
+          ["fb1ll", "fb4l", {"deformLimitExpansion":""},],
+          ["fb1rr", "fb4r", {"deformLimitExpansion":""},],
+
+          //rigids
+          {"deformLimitExpansion":""},
+          {"beamSpring":501000,"beamDamp":25},
+          {"beamDeform":6000,"beamStrength":"FLT_MAX"},
+          ["fb1rr","fb1"],
+          ["fb1r","fb1l"],
+          ["fb1ll","fb1"],
+          ["fb2rr","fb2"],
+          ["fb2r","fb2l"],
+          ["fb2ll","fb2"],
+
+          ["fb3ll", "fb2l"],
+          ["fb3rr", "fb2r"],
+
+          //stinger rigids
+          ["fb4r", "fb4l", {"deformLimitExpansion":1.1},],
+          ["fb4r", "fb2r"],
+          ["fb4l", "fb2l"],
+
+          ["fb4r", "fb4"],
+          ["fb4l", "fb4"],
+
+          //rigidifier
+          {"beamSpring":1001000,"beamDamp":40},
+          {"beamDeform":8000,"beamStrength":"FLT_MAX"},
+          ["fb1rr","fb5r"],
+          ["fb1r","fb5r"],
+          ["fb1","fb5r"],
+          ["fb1l","fb5r"],
+          ["fb2rr","fb5r"],
+          ["fb2r","fb5r"],
+          ["fb2","fb5r"],
+          ["fb2l","fb5r"],
+          ["fb3rr","fb5r"],
+
+          ["fb1ll","fb5l"],
+          ["fb1l","fb5l"],
+          ["fb1","fb5l"],
+          ["fb1r","fb5l"],
+          ["fb2ll","fb5l"],
+          ["fb2l","fb5l"],
+          ["fb2","fb5l"],
+          ["fb2r","fb5l"],
+          ["fb3ll","fb5l"],
+
+          ["fb5r","fb5l"],
+
+          //stinger
+          {"beamDeform":10000,"beamStrength":"FLT_MAX"},
+          ["fb4l", "fb5l"],
+          ["fb4l", "fb5r"],
+          ["fb4r", "fb5r"],
+          ["fb4r", "fb5l"],
+
+          //attach
+          {"beamSpring":251000,"beamDamp":100},
+          {"beamDeform":5000,"beamStrength":35000},
+          //r
+          {"breakGroup":"bumper_F_R"},
+          ["fb5r","f1r"],
+          ["fb5r","f11r"],
+          ["fb5r","f2r"],
+          ["fb5r","f12r"],
+
+          {"beamSpring":1501000,"beamDamp":100},
+          {"beamDeform":20000,"beamStrength":45000},
+          ["fb1r","f1r"],
+          ["fb1r","f11r"],
+          ["fb2r","f1r"],
+          ["fb2r","f11r"],
+
+          {"beamSpring":501000,"beamDamp":100},
+          {"beamDeform":10000,"beamStrength":75000},
+          ["fb1rr","f11r"],
+          ["fb2rr","f1r"],
+          ["fb2rr","f11r"],
+          ["fb1rr","f1r"],
+
+          //l
+          {"beamSpring":251000,"beamDamp":100},
+          {"beamDeform":5000,"beamStrength":35000},
+          {"breakGroup":"bumper_F_L"},
+          ["fb5l","f1l"],
+          ["fb5l","f11l"],
+          ["fb5l","f2l"],
+          ["fb5l","f12l"],
+
+          {"beamSpring":1501000,"beamDamp":100},
+          {"beamDeform":20000,"beamStrength":45000},
+          ["fb1l","f1l"],
+          ["fb1l","f11l"],
+          ["fb2l","f1l"],
+          ["fb2l","f11l"],
+
+          {"beamSpring":501000,"beamDamp":100},
+          {"beamDeform":10000,"beamStrength":75000},
+          ["fb1ll","f11l"],
+          ["fb2ll","f1l"],
+          ["fb2ll","f11l"],
+          ["fb1ll","f1l"],
+          {"breakGroup":""},
+
+          //support beams
+          {"beamType":"|SUPPORT","beamLongBound":4},
+          {"beamSpring":501000,"beamDamp":50},
+          {"beamDeform":20000,"beamStrength":120000},
+          {"beamPrecompression":0.95},
+          ["fb1r","f12r"],
+          ["fb1l","f12l"],
+          ["fb2r","f2r"],
+          ["fb2l","f2l"],
+
+          {"optional":true},
+          ["fb1","bmf"],
+          ["fb2","bmf"],
+          //to wheel
+          {"beamPrecompression":0.7},
+          ["fb3rr","fax2r"],
+          ["fb3ll","fax2l"],
+          ["fb3rr","fax5r"],
+          ["fb3ll","fax5l"],
+          {"optional":false},
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1, "beamShortBound":1},
+          {"deformLimitExpansion":1.1},
+    ],
+    "triangles": [
+            ["id1:","id2:","id3:"],
+            {"dragCoef":8},
+            {"group":"pickup_bumper_F"},
+            ["fb1rr","fb2rr","fb2r"],
+            ["fb1rr","fb2r","fb1r"],
+            ["fb1r","fb2r","fb2"],
+            ["fb1r","fb2","fb1"],
+            ["fb2ll","fb1ll","fb2l"],
+            ["fb1ll","fb1l","fb2l"],
+            ["fb2l","fb1l","fb2"],
+            ["fb1l","fb1","fb2"],
+
+            ["fb3rr","fb2rr","fb1rr"],
+            ["fb2ll","fb3ll","fb1ll"],
+
+            ["fb1r", "fb1", "fb4r"],
+            ["fb1", "fb1l", "fb4l"],
+            ["fb4r", "fb1", "fb4"],
+            ["fb1", "fb4l", "fb4"],
+            {"group":""},
+    ],
+},
+}

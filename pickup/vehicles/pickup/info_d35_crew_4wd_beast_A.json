@@ -1,0 +1,47 @@
+{
+  "0-100 km/h":8.1,
+  "0-100 mph":26.4,
+  "0-60 mph":7.6,
+  "100-0 km/h":47.1,
+  "60-0 mph":143.4,
+  "60-100 mph":18.8,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.72,
+      -1.54,
+      -0.4233
+    ],
+    [
+      1.82,
+      4.5237,
+      1.614
+    ]
+  ],
+  "Braking G":0.834,
+  "Config Type":"Custom",
+  "Configuration":"D35 'Beast' (A)",
+  "Description":"A 3-ton behemoth loaded with accessories, the Beast represents the practice of shortening a crew-cab frame to accept a short bed, a configuration not offered from the factory by most truck manufacturers of the period",
+  "Drivetrain":"4WD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"SC",
+  "Off-Road Score":34,
+  "Performance Class":"5",
+  "Population":150,
+  "Power":328,
+  "PowerPeakRPM":"3800 - 4550",
+  "Propulsion":"ICE",
+  "Top Speed":48.9925411,
+  "Torque":630,
+  "TorquePeakRPM":"2650 - 3700",
+  "Transmission":"Automatic",
+  "Value":25500,
+  "Weight":2920,
+  "Weight/Power":8.90243902,
+  "Years":{
+    "max":1997,
+    "min":1992
+  },
+  "defaultPaintName1":"Scarlet Red",
+  "defaultPaintName2":"Jet Black"
+}

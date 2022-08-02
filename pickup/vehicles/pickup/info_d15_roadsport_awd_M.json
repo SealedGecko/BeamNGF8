@@ -1,0 +1,48 @@
+{
+  "0-100 km/h":6.7,
+  "0-100 mph":17.6,
+  "0-200 km/h":40.4,
+  "0-60 mph":6.4,
+  "100-0 km/h":37.3,
+  "100-200 km/h":33.7,
+  "60-0 mph":111.3,
+  "60-100 mph":11.2,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.6,
+      -1.42,
+      -0.3099
+    ],
+    [
+      1.7,
+      3.54,
+      1.41
+    ]
+  ],
+  "Braking G":1.053,
+  "Config Type":"Factory",
+  "Configuration":"D15 V8 RoadSport (M)",
+  "Description":"The RoadSport features a high-output supercharged V8 and upgraded suspension for car-like handling",
+  "Drivetrain":"AWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"SC",
+  "Off-Road Score":34,
+  "Performance Class":"5",
+  "Population":3500,
+  "Power":298,
+  "PowerPeakRPM":"4150 - 4950",
+  "Propulsion":"ICE",
+  "Top Speed":58.1463556,
+  "Torque":565,
+  "TorquePeakRPM":"2800 - 3500",
+  "Transmission":"Manual",
+  "Value":15150,
+  "Weight":2130,
+  "Weight/Power":7.14765101,
+  "Years":{
+    "max":2003,
+    "min":1998
+  },
+  "defaultPaintName1":"Jet Black"
+}

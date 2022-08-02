@@ -1,0 +1,46 @@
+{
+  "0-100 km/h":11.4,
+  "0-100 mph":40.3,
+  "0-60 mph":10.8,
+  "100-0 km/h":42,
+  "60-0 mph":129.4,
+  "60-100 mph":29.5,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.6,
+      -1.42,
+      -0.2999
+    ],
+    [
+      1.7,
+      3.59,
+      1.41
+    ]
+  ],
+  "Braking G":0.936,
+  "Config Type":"Factory",
+  "Configuration":"D15 Fleet (M)",
+  "Description":"A fleet base utility model, powered by a i6",
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":39,
+  "Performance Class":"3",
+  "Population":9000,
+  "Power":185,
+  "PowerPeakRPM":"4500 - 5050",
+  "Propulsion":"ICE",
+  "Top Speed":49.0750793,
+  "Torque":310,
+  "TorquePeakRPM":"2100 - 4150",
+  "Transmission":"Manual",
+  "Value":5100,
+  "Weight":1950,
+  "Weight/Power":10.5405405,
+  "Years":{
+    "max":2003,
+    "min":1998
+  },
+  "defaultPaintName1":"Pearl White"
+}

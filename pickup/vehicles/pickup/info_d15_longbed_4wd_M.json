@@ -1,0 +1,46 @@
+{
+  "0-100 km/h":11.2,
+  "0-100 mph":46.3,
+  "0-60 mph":10.5,
+  "100-0 km/h":40.9,
+  "60-0 mph":123.1,
+  "60-100 mph":35.8,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.58,
+      -1.41,
+      -0.3099
+    ],
+    [
+      1.68,
+      4.01,
+      1.41
+    ]
+  ],
+  "Braking G":0.961,
+  "Config Type":"Factory",
+  "Configuration":"D15 V8 4WD Long Bed (M)",
+  "Description":"Equipped with an 8-foot bed, 4-wheel drive and a powerful V8 engine",
+  "Drivetrain":"4WD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":46,
+  "Performance Class":"4",
+  "Population":7000,
+  "Power":177,
+  "PowerPeakRPM":"3800 - 4400",
+  "Propulsion":"ICE",
+  "Top Speed":46.938212,
+  "Torque":350,
+  "TorquePeakRPM":"2900 - 3500",
+  "Transmission":"Manual",
+  "Value":7750,
+  "Weight":2125,
+  "Weight/Power":12.0056497,
+  "Years":{
+    "max":1991,
+    "min":1986
+  },
+  "defaultPaintName1":"Butterscotch"
+}

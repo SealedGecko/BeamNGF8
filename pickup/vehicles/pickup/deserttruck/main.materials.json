@@ -1,0 +1,78 @@
+{
+"common_crawler_parts": {
+    "name": "common_crawler_parts",
+    "mapTo": "common_crawler_parts",
+    "class": "Material",
+    "persistentId": "541461b0-8d87-4431-927b-bfb0fb327fe1",
+    "Stages": [
+      {
+        "colorMap": "vehicles/pickup/deserttruck/common_crawler_parts_d.color.png",
+        "normalMap": "vehicles/pickup/deserttruck/common_crawler_parts_n.normal.png",
+        "pixelSpecular": true,
+        "reflectivityMap": "vehicles/pickup/deserttruck/common_crawler_parts_r.color.png",
+        "specularMap": "vehicles/pickup/deserttruck/common_crawler_parts_s.color.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "translucent": true,
+    "translucentBlendOp": "None"
+  },
+  "toplvlcrawler": {
+    "name": "toplvlcrawler",
+    "mapTo": "toplvlcrawler",
+    "class": "Material",
+    "persistentId": "5d9f97c3-ef38-4dd2-9232-4460514fb65e",
+    "Stages": [
+      {
+        "colorMap": "vehicles/pickup/deserttruck/pickupcage_toplvlcrawler_d.color.png",
+        "normalMap": "vehicles/pickup/deserttruck/pickupcage_toplvlcrawler_n.normal.png",
+        "pixelSpecular": true,
+        "reflectivityMap": "vehicles/pickup/deserttruck/pickupcage_toplvlcrawler_r.color.png",
+        "specularMap": "vehicles/pickup/deserttruck/pickupcage_toplvlcrawler_s.color.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "translucent": true,
+    "translucentBlendOp": "None"
+  },
+  "utility_taillight_R" : {
+    "name" : "utility_taillight_R",
+    "class" : "Material",
+    "mapTo" : "utility_taillight_R",
+    "materialTag0" : "beamng",
+    "materialTag1" : "vehicle",
+    "translucent" : true
+  },
+  "utility_taillight_L" : {
+    "name" : "utility_taillight_L",
+    "class" : "Material",
+    "mapTo" : "utility_taillight_L",
+    "materialTag0" : "beamng",
+    "materialTag1" : "vehicle",
+    "translucent" : true
+  },
+  "utility_runningsignal_R" : {
+    "name" : "utility_runningsignal_R",
+    "class" : "Material",
+    "mapTo" : "utility_runningsignal_R",
+    "materialTag0" : "beamng",
+    "materialTag1" : "vehicle",
+    "translucent" : true
+  },
+  "utility_runningsignal_L" : {
+    "name" : "utility_runningsignal_L",
+    "class" : "Material",
+    "mapTo" : "utility_runningsignal_L",
+    "materialTag0" : "beamng",
+    "materialTag1" : "vehicle",
+    "translucent" : true
+  }
+}

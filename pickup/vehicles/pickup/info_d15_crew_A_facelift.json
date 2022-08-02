@@ -1,0 +1,48 @@
+{
+  "0-100 km/h":9.5,
+  "0-100 mph":29.7,
+  "0-120 mph":102.7,
+  "0-60 mph":8.9,
+  "100-0 km/h":45.8,
+  "60-0 mph":139,
+  "60-100 mph":20.8,
+  "60-120 mph":94,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.6,
+      -1.42,
+      -0.3099
+    ],
+    [
+      1.7,
+      4.91,
+      1.41
+    ]
+  ],
+  "Braking G":0.858,
+  "Config Type":"Factory",
+  "Configuration":"D15 V8 Crew Cab (A)",
+  "Description":"An even longer frame than a standard extended cab truck, the crew cab features 4 full sized doors and more comfortable rear seating",
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":26,
+  "Performance Class":"3",
+  "Population":14000,
+  "Power":233,
+  "PowerPeakRPM":"4100 - 4900",
+  "Propulsion":"ICE",
+  "Top Speed":51.6332469,
+  "Torque":425,
+  "TorquePeakRPM":"3000 - 3800",
+  "Transmission":"Automatic",
+  "Value":8350,
+  "Weight":2370,
+  "Weight/Power":10.1716738,
+  "Years":{
+    "max":2003,
+    "min":1998
+  },
+  "defaultPaintName1":"Steel Blue"
+}

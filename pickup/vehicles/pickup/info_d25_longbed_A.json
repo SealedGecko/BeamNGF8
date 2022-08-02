@@ -1,0 +1,48 @@
+{
+  "0-100 km/h":7.6,
+  "0-100 mph":21.6,
+  "0-120 mph":59.9,
+  "0-60 mph":7.1,
+  "100-0 km/h":56.8,
+  "60-0 mph":175.1,
+  "60-100 mph":14.5,
+  "60-120 mph":52.2,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.72,
+      -1.42,
+      -0.4103
+    ],
+    [
+      1.82,
+      4.06,
+      1.41
+    ]
+  ],
+  "Braking G":0.692,
+  "Config Type":"Factory",
+  "Configuration":"D25 Fleet Long Bed (A)",
+  "Description":"With the addition of a solid front axle, the D25 Fleet is a popular choice for construction and utility companies thanks to its increased carrying ability",
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":39,
+  "Performance Class":"3",
+  "Population":5000,
+  "Power":264,
+  "PowerPeakRPM":"4600 - 5350",
+  "Propulsion":"ICE",
+  "Top Speed":54.2654222,
+  "Torque":460,
+  "TorquePeakRPM":"2600 - 3550",
+  "Transmission":"Automatic",
+  "Value":10500,
+  "Weight":2100,
+  "Weight/Power":7.95454545,
+  "Years":{
+    "max":2003,
+    "min":1998
+  },
+  "defaultPaintName1":"Pearl White"
+}

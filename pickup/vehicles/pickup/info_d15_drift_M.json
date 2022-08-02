@@ -1,0 +1,50 @@
+{
+  "0-100 km/h":8.2,
+  "0-100 mph":18.8,
+  "0-120 mph":12.4,
+  "0-200 km/h":38.1,
+  "0-60 mph":7.9,
+  "100-0 km/h":37.1,
+  "100-200 km/h":29.9,
+  "60-0 mph":113.2,
+  "60-100 mph":10.9,
+  "60-120 mph":9.5,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.6,
+      -1.42,
+      -0.2449
+    ],
+    [
+      1.7,
+      3.43,
+      1.41
+    ]
+  ],
+  "Braking G":1.061,
+  "Config Type":"Custom",
+  "Configuration":"D15 Drift (M)",
+  "Description":"Thanks to the abundance of power, low ride height and welded differential, you can now go sideways through the farmers market intentionally, rather than accidentally",
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"SC",
+  "Off-Road Score":27,
+  "Performance Class":"5",
+  "Population":100,
+  "Power":284,
+  "PowerPeakRPM":"3950 - 4500",
+  "Propulsion":"ICE",
+  "Top Speed":58.5206067,
+  "Torque":535,
+  "TorquePeakRPM":"3050 - 3750",
+  "Transmission":"Manual",
+  "Value":27000,
+  "Weight":2045,
+  "Weight/Power":7.20070423,
+  "Years":{
+    "max":1997,
+    "min":1992
+  },
+  "defaultPaintName1":"Seafoam Green"
+}

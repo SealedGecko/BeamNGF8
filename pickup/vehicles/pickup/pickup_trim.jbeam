@@ -1,0 +1,213 @@
+{
+"pickup_trim": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Trim",
+        "value":130,
+    },
+    "slotType" : "pickup_trim",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_trim_body", ["pickup_body"]],
+         ["pickup_trim_fender_R", ["pickup_fender_R"]],
+         ["pickup_trim_fender_L", ["pickup_fender_L"]],
+         ["pickup_trim_door_R", ["pickup_door_FR"]],
+         ["pickup_trim_door_L", ["pickup_door_FL"]],
+    ],
+},
+"pickup_trim_ext": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Trim",
+        "value":140,
+    },
+    "slotType" : "pickup_trim_ext",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_trim_body", ["pickup_body"],[]{"pos":{"x":0,"y":0.613,"z":0}}],
+         ["pickup_trim_fender_R", ["pickup_fender_R"],[]{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_trim_fender_L", ["pickup_fender_L"],[]{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_trim_door_R", ["pickup_door_FR"],[]{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_trim_door_L", ["pickup_door_FL"],[]{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_trim_door_RR", ["pickup_door_RR"],[]{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_trim_door_RL", ["pickup_door_RL"],[]{"pos":{"x":0,"y":0,"z":0}}],
+    ],
+},
+"pickup_trim_crew": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Trim",
+        "value":150,
+    },
+    "slotType" : "pickup_trim_crew",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_trim_body", ["pickup_body"],[]{"pos":{"x":0,"y":0.8987,"z":0}}],
+         ["pickup_trim_fender_R", ["pickup_fender_R"],[]{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_trim_fender_L", ["pickup_fender_L"],[]{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_trim_door_R", ["pickup_door_FR"],[]{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_trim_door_L", ["pickup_door_FL"],[]{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_trim_door_RR_crew", ["pickup_door_RR"],[]{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_trim_door_RL_crew", ["pickup_door_RL"],[]{"pos":{"x":0,"y":0,"z":0}}],
+    ],
+},
+"pickup_trim_short": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Trim",
+        "value":145,
+    },
+    "slotType" : "pickup_trim_short",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_trim_body_short", ["pickup_body", "pickup_bed"]],
+         ["pickup_trim_fender_R", ["pickup_fender_R"]],
+         ["pickup_trim_fender_L", ["pickup_fender_L"]],
+         ["pickup_trim_door_R", ["pickup_door_FR"]],
+         ["pickup_trim_door_L", ["pickup_door_FL"]],
+    ],
+},
+"pickup_trim_short_ext": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Trim",
+        "value":145,
+    },
+    "slotType" : "pickup_trim_short_ext",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_trim_body_short", ["pickup_body", "pickup_bed"], [], {"pos":{"x":0,"y":0.8987,"z":0}}],
+         ["pickup_trim_fender_R", ["pickup_fender_R"]],
+         ["pickup_trim_fender_L", ["pickup_fender_L"]],
+         ["pickup_trim_door_R", ["pickup_door_FR"]],
+         ["pickup_trim_door_L", ["pickup_door_FL"]],
+         ["pickup_trim_door_RR_crew", ["pickup_door_RR"],[]{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_trim_door_RL_crew", ["pickup_door_RL"],[]{"pos":{"x":0,"y":0,"z":0}}],
+    ],
+},
+
+"pickup_trim_bed": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Bed Trim",
+        "value":125,
+    },
+    "slotType" : "pickup_trim_bed",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_trim_bed", ["pickup_bed"],[]{"pos":{"x":0,"y":0,"z":0}}],
+    ],
+},
+"pickup_trim_bed_cut": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Bed Trim",
+        "value":220,
+    },
+    "slotType" : "pickup_trim_bed_cut",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_trim_bed_cut", ["pickup_bed"],[]{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_trim_fenderflare_RR", ["pickup_fenderflare_RR_dually"],[]{"pos":{"x":0,"y":-0.35,"z":0}}],
+         ["pickup_trim_fenderflare_RL", ["pickup_fenderflare_RL_dually"],[]{"pos":{"x":0,"y":-0.35,"z":0}}],
+    ],
+},
+"pickup_trim_bed_long": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Bed Trim",
+        "value":130,
+    },
+    "slotType" : "pickup_trim_bed_long",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_trim_bed_long", ["pickup_bed"],[]{"pos":{"x":0,"y":0,"z":0}}],
+    ],
+},
+"pickup_trim_bed_long_cut": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Bed Trim",
+        "value":125,
+    },
+    "slotType" : "pickup_trim_bed_long_cut",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_trim_bed_long_cut", ["pickup_bed"],[]{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_trim_fenderflare_RR", ["pickup_fenderflare_RR_dually"],[]{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_trim_fenderflare_RL", ["pickup_fenderflare_RL_dually"],[]{"pos":{"x":0,"y":0,"z":0}}],
+    ],
+},
+"pickup_trim_bumper_F": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front Bumper Trim",
+        "value":70,
+    },
+    "slotType" : "pickup_trim_bumper_F",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_trim_bumper_F", ["pickup_bumper_F"],[]{"pos":{"x":0,"y":0,"z":0}}],
+    ],
+},
+"pickup_trim_bumper_F_prefacelift": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front Bumper Trim",
+        "value":70,
+    },
+    "slotType" : "pickup_trim_bumper_F_prefacelift",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_trim_bumper_F_prefacelift", ["pickup_bumper_F"],[]{"pos":{"x":0,"y":0,"z":0}}],
+    ],
+},
+"pickup_trim_bumper_R": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rear Bumper Trim",
+        "value":70,
+    },
+    "slotType" : "pickup_trim_bumper_R",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_trim_bumper_R", ["pickup_bumper_R"],[]{"pos":{"x":0,"y":0,"z":0}}],
+    ],
+},
+"pickup_trim_bumper_R_prefacelift": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rear Bumper Trim",
+        "value":70,
+    },
+    "slotType" : "pickup_trim_bumper_R_prefacelift",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_trim_bumper_R_prefacelift", ["pickup_bumper_R"],[]{"pos":{"x":0,"y":0,"z":0}}],
+    ],
+},
+"pickup_trim_bumper_R_heavy": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rear Bumper Trim",
+        "value":70,
+    },
+    "slotType" : "pickup_trim_bumper_R_heavy",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_trim_bumper_R_heavy", ["pickup_bumper_R"],[]{"pos":{"x":0,"y":0,"z":0}}],
+    ],
+},
+"pickup_trim_bumper_R_prefacelift_heavy": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rear Bumper Trim",
+        "value":70,
+    },
+    "slotType" : "pickup_trim_bumper_R_prefacelift_heavy",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_trim_bumper_R_prefacelift_heavy", ["pickup_bumper_R"],[]{"pos":{"x":0,"y":0,"z":0}}],
+    ],
+},
+}

@@ -1,0 +1,62 @@
+{
+"pickup_desert_driveshaft_SFA": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"SFA Front Driveshaft",
+        "value":350,
+    },
+    "slotType" : "pickup_desert_driveshaft_SFA",
+    "powertrain" : [
+        ["type", "name", "inputName", "inputIndex"],
+        //front driveshaft
+        ["torsionReactor", "torsionReactorF", "transfercase_F", 1, {}],
+        ["shaft", "driveshaft_F", "torsionReactorF", 1, {"breakTriggerBeam":"driveshaft_F", "uiName":"Front Driveshaft", "electricsName":"driveshaft_F", "friction":2.5,"defaultVirtualInertia":0.5}],
+    ],
+    "torsionReactorF": {
+        "torqueReactionNodes:":["e1l","e2l","e4r"],
+    },
+    "props":[
+        ["func"      , "mesh"           , "idRef:", "idX:", "idY:", "baseRotation"        , "rotation"            , "translation"        , "min", "max", "offset", "multiplier",],
+        ["driveshaft_F", "pickup_desert_yoke_FF_SFA",      "fax1", "faxs1l", "fax2l",  {"x":0, "y":0, "z":0},  {"x":0, "y":1, "z":0} , {"x":0, "y":0, "z":0}, -360, 360, 0, 1, {"breakGroup":"driveshaft_F","deformGroup":"driveshaft_F","optional":true}],
+        ["driveshaft_F", "pickup_desert_yoke_F",           "tra2", "tra3", "e1r",    {"x":-90, "y":0, "z":0},  {"x":0, "y":1, "z":0} , {"x":0, "y":0, "z":0}, -360, 360, 0, 1, {"breakGroup":"driveshaft_F","deformGroup":"driveshaft_F","optional":true}],
+        ["driveshaft_F", "pickup_desert_driveshaft_F_SFA", "tra3", "fax3", "fax3r",   {"x":-80, "y":-91, "z":0},  {"x":0, "y":1, "z":0} , {"x":0, "y":0, "z":0}, -360, 360, 0, 1, {"breakGroup":"driveshaft_F","deformGroup":"driveshaft_F","optional":true}],
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          //driveshaft
+          {"beamPrecompression":1.0, "beamType":"|BOUNDED", "beamLongBound":0.08, "beamShortBound":0.08},
+          {"beamSpring":0,"beamDamp":0,"beamDeform":5000,"beamStrength":7000},
+          {"beamLimitSpring":5001000,"beamLimitDamp":250},
+          ["fax3","tra3", {"name":"driveshaft_F","breakGroup":"driveshaft_F","optional":true,"deformGroup":"driveshaft_F"}],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+    ],
+},
+"pickup_desert_driveshaft_IFS": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"IFS Front Driveshaft",
+        "value":250,
+    },
+    "slotType" : "pickup_desert_driveshaft_IFS",
+    "powertrain" : [
+        ["type", "name", "inputName", "inputIndex"],
+        //front driveshaft
+        ["shaft", "driveshaft_F", "transfercase_F", 1, {"breakTriggerBeam":"driveshaft_F", "uiName":"Front Driveshaft", "electricsName":"driveshaft_F", "friction":2.5,"defaultVirtualInertia":0.5}],
+    ],
+    "props":[
+        ["func"      , "mesh"           , "idRef:", "idX:", "idY:", "baseRotation"        , "rotation"            , "translation"        , "min", "max", "offset", "multiplier",],
+        ["driveshaft_F", "pickup_desert_yoke_FF_IFS",      "fdiffl", "fdiffr", "fx3l",  {"x":152, "y":0, "z":0},  {"x":0, "y":1, "z":0} , {"x":0, "y":0, "z":0}, -360, 360, 0, 1, {"breakGroup":"driveshaft_F","deformGroup":"driveshaft_F","optional":true}],
+        ["driveshaft_F", "pickup_desert_yoke_F",           "tra2", "tra3", "e1r",    {"x":-90, "y":0, "z":0},  {"x":0, "y":1, "z":0} , {"x":0, "y":0, "z":0}, -360, 360, 0, 1, {"breakGroup":"driveshaft_F","deformGroup":"driveshaft_F","optional":true}],
+        ["driveshaft_F", "pickup_desert_driveshaft_F_IFS", "tra2", "tra3", "fdiffl",   {"x":-92, "y":2.7, "z":0},  {"x":0, "y":1, "z":0} , {"x":0, "y":0, "z":0}, -360, 360, 0, 1, {"breakGroup":"driveshaft_F","deformGroup":"driveshaft_F","optional":true}],
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          //driveshaft
+          {"beamPrecompression":1.0, "beamType":"|BOUNDED", "beamLongBound":0.08, "beamShortBound":0.08},
+          {"beamSpring":0,"beamDamp":0,"beamDeform":5000,"beamStrength":7000},
+          {"beamLimitSpring":5001000,"beamLimitDamp":250},
+          ["fdiffl","tra3", {"name":"driveshaft_F","breakGroup":"driveshaft_F","optional":true,"deformGroup":"driveshaft_F"}],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+    ],
+},
+}

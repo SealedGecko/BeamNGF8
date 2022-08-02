@@ -1,0 +1,47 @@
+{
+  "0-100 km/h":6.8,
+  "0-100 mph":18.9,
+  "0-60 mph":6.4,
+  "100-0 km/h":38.9,
+  "60-0 mph":119,
+  "60-100 mph":12.5,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.6,
+      -1.5,
+      -0.3549
+    ],
+    [
+      1.7,
+      3.59,
+      1.64
+    ]
+  ],
+  "Braking G":1.011,
+  "Config Type":"Custom",
+  "Configuration":"D15 Off-Road (M)",
+  "Description":"This D15 has lifted suspension, 33 inch off-road tires, fender flares, custom bumpers, a snorkel, and a roll bar",
+  "Drivetrain":"4WD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"SC",
+  "Off-Road Score":57,
+  "Performance Class":"6",
+  "Population":400,
+  "Power":386,
+  "PowerPeakRPM":"3900 - 4450",
+  "Propulsion":"ICE",
+  "Top Speed":55.1223416,
+  "Torque":725,
+  "TorquePeakRPM":"3100 - 3750",
+  "Transmission":"Manual",
+  "Value":28000,
+  "Weight":2550,
+  "Weight/Power":6.60621762,
+  "Years":{
+    "max":1997,
+    "min":1992
+  },
+  "defaultPaintName1":"Burgundy",
+  "defaultPaintName3":"Charcoal"
+}

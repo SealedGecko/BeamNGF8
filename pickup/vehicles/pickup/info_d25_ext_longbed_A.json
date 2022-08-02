@@ -1,0 +1,49 @@
+{
+  "0-100 km/h":9.6,
+  "0-100 mph":32.2,
+  "0-120 mph":59.9,
+  "0-60 mph":8.9,
+  "100-0 km/h":57.3,
+  "60-0 mph":176.8,
+  "60-100 mph":23.3,
+  "60-120 mph":52.2,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.72,
+      -1.42,
+      -0.4103
+    ],
+    [
+      1.82,
+      4.673,
+      1.41
+    ]
+  ],
+  "Braking G":0.686,
+  "Config Type":"Factory",
+  "Configuration":"D25 V8 Extended Cab Long Bed (A)",
+  "Description":"An extended frame allows for a longer cab with an addtional row of seating, providing this D25 with more people-carrying ability",
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":34,
+  "Performance Class":"3",
+  "Population":3000,
+  "Power":223,
+  "PowerPeakRPM":"4450 - 5150",
+  "Propulsion":"ICE",
+  "Top Speed":50.3644812,
+  "Torque":410,
+  "TorquePeakRPM":"2550 - 3400",
+  "Transmission":"Automatic",
+  "Value":12020,
+  "Weight":2255,
+  "Weight/Power":10.1121076,
+  "Years":{
+    "max":1997,
+    "min":1992
+  },
+  "defaultPaintName1":"Carbon Gray",
+  "defaultPaintName2":"Silver"
+}

@@ -1,0 +1,46 @@
+{
+  "0-100 km/h":11.3,
+  "0-100 mph":89.7,
+  "0-60 mph":10.5,
+  "100-0 km/h":59.7,
+  "60-0 mph":181.6,
+  "60-100 mph":79.1,
+  "Body Style":"Box Truck",
+  "BoundingBox":[
+    [
+      -0.843,
+      -1.42,
+      -0.3733
+    ],
+    [
+      1.943,
+      5.63,
+      2.27
+    ]
+  ],
+  "Braking G":0.659,
+  "Config Type":"Service",
+  "Configuration":"D45 Ambulance (A)",
+  "Description":"Heavy duty variant equipped with an ambulance upfit",
+  "Drivetrain":"Other",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":26,
+  "Performance Class":"2",
+  "Population":5000,
+  "Power":298,
+  "PowerPeakRPM":4400,
+  "Propulsion":"ICE",
+  "Top Speed":44.8560424,
+  "Torque":515,
+  "TorquePeakRPM":"2350 - 3950",
+  "Transmission":"Automatic",
+  "Value":36000,
+  "Weight":3565,
+  "Weight/Power":11.9630872,
+  "Years":{
+    "max":2003,
+    "min":1998
+  },
+  "defaultPaintName1":"Pearl White"
+}

@@ -1,0 +1,46 @@
+{
+  "0-100 km/h":7.5,
+  "0-100 mph":22.7,
+  "0-60 mph":6.9,
+  "100-0 km/h":60,
+  "60-0 mph":185.4,
+  "60-100 mph":15.8,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.72,
+      -1.42,
+      -0.4103
+    ],
+    [
+      1.82,
+      4.06,
+      1.41
+    ]
+  ],
+  "Braking G":0.656,
+  "Config Type":"Factory",
+  "Configuration":"D25 V8 4WD Long Bed (A)",
+  "Description":"Featuring a driven solid front axle and medium-duty suspension, the D25 4WD is a good starting point for an off-road build",
+  "Drivetrain":"4WD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":46,
+  "Performance Class":"3",
+  "Population":2000,
+  "Power":264,
+  "PowerPeakRPM":"4600 - 5350",
+  "Propulsion":"ICE",
+  "Top Speed":53.8828508,
+  "Torque":460,
+  "TorquePeakRPM":"2600 - 3550",
+  "Transmission":"Automatic",
+  "Value":11250,
+  "Weight":2170,
+  "Weight/Power":8.21969697,
+  "Years":{
+    "max":2003,
+    "min":1998
+  },
+  "defaultPaintName1":"Bermuda Blue"
+}

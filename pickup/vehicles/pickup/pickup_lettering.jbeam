@@ -1,0 +1,258 @@
+{
+"pickup_lettering_d10": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"D10 Lettering",
+        "value":50,
+    },
+    "slotType" : "pickup_lettering_fender",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_lettering_d10_L", ["pickup_fender_L_base"], [],{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_lettering_d10_R", ["pickup_fender_R_base"], [],{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_lettering_d10_L", ["pickup_fender_L_flared"], [],{"pos":{"x":0,"y":0.01,"z":0}}],
+         ["pickup_lettering_d10_R", ["pickup_fender_R_flared"], [],{"pos":{"x":0,"y":0.01,"z":0}}],
+    ],
+},
+"pickup_lettering_d20": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"D20 Lettering",
+        "value":60,
+    },
+    "slotType" : "pickup_lettering_fender",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_lettering_d20_L", ["pickup_fender_L_base"], [],{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_lettering_d20_R", ["pickup_fender_R_base"], [],{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_lettering_d20_L", ["pickup_fender_L_flared"], [],{"pos":{"x":0,"y":0.01,"z":0}}],
+         ["pickup_lettering_d20_R", ["pickup_fender_R_flared"], [],{"pos":{"x":0,"y":0.01,"z":0}}],
+    ],
+},
+"pickup_lettering_d30": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"D30 Lettering",
+        "value":70,
+    },
+    "slotType" : "pickup_lettering_fender",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_lettering_d30_L", ["pickup_fender_L_base"], [],{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_lettering_d30_R", ["pickup_fender_R_base"], [],{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_lettering_d30_L", ["pickup_fender_L_flared"], [],{"pos":{"x":0,"y":0.01,"z":0}}],
+         ["pickup_lettering_d30_R", ["pickup_fender_R_flared"], [],{"pos":{"x":0,"y":0.01,"z":0}}],
+    ],
+},
+"pickup_lettering_d15": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"D15 Lettering",
+        "value":45,
+    },
+    "slotType" : "pickup_lettering_fender",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_lettering_d15_L", ["pickup_fender_L_base"], [],{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_lettering_d15_R", ["pickup_fender_R_base"], [],{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_lettering_d15_L", ["pickup_fender_L_flared"], [],{"pos":{"x":0,"y":0.01,"z":0}}],
+         ["pickup_lettering_d15_R", ["pickup_fender_R_flared"], [],{"pos":{"x":0,"y":0.01,"z":0}}],
+    ],
+},
+"pickup_lettering_d25": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"D25 Lettering",
+        "value":55,
+    },
+    "slotType" : "pickup_lettering_fender",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_lettering_d25_L", ["pickup_fender_L_base"], [],{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_lettering_d25_R", ["pickup_fender_R_base"], [],{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_lettering_d25_L", ["pickup_fender_L_flared"], [],{"pos":{"x":0,"y":0.01,"z":0}}],
+         ["pickup_lettering_d25_R", ["pickup_fender_R_flared"], [],{"pos":{"x":0,"y":0.01,"z":0}}],
+    ],
+},
+"pickup_lettering_d35": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"D35 Lettering",
+        "value":65,
+    },
+    "slotType" : "pickup_lettering_fender",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_lettering_d35_L", ["pickup_fender_L_base"], [],{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_lettering_d35_R", ["pickup_fender_R_base"], [],{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_lettering_d35_L", ["pickup_fender_L_flared"], [],{"pos":{"x":0,"y":0.01,"z":0}}],
+         ["pickup_lettering_d35_R", ["pickup_fender_R_flared"], [],{"pos":{"x":0,"y":0.01,"z":0}}],
+    ],
+},
+"pickup_lettering_d45": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"D45 Lettering",
+        "value":75,
+    },
+    "slotType" : "pickup_lettering_fender",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_lettering_d45_L", ["pickup_fender_L_base"], [],{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_lettering_d45_R", ["pickup_fender_R_base"], [],{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_lettering_d45_L", ["pickup_fender_L_flared"], [],{"pos":{"x":0,"y":0.01,"z":0}}],
+         ["pickup_lettering_d45_R", ["pickup_fender_R_flared"], [],{"pos":{"x":0,"y":0.01,"z":0}}],
+    ],
+},
+"pickup_lettering_roadsport_fender": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"RoadSport Lettering",
+        "value":85,
+    },
+    "slotType" : "pickup_lettering_fender",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_lettering_roadsport_L", ["pickup_fender_L_base"], [],{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_lettering_roadsport_R", ["pickup_fender_R_base"], [],{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_lettering_roadsport_L", ["pickup_fender_L_flared"], [],{"pos":{"x":0,"y":0.01,"z":0}}],
+         ["pickup_lettering_roadsport_R", ["pickup_fender_R_flared"], [],{"pos":{"x":0,"y":0.01,"z":0}}],
+    ],
+},
+"pickup_lettering": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Lettering",
+        "value":50,
+    },
+    "slotType" : "pickup_lettering",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_lettering_gavril", ["pickup_tailgate_standard"], [],{"pos":{"x":0,"y":0,"z":0}}],
+
+         ["pickup_lettering_gavril", ["pickup_tailgate_stepside"], [],{"pos":{"x":-0.186,"y":0,"z":0}}],
+    ],
+},
+"pickup_lettering_v8": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"V8 Lettering",
+        "value":80,
+    },
+    "slotType" : "pickup_lettering",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_lettering_gavril", ["pickup_tailgate_standard"], [],{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_lettering_v8_alt", ["pickup_tailgate_standard"], [],{"pos":{"x":0,"y":0,"z":0}}],
+
+         ["pickup_lettering_gavril", ["pickup_tailgate_stepside"], [],{"pos":{"x":-0.186,"y":0,"z":0}}],
+         ["pickup_lettering_v8_alt", ["pickup_tailgate_stepside"], [],{"pos":{"x":0.186,"y":0,"z":0}}],
+    ],
+},
+"pickup_lettering_v8_4WD": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"V8 4WD Lettering",
+        "value":110,
+    },
+    "slotType" : "pickup_lettering",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_lettering_gavril", ["pickup_tailgate_standard"], [],{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_lettering_v8", ["pickup_tailgate_standard"], [],{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_lettering_4wd", ["pickup_tailgate_standard"], [],{"pos":{"x":0,"y":0,"z":0}}],
+
+         ["pickup_lettering_gavril", ["pickup_tailgate_stepside"], [],{"pos":{"x":-0.186,"y":0,"z":0}}],
+         ["pickup_lettering_v8", ["pickup_tailgate_stepside"], [],{"pos":{"x":0.186,"y":0,"z":0}}],
+         ["pickup_lettering_4wd", ["pickup_tailgate_stepside"], [],{"pos":{"x":0.1860,"y":0,"z":0}}],
+    ],
+},
+"pickup_lettering_4WD": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"4WD Lettering",
+        "value":120,
+    },
+    "slotType" : "pickup_lettering",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_lettering_gavril", ["pickup_tailgate_standard"], [],{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_lettering_4wd", ["pickup_tailgate_standard"], [],{"pos":{"x":0,"y":0,"z":0}}],
+
+         ["pickup_lettering_gavril", ["pickup_tailgate_stepside"], [],{"pos":{"x":-0.186,"y":0,"z":0}}],
+         ["pickup_lettering_4wd", ["pickup_tailgate_stepside"], [],{"pos":{"x":0.186,"y":0,"z":0}}],
+    ],
+},
+"pickup_lettering_v8_sport": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"V8 Sport Lettering",
+        "value":200,
+    },
+    "slotType" : "pickup_lettering",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_lettering_gavril", ["pickup_tailgate_standard"], [],{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_lettering_v8", ["pickup_tailgate_standard"], [],{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_lettering_sport", ["pickup_tailgate_standard"], [],{"pos":{"x":0,"y":0,"z":0}}],
+
+         ["pickup_lettering_gavril", ["pickup_tailgate_stepside"], [],{"pos":{"x":-0.186,"y":0,"z":0}}],
+         ["pickup_lettering_v8", ["pickup_tailgate_stepside"], [],{"pos":{"x":0.186,"y":0,"z":0}}],
+         ["pickup_lettering_sport", ["pickup_tailgate_stepside"], [],{"pos":{"x":0.186,"y":0,"z":0}}],
+    ],
+},
+"pickup_lettering_v8_roadsport": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"V8 RoadSport Lettering",
+        "value":350,
+    },
+    "slotType" : "pickup_lettering",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_lettering_gavril", ["pickup_tailgate_standard"], [],{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_lettering_v8", ["pickup_tailgate_standard"], [],{"pos":{"x":-0.05,"y":0,"z":0}}],
+         ["pickup_lettering_roadsport", ["pickup_tailgate_standard"], [],{"pos":{"x":0,"y":0,"z":0}}],
+
+         ["pickup_lettering_gavril", ["pickup_tailgate_stepside"], [],{"pos":{"x":-0.186,"y":0,"z":0}}],
+         ["pickup_lettering_v8", ["pickup_tailgate_stepside"], [],{"pos":{"x":0.186,"y":0,"z":0}}],
+         ["pickup_lettering_roadsport", ["pickup_tailgate_stepside"], [],{"pos":{"x":0.186,"y":0,"z":0}}],
+    ],
+},
+"pickup_lettering_grille": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Grille Badge",
+        "value":80,
+    },
+    "slotType" : "pickup_lettering_grille",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_lettering_grille", ["pickup_fascia"]],
+    ],
+},
+"pickup_lettering_grille_prefacelift": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Center Grille Badge",
+        "value":60,
+    },
+    "slotType" : "pickup_lettering_grille_prefacelift",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_lettering_grille_prefacelift", ["pickup_fascia"]],
+    ],
+},
+"pickup_lettering_grille_prefacelift_alt": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Corner Grille Badge",
+        "value":60,
+    },
+    "slotType" : "pickup_lettering_grille_prefacelift",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_lettering_grille_prefacelift_alt", ["pickup_fascia"]],
+    ],
+},
+}

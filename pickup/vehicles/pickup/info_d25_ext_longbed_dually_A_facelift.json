@@ -1,0 +1,49 @@
+{
+  "0-100 km/h":8.8,
+  "0-100 mph":25.6,
+  "0-120 mph":59.9,
+  "0-60 mph":8.2,
+  "100-0 km/h":53,
+  "60-0 mph":162.7,
+  "60-100 mph":17.3,
+  "60-120 mph":52.2,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.72,
+      -1.42,
+      -0.3933
+    ],
+    [
+      1.82,
+      4.673,
+      1.41
+    ]
+  ],
+  "Braking G":0.741,
+  "Config Type":"Factory",
+  "Configuration":"D25 V8 Extended Cab Dually (A)",
+  "Description":"Extended frame and cab with medium duty suspension and dual rear wheels",
+  "Drivetrain":"Other",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":27,
+  "Performance Class":"3",
+  "Population":3000,
+  "Power":264,
+  "PowerPeakRPM":"4600 - 5350",
+  "Propulsion":"ICE",
+  "Top Speed":53.7603318,
+  "Torque":460,
+  "TorquePeakRPM":"2600 - 3550",
+  "Transmission":"Automatic",
+  "Value":12050,
+  "Weight":2400,
+  "Weight/Power":9.09090909,
+  "Years":{
+    "max":2003,
+    "min":1998
+  },
+  "defaultPaintName1":"Carbon Gray",
+  "defaultPaintName2":"Charcoal"
+}

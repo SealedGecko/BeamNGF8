@@ -1,0 +1,46 @@
+{
+  "0-100 km/h":9.1,
+  "0-100 mph":25.5,
+  "0-60 mph":8.6,
+  "100-0 km/h":54.6,
+  "60-0 mph":168,
+  "60-100 mph":16.9,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.72,
+      -1.42,
+      -0.4103
+    ],
+    [
+      1.82,
+      5.005,
+      1.41
+    ]
+  ],
+  "Braking G":0.72,
+  "Config Type":"Factory",
+  "Configuration":"D35 V8 Crew Cab Dually (A)",
+  "Description":"An extra-long D35 featuring a crew cab as well as a 6.9L V8 engine providing plenty of torque for towing heavy trailers",
+  "Drivetrain":"Other",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":34,
+  "Performance Class":"3",
+  "Population":2500,
+  "Power":298,
+  "PowerPeakRPM":4400,
+  "Propulsion":"ICE",
+  "Top Speed":52.6659174,
+  "Torque":515,
+  "TorquePeakRPM":"2350 - 3950",
+  "Transmission":"Automatic",
+  "Value":16750,
+  "Weight":2835,
+  "Weight/Power":9.51342282,
+  "Years":{
+    "max":2003,
+    "min":1998
+  },
+  "defaultPaintName1":"Silver"
+}

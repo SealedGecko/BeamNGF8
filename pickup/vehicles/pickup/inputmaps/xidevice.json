@@ -1,0 +1,13 @@
+{
+"bindings" :   [
+    //{
+    //"control"           : "dpov"             ,
+    //"action"            : "toggle_doors"
+    //},
+  ],
+"name"              : "XBox Controller 1" ,
+"version"           : 1                   ,
+"devicetype"        : "xinput"            ,
+"vidpid"            : "XIDevice"          ,
+"guid"              : "xinput_device_XIDevice"
+},

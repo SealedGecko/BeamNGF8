@@ -1,0 +1,47 @@
+{
+  "0-100 km/h":13.2,
+  "0-100 mph":67.6,
+  "0-60 mph":12.3,
+  "100-0 km/h":43.3,
+  "60-0 mph":133.5,
+  "60-100 mph":55.3,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.58,
+      -1.41,
+      -0.3099
+    ],
+    [
+      1.68,
+      4.2087,
+      1.42
+    ]
+  ],
+  "Braking G":0.909,
+  "Config Type":"Factory",
+  "Configuration":"Kentarch D10 V8 4WD (A)",
+  "Description":"Manufactured by Kentarch Fabrications, this hybrid D-Series combines a crew-cab D15 frame and cab with a D10 rear body into a roomy SUV",
+  "Drivetrain":"4WD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":38,
+  "Performance Class":"4",
+  "Population":1000,
+  "Power":177,
+  "PowerPeakRPM":"3800 - 4400",
+  "Propulsion":"ICE",
+  "Top Speed":45.6886692,
+  "Torque":350,
+  "TorquePeakRPM":"2900 - 3500",
+  "Transmission":"Automatic",
+  "Value":14250,
+  "Weight":2440,
+  "Weight/Power":13.7853107,
+  "Years":{
+    "max":1991,
+    "min":1986
+  },
+  "defaultPaintName1":"Autumn Yellow",
+  "defaultPaintName2":"Limoncello"
+}

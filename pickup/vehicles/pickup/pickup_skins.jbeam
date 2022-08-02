@@ -1,0 +1,175 @@
+{
+"pickup_skin_old": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Old Paint (Colorable)",
+        "value":0
+    },
+    "slotType" : "paint_design",
+    "globalSkin" : "old"
+  },
+"pickup_skin_military": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Army",
+        "value":0
+    },
+    "slotType" : "paint_design",
+    "globalSkin" : "military"
+  },
+"pickup_skin_423sport": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"423 Sport Livery (Colorable)",
+        "value":1500
+    },
+    "slotType" : "paint_design",
+    "globalSkin" : "423sport"
+  },
+"pickup_skin_camo": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Camo Livery (Colorable)",
+        "value":3900
+    },
+    "slotType" : "paint_design",
+    "globalSkin" : "camo"
+  },
+"pickup_skin_twotone": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Two Tone (Colorable)",
+        "value":3200
+    },
+    "slotType" : "paint_design",
+    "globalSkin" : "twotone"
+  },
+"pickup_skin_twotone_flare": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Two Tone (Fender Flare - Colorable)",
+        "value":3300
+    },
+    "slotType" : "paint_design",
+    "globalSkin" : "twotone_flare"
+  },
+"pickup_skin_zeta": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Zeta Three Tone (Colorable)",
+        "value":3500
+    },
+    "slotType" : "paint_design",
+    "globalSkin" : "zeta"
+  },
+"pickup_skin_twotone_alt": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Two Tone (Alternate - Colorable)",
+        "value":3200
+    },
+    "slotType" : "paint_design",
+    "globalSkin" : "twotone_alt"
+  },
+"pickup_skin_parkranger": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Park Ranger Livery",
+        "value":3500
+    },
+    "slotType" : "paint_design",
+    "globalSkin" : "parkranger"
+  },
+"pickup_skin_flames": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Modern Flames (Colorable)",
+        "value":5000
+    },
+    "slotType" : "paint_design",
+    "globalSkin" : "flames"
+  },
+
+"pickup_skin_splatter": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Splatter (Colorable)",
+        "value":5000
+    },
+    "slotType" : "paint_design",
+    "globalSkin" : "splatter"
+  },
+
+"pickup_skin_stripes": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Stripes (Colorable)",
+        "value":1500
+    },
+    "slotType" : "paint_design",
+    "globalSkin" : "stripes"
+  },
+"pickup_skin_interior": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Gray Interior",
+        "value":100
+    },
+    "slotType" : "skin_interior",
+    "skinName" : ""
+  },
+"pickup_skin_ambulance": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Ambulance Livery",
+        "value":5000,
+    },
+    "slotType" : "paint_design",
+    "globalSkin" : "ambulance",
+},
+"pickup_skin_interior_black": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Black Interior",
+        "value":100
+    },
+    "slotType" : "skin_interior",
+    "skinName" : "black"
+  },
+"pickup_skin_interior_red": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Red Interior",
+        "value":100
+    },
+    "slotType" : "skin_interior",
+    "skinName" : "red"
+  },
+"pickup_skin_interior_blue": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Blue Interior",
+        "value":100
+    },
+    "slotType" : "skin_interior",
+    "skinName" : "blue"
+  },
+"pickup_skin_interior_brown": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Brown Interior",
+        "value":100
+    },
+    "slotType" : "skin_interior",
+    "skinName" : "brown"
+  },
+ "pickup_skin_glass_tint": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Glass Tint",
+        "value":500
+    },
+    "slotType" : "skin_glass",
+    "globalSkin" : "tint"
+}
+}

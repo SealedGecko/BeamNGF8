@@ -1,0 +1,50 @@
+{
+  "0-100 km/h":11,
+  "0-100 mph":47.2,
+  "0-120 mph":15.9,
+  "0-60 mph":10.2,
+  "100-0 km/h":50.3,
+  "60-0 mph":153.7,
+  "60-100 mph":37,
+  "60-120 mph":11.5,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.58,
+      -1.54,
+      -0.4183
+    ],
+    [
+      1.68,
+      4.105,
+      1.64
+    ]
+  ],
+  "Braking G":0.781,
+  "Config Type":"Custom",
+  "Configuration":"D25 Lifted (A)",
+  "Description":"High riding D25 with custom, extra tall front and rear suspension plus a good helping of chrome",
+  "Drivetrain":"4WD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":51,
+  "Performance Class":"6",
+  "Population":100,
+  "Power":235,
+  "PowerPeakRPM":"4050 - 4800",
+  "Propulsion":"ICE",
+  "Top Speed":47.5423198,
+  "Torque":445,
+  "TorquePeakRPM":"1800 - 3550",
+  "Transmission":"Automatic",
+  "Value":22500,
+  "Weight":2630,
+  "Weight/Power":11.1914894,
+  "Years":{
+    "max":1991,
+    "min":1986
+  },
+  "defaultPaintName1":"Chestnut",
+  "defaultPaintName2":"Fall Gold",
+  "defaultPaintName3":"Pearl White"
+}

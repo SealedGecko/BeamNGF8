@@ -1,0 +1,115 @@
+{
+"pickup_airbump_SFA": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front Air Bump Stop",
+        "value":250,
+    },
+    "slotType" : "pickup_airbump_SFA",
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["pickup_desert_airbump_FL_SFA", ["bumpstop_FL"]],
+        ["pickup_desert_airbump_FR_SFA", ["bumpstop_FR"]],
+        ["pickup_desert_airbump_F_body_SFA", ["pickup_frame", "bumpstop_F"]],
+    ],
+    "nodes": [
+        ["id", "posX", "posY", "posZ"],
+        {"nodeMaterial":"|NM_METAL"},
+        {"frictionCoef":0.5},
+        {"collision":true},
+        {"selfCollision":false},
+        //air bump stops
+        {"nodeWeight":2},
+        //bottom
+        ["fbs1r", -0.525, -1.58, 0.328, {"group":""}],
+        ["fbs1l",  0.525, -1.58, 0.328, {"group":""}],
+        {"nodeWeight":4.5},
+        //piston
+        ["fbs2r", -0.525, -1.58, 0.328, {"group":"bumpstop_FR"}],
+        ["fbs2l",  0.525, -1.58, 0.328, {"group":"bumpstop_FL"}],
+        //top
+        ["fbs3r", -0.525, -1.58, 0.705, {"group":["bumpstop_F","bumpstop_FR","bumpstop_FL"]}],
+        ["fbs3l",  0.525, -1.58, 0.705, {"group":["bumpstop_F","bumpstop_FR","bumpstop_FL"]}],
+        {"group":""},
+    ],
+    "rails": {
+        "bumpstop_FR":{"links:":["fbs1r", "fbs3r"], "broken:":[], "looped":false, "capped":true},
+        "bumpstop_FL":{"links:":["fbs1l", "fbs3l"], "broken:":[], "looped":false, "capped":true},
+    },
+    "slidenodes": [
+        ["id:", "railName", "attached", "fixToRail", "tolerance", "spring", "strength", "capStrength"],
+        ["fbs2r", "bumpstop_FR", true, true, 0.0, 5001000, 500000, 500000],
+        ["fbs2l", "bumpstop_FL", true, true, 0.0, 5001000, 500000, 500000],
+    ],
+    "beams": [
+        ["id1:", "id2:"],
+        {"beamPrecompression":1, "beamType":"|NORMAL"},
+        //air bump rail
+        {"beamDeform":105000,"beamStrength":"FLT_MAX"},
+        {"beamSpring":1201000,"beamDamp":70},
+        ["fbs3r", "fbs1r"],
+        ["fbs3r", "f12r"],
+        ["fbs3r", "f13r"],
+        ["fbs3r", "f2r"],
+        ["fbs3r", "f3r"],
+        ["fbs3r", "f12l"],
+        ["fbs3r", "f13l"],
+        ["fbs3r", "f2l"],
+        ["fbs3r", "f3l"],
+
+        ["fbs1r", "f12r"],
+        ["fbs1r", "f13r"],
+        ["fbs1r", "f2r"],
+        ["fbs1r", "f3r"],
+        ["fbs1r", "f12l"],
+        ["fbs1r", "f13l"],
+        ["fbs1r", "f2l"],
+        ["fbs1r", "f3l"],
+
+        ["fbs3l", "fbs1l"],
+        ["fbs3l", "f12r"],
+        ["fbs3l", "f13r"],
+        ["fbs3l", "f2r"],
+        ["fbs3l", "f3r"],
+        ["fbs3l", "f12l"],
+        ["fbs3l", "f13l"],
+        ["fbs3l", "f2l"],
+        ["fbs3l", "f3l"],
+
+        ["fbs1l", "f12r"],
+        ["fbs1l", "f13r"],
+        ["fbs1l", "f2r"],
+        ["fbs1l", "f3r"],
+        ["fbs1l", "f12l"],
+        ["fbs1l", "f13l"],
+        ["fbs1l", "f2l"],
+        ["fbs1l", "f3l"],
+
+        //bump stop hit point adjustment
+        {"beamPrecompression":0.76, "beamType":"|SUPPORT", "beamLongBound":4.0},
+        {"beamSpring":4001000,"beamDamp":150},
+        ["faxs1r", "fbs2r"],
+        ["faxs1l", "fbs2l"],
+
+        //air bumpstop
+        {"beamPrecompression":1, "beamType":"|BOUNDED", "beamLongBound":1, "beamShortBound":1},
+        {"beamSpring":0,"beamDamp":15000},
+        {"beamLimitSpring":1001000,"beamLimitDamp":15000},
+        ["fbs2r", "fbs3r", {"longBoundRange":0,"shortBoundRange":0.08,"boundZone":0.01,"beamDampRebound":15000,"beamLimitDampRebound":15000,"dampCutoffHz":400}],
+        ["fbs2l", "fbs3l", {"longBoundRange":0,"shortBoundRange":0.08,"boundZone":0.01,"beamDampRebound":15000,"beamLimitDampRebound":15000,"dampCutoffHz":400}],
+
+        {"beamPrecompression":1, "beamType":"|PRESSURED"},
+        {"beamSpring":0,"beamDamp":0},
+        {"beamLimitSpring":0,"beamLimitDamp":0},
+        ["fbs2r", "fbs3r", {"pressurePSI":175,"surface":0.00203,"volumeCoef":2}],
+        ["fbs2l", "fbs3l", {"pressurePSI":175,"surface":0.00203,"volumeCoef":2}],
+        {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+    ],
+    "triangles":[
+        ["id1:", "id2:", "id3:"],
+        {"triangleType":"NONCOLLIDABLE"},
+
+        {"triangleType":"NORMALTYPE"},
+    ],
+},
+}

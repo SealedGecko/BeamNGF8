@@ -1,0 +1,146 @@
+{
+"pickup_licenseplate_F": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front License Plate",
+        "value":0,
+    },
+    "slotType" : "pickup_licenseplate_F",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["licenseplate", ["pickup_bumper_F"],[],{"pos":{"x":0.0, "y":-2.2339, "z":0.5127}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":1, "y":1, "z":1}}],
+    ],
+},
+"pickup_licenseplate_F_prefacelift": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front License Plate",
+        "value":0,
+    },
+    "slotType" : "pickup_licenseplate_F_prefacelift",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["licenseplate", ["pickup_bumper_F"],[],{"pos":{"x":0.0, "y":-2.22, "z":0.53}, "rot":{"x":4, "y":0, "z":0}, "scale":{"x":1, "y":1, "z":1}}],
+    ],
+},
+"pickup_licenseplate_F_bullbar": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front License Plate",
+        "value":0,
+    },
+    "slotType" : "pickup_licenseplate_F_bullbar",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["licenseplate", ["pickup_bullbar", "pickup_pushbar"],[],{"pos":{"x":0.0, "y":-2.375, "z":0.61}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":1, "y":1, "z":1}}],
+    ],
+},
+"pickup_licenseplate_F_alt_offroad": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front License Plate",
+        "value":0,
+    },
+    "slotType" : "pickup_licenseplate_F_alt_offroad",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["licenseplate", ["pickup_bumper_F"],[],{"pos":{"x":0.0, "y":-2.295, "z":0.591}, "rot":{"x":20, "y":0, "z":0}, "scale":{"x":1, "y":1, "z":1}}],
+    ],
+},
+"pickup_licenseplate_R": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rear License Plate",
+        "value":0,
+    },
+    "slotType" : "pickup_licenseplate_R",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["licenseplate", ["pickup_bumper_R"],[],{"pos":{"x":0.0, "y":2.665, "z":0.5307}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+    ],
+},
+"pickup_licenseplate_R_prefacelift": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rear License Plate",
+        "value":0,
+    },
+    "slotType" : "pickup_licenseplate_R_prefacelift",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["licenseplate", ["pickup_bumper_R"],[],{"pos":{"x":0.0, "y":2.682, "z":0.545}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+    ],
+},
+"pickup_licenseplate_R_heavy": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rear License Plate",
+        "value":0,
+    },
+    "slotType" : "pickup_licenseplate_R_heavy",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["licenseplate", ["pickup_bumper_R"],[],{"pos":{"x":0.0, "y":2.62, "z":0.6}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+    ],
+},
+"pickup_licenseplate_R_prefacelift_heavy": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rear License Plate",
+        "value":0,
+    },
+    "slotType" : "pickup_licenseplate_R_prefacelift_heavy",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["licenseplate", ["pickup_bumper_R"],[],{"pos":{"x":0.0, "y":2.61, "z":0.582}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+    ],
+},
+"pickup_licenseplate_R_alt": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rear License Plate",
+        "value":0,
+    },
+    "slotType" : "pickup_licenseplate_R_alt",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["licenseplate", ["pickup_rollpan_R"],[],{"pos":{"x":0.0, "y":2.515, "z":0.565}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+    ],
+},
+"pickup_licenseplate_R_flatbed": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rear License Plate",
+        "value":0,
+    },
+    "slotType" : "pickup_licenseplate_R_flatbed",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["licenseplate", ["pickup_flatbed"],[],{"pos":{"x":0.0, "y":2.605, "z":0.77}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+    ],
+},
+"pickup_licenseplate_R_alt_offroad": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rear License Plate",
+        "value":0,
+    },
+    "slotType" : "pickup_licenseplate_R_alt_offroad",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["licenseplate", ["pickup_bumper_R"],[],{"pos":{"x":0.0, "y":2.625, "z":0.625}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+    ],
+},
+"pickup_licenseplate_R_zeta": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rear License Plate",
+        "value":0,
+    },
+    "slotType" : "pickup_licenseplate_R_zeta",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["licenseplate", ["pickup_bumper_R"],[],{"pos":{"x":0.0, "y":2.675, "z":0.58}, "rot":{"x":-20, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+    ],
+},
+}

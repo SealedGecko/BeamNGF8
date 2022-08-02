@@ -1,0 +1,46 @@
+{
+  "0-100 km/h":9.8,
+  "0-100 mph":35,
+  "0-60 mph":9.2,
+  "100-0 km/h":39.9,
+  "60-0 mph":122.7,
+  "60-100 mph":25.7,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.6,
+      -1.42,
+      -0.3099
+    ],
+    [
+      1.7,
+      3.54,
+      1.41
+    ]
+  ],
+  "Braking G":0.984,
+  "Config Type":"Factory",
+  "Configuration":"D15 V8 4WD (A)",
+  "Description":"Equipped with 4-wheel drive and a powerful V8 engine",
+  "Drivetrain":"4WD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":46,
+  "Performance Class":"4",
+  "Population":10000,
+  "Power":197,
+  "PowerPeakRPM":"3950 - 4600",
+  "Propulsion":"ICE",
+  "Top Speed":48.5304639,
+  "Torque":375,
+  "TorquePeakRPM":"2950 - 3650",
+  "Transmission":"Automatic",
+  "Value":7260,
+  "Weight":2060,
+  "Weight/Power":10.4568528,
+  "Years":{
+    "max":1997,
+    "min":1992
+  },
+  "defaultPaintName1":"Sea Blue"
+}

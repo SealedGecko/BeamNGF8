@@ -1,0 +1,99 @@
+{"pickup_desert_fendersupport":
+{
+    "information":{
+        "authors":"BeamNG",
+        "name":"Fender Support",
+        "value":600,
+    },
+
+    "slotType" :"pickup_desert_radsupport",
+
+    "slots":[
+        ["type","default","description"],
+        ["pickup_fascia","pickup_fascia","Front Fascia"],
+        ["pickup_valance_cut","pickup_valance_cut","Front Valance"],
+        ["pickup_fender_R","pickup_fender_R","Front Right Fender"],
+        ["pickup_fender_L","pickup_fender_L","Front Left Fender"],
+    ],
+    "flexbodies":[
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["pickup_desert_fendersupport_F", ["pickup_frame", "pickup_fendersupport"]],
+    ],
+    "nodes":[
+         ["id", "posX", "posY", "posZ"],
+         {"selfCollision":true},
+         {"collision":true},
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+         {"group":"pickup_fendersupport"},
+
+         //--CAGE--
+         //fender support
+         {"nodeWeight":2.5},
+         ["s1rr",-0.9,-1.95,1.1],
+         ["s2rr",-0.9,-1.95,0.85, {"selfCollision":false}],
+
+         ["s1ll",0.9,-1.95,1.1],
+         ["s2ll",0.9,-1.95,0.85, {"selfCollision":false}],
+         {"group":""},
+    ],
+    "beams":[
+          ["id1:", "id2:"],
+          //--CAGE--
+
+          //fender support main shape
+          {"beamSpring":1301000,"beamDamp":100},
+          {"beamDeform":35000,"beamStrength":"FLT_MAX"},
+          {"deformLimitExpansion":1.2},
+          //widthwise
+          ["s1rr", "s1r"],
+          ["s2rr", "s2r"],
+          ["s1ll", "s1l"],
+          ["s2ll", "s2l"],
+          //vertical
+          ["s1rr", "s2rr"],
+          ["s1ll", "s2ll"],
+
+          //crossing
+          {"beamDeform":12000,"beamStrength":"FLT_MAX"},
+          {"deformLimitExpansion":""},
+          ["s2rr", "s1r"],
+          ["s1rr", "s2r"],
+          ["s1ll", "s2l"],
+          ["s1l", "s2ll"],
+          //rigids
+          {"beamDeform":8000,"beamStrength":"FLT_MAX"},
+          //corner
+          ["s1rr", "ff2rr"],
+          ["s2rr", "f12r"],
+          ["s2ll", "f12l"],
+          ["s1ll", "ff2ll"],
+          ["s2ll", "ff2ll"],
+          ["s1ll", "f12l"],
+          ["s1rr", "f12r"],
+          ["s2rr", "ff2rr"],
+
+    ],
+
+    "triangles":[
+        ["id1:", "id2:", "id3:"],
+        {"groundModel":"metal"},
+
+        {"dragCoef":3},
+        {"group":"pickup_fendersupport"},
+        ["s1rr", "s2rr", "s1r"],
+        ["s1r", "s2rr", "s2r"],
+        ["s1l", "s2l", "s2ll"],
+        ["s2ll", "s1ll", "s1l"],
+        {"dragCoef":1},
+        //["ff2rr", "s1rr", "s1r"],
+        //["ff2ll", "s1l", "s1ll"],
+        //["s1ll", "s2ll", "ff2ll"],
+        //["s2ll", "f12l", "ff2ll"],
+        //["s2ll", "s2l", "f12l"],
+        //["s1rr", "ff2rr", "s2rr"],
+        //["s2rr", "ff2rr", "f12r"],
+        //["s2rr", "f12r", "s2r"],
+        ],
+},
+}

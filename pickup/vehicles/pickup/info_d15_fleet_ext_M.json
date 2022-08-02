@@ -1,0 +1,46 @@
+{
+  "0-100 km/h":12.9,
+  "0-100 mph":73.2,
+  "0-60 mph":12.1,
+  "100-0 km/h":42.6,
+  "60-0 mph":128.5,
+  "60-100 mph":61.2,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.6,
+      -1.41,
+      -0.2999
+    ],
+    [
+      1.7,
+      4.173,
+      1.41
+    ]
+  ],
+  "Braking G":0.923,
+  "Config Type":"Factory",
+  "Configuration":"D15 Fleet Extended Cab (M)",
+  "Description":"A lengthened frame adds room for an extended cab with an extra row of seating and an additional pair of rear-opening doors",
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":34,
+  "Performance Class":"3",
+  "Population":10000,
+  "Power":164,
+  "PowerPeakRPM":"4300 - 4950",
+  "Propulsion":"ICE",
+  "Top Speed":45.6268218,
+  "Torque":290,
+  "TorquePeakRPM":"1850 - 3900",
+  "Transmission":"Manual",
+  "Value":5600,
+  "Weight":2105,
+  "Weight/Power":12.8353659,
+  "Years":{
+    "max":1997,
+    "min":1992
+  },
+  "defaultPaintName1":"Pearl White"
+}

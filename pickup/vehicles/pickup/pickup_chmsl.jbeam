@@ -1,0 +1,17 @@
+{
+"pickup_chmsl": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Center High Mounted Stop Light",
+        "value":20,
+    },
+    "slotType" : "pickup_chmsl",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         //lights
+         {"deformGroup":"backlight_break", "deformMaterialBase":"gavril_lights", "deformMaterialDamaged":"gavril_lights_dmg"},
+         ["pickup_chmsl", ["pickup_body"]],
+         {"deformGroup":"", "deformMaterialBase":"", "deformMaterialDamaged":""},
+    ],
+},
+}

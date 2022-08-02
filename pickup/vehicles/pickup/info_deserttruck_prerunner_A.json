@@ -1,0 +1,50 @@
+{
+  "0-100 km/h":6.3,
+  "0-100 mph":14.8,
+  "0-200 km/h":26.1,
+  "0-60 mph":5.9,
+  "100-0 km/h":48.4,
+  "100-200 km/h":19.8,
+  "60-0 mph":147.5,
+  "60-100 mph":8.9,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.62459,
+      -1.57,
+      -0.61494
+    ],
+    [
+      1.72459,
+      4.008885,
+      1.671
+    ]
+  ],
+  "Braking G":0.812,
+  "Config Type":"Custom",
+  "Configuration":"D15 Pre-Runner Extended Cab (A)",
+  "Description":"Powerful RWD desert truck designed originally for scouting race courses, but has evolved into a competition vehicle of its own",
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":46,
+  "Performance Class":"6",
+  "Population":50,
+  "Power":715,
+  "PowerPeakRPM":5600,
+  "Propulsion":"ICE",
+  "Top Speed":60.6495046,
+  "Torque":910,
+  "TorquePeakRPM":"4950 - 5700",
+  "Transmission":"Automatic",
+  "Value":77000,
+  "Weight":3310,
+  "Weight/Power":4.62937063,
+  "Years":{
+    "max":1997,
+    "min":1992
+  },
+  "defaultPaintName1":"Silver",
+  "defaultPaintName2":"Charcoal",
+  "defaultPaintName3":"Flame Orange"
+}

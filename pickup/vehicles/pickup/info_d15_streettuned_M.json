@@ -1,0 +1,52 @@
+{
+  "0-100 km/h":8.3,
+  "0-100 mph":14.9,
+  "0-120 mph":12.4,
+  "0-200 km/h":23.6,
+  "0-60 mph":8.1,
+  "100-0 km/h":41.2,
+  "100-200 km/h":15.2,
+  "60-0 mph":126.8,
+  "60-100 mph":6.8,
+  "60-120 mph":9.5,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.6,
+      -1.42,
+      -0.2829
+    ],
+    [
+      1.7,
+      3.43,
+      1.41
+    ]
+  ],
+  "Braking G":0.954,
+  "Config Type":"Custom",
+  "Configuration":"D15 Street Tuned (M)",
+  "Description":"Equipped with a powerful supercharged V8, custom 15 inch wheels and a stepside bed, wrapped in a tacky paint job",
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"SC",
+  "Off-Road Score":35,
+  "Performance Class":"5",
+  "Population":100,
+  "Power":445,
+  "PowerPeakRPM":"4250 - 5050",
+  "Propulsion":"ICE",
+  "Top Speed":65.4922372,
+  "Torque":800,
+  "TorquePeakRPM":"2950 - 3700",
+  "Transmission":"Manual",
+  "Value":23000,
+  "Weight":2055,
+  "Weight/Power":4.61797753,
+  "Years":{
+    "max":1997,
+    "min":1992
+  },
+  "defaultPaintName1":"Jet Black",
+  "defaultPaintName2":"Solar Yellow",
+  "defaultPaintName3":"Scarlet Red"
+}

@@ -1,0 +1,52 @@
+{
+  "0-100 km/h":5.1,
+  "0-100 mph":11.9,
+  "0-120 mph":12.4,
+  "0-200 km/h":20.8,
+  "0-60 mph":4.9,
+  "100-0 km/h":31.6,
+  "100-200 km/h":15.7,
+  "60-0 mph":95.3,
+  "60-100 mph":7,
+  "60-120 mph":9.5,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.6,
+      -1.42,
+      -0.2779
+    ],
+    [
+      1.7,
+      3.55,
+      1.41
+    ]
+  ],
+  "Braking G":1.244,
+  "Config Type":"Race",
+  "Configuration":"D15 Track (M)",
+  "Description":"A powerful supercharged engine, race suspension and a spoiler make for an interesting work truck",
+  "Drivetrain":"AWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"SC",
+  "Off-Road Score":32,
+  "Performance Class":"5",
+  "Population":100,
+  "Power":433,
+  "PowerPeakRPM":"4200 - 4950",
+  "Propulsion":"ICE",
+  "Top Speed":65.5061128,
+  "Torque":790,
+  "TorquePeakRPM":"2950 - 3650",
+  "Transmission":"Manual",
+  "Value":58000,
+  "Weight":2170,
+  "Weight/Power":5.01154734,
+  "Years":{
+    "max":2003,
+    "min":1998
+  },
+  "defaultPaintName1":"Vibrant Red",
+  "defaultPaintName2":"Pearl White",
+  "defaultPaintName3":"Charcoal"
+}

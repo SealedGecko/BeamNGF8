@@ -1,0 +1,48 @@
+{
+  "0-100 km/h":11.4,
+  "0-100 mph":40.3,
+  "0-120 mph":69.3,
+  "0-60 mph":10.8,
+  "100-0 km/h":41.1,
+  "60-0 mph":123.7,
+  "60-100 mph":29.5,
+  "60-120 mph":61.5,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.58,
+      -1.41,
+      -0.2999
+    ],
+    [
+      1.68,
+      3.54,
+      1.41
+    ]
+  ],
+  "Braking G":0.956,
+  "Config Type":"Factory",
+  "Configuration":"D15 V8 (M)",
+  "Description":"Fitted with a 4.5L V8 engine for additional power over the basic I6",
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":39,
+  "Performance Class":"4",
+  "Population":7000,
+  "Power":177,
+  "PowerPeakRPM":"3800 - 4400",
+  "Propulsion":"ICE",
+  "Top Speed":46.9370366,
+  "Torque":350,
+  "TorquePeakRPM":"2900 - 3500",
+  "Transmission":"Manual",
+  "Value":6000,
+  "Weight":1980,
+  "Weight/Power":11.1864407,
+  "Years":{
+    "max":1991,
+    "min":1986
+  },
+  "defaultPaintName1":"Gray"
+}

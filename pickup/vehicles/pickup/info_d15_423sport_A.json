@@ -1,0 +1,48 @@
+{
+  "0-100 km/h":9,
+  "0-100 mph":22.8,
+  "0-60 mph":8.6,
+  "100-0 km/h":40.6,
+  "60-0 mph":124.7,
+  "60-100 mph":14.2,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.58,
+      -1.41,
+      -0.3099
+    ],
+    [
+      1.68,
+      3.54,
+      1.41
+    ]
+  ],
+  "Braking G":0.969,
+  "Config Type":"Factory",
+  "Configuration":"D15 423 Sport (A)",
+  "Description":"Gavril's first entry into the performance truck market, featuring a huge 6.9 liter V8 engine, sport suspension and a special livery",
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":35,
+  "Performance Class":"5",
+  "Population":1300,
+  "Power":273,
+  "PowerPeakRPM":"4200 - 4800",
+  "Propulsion":"ICE",
+  "Top Speed":54.043593,
+  "Torque":500,
+  "TorquePeakRPM":"2300 - 3700",
+  "Transmission":"Automatic",
+  "Value":16000,
+  "Weight":2065,
+  "Weight/Power":7.56410256,
+  "Years":{
+    "max":1991,
+    "min":1986
+  },
+  "defaultPaintName1":"Vibrant Red",
+  "defaultPaintName2":"Charcoal",
+  "defaultPaintName3":"Jet Black"
+}

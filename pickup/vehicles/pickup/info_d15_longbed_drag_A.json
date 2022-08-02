@@ -1,0 +1,50 @@
+{
+  "0-100 km/h":3,
+  "0-100 mph":6.7,
+  "0-120 mph":12.4,
+  "0-200 km/h":10.9,
+  "0-60 mph":2.9,
+  "100-0 km/h":37,
+  "100-200 km/h":7.9,
+  "60-0 mph":112.9,
+  "60-100 mph":3.8,
+  "60-120 mph":9.5,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.6,
+      -1.42,
+      -0.3349
+    ],
+    [
+      1.7,
+      4.246,
+      1.41
+    ]
+  ],
+  "Braking G":1.064,
+  "Config Type":"Custom",
+  "Configuration":"D15 Drag (A)",
+  "Description":"A Supercharged, Nitrous-injected 6.9L V8 powers two huge drag slicks suspended by a custom 3 link rear suspension. Side pipes, a drag wing and an induction hood tie the whole package together",
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"SC + N2O",
+  "Off-Road Score":35,
+  "Performance Class":"5",
+  "Population":100,
+  "Power":999,
+  "PowerPeakRPM":"4100 - 4950",
+  "Propulsion":"ICE",
+  "Top Speed":72.7406089,
+  "Torque":1855,
+  "TorquePeakRPM":"3000 - 3550",
+  "Transmission":"Automatic",
+  "Value":57000,
+  "Weight":2115,
+  "Weight/Power":2.11711712,
+  "Years":{
+    "max":1997,
+    "min":1992
+  },
+  "defaultPaintName1":"Sunset Purple"
+}

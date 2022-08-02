@@ -1,0 +1,44 @@
+{
+  "0-100 km/h":13.2,
+  "0-60 mph":12.3,
+  "100-0 km/h":40.9,
+  "60-0 mph":125.8,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.58,
+      -1.54,
+      -0.2999
+    ],
+    [
+      1.68,
+      3.56,
+      1.41
+    ]
+  ],
+  "Braking G":0.961,
+  "Config Type":"Factory",
+  "Configuration":"D15 Farmhand (M)",
+  "Description":"A cheap, basic, inline six powered manual-only truck marketed to bulk buyers for company fleets, fitted with a rear flatbed",
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":39,
+  "Performance Class":"3",
+  "Population":8000,
+  "Power":152,
+  "PowerPeakRPM":"4200 - 4850",
+  "Propulsion":"ICE",
+  "Top Speed":42.6272737,
+  "Torque":275,
+  "TorquePeakRPM":"1700 - 3700",
+  "Transmission":"Manual",
+  "Value":5700,
+  "Weight":1975,
+  "Weight/Power":12.9934211,
+  "Years":{
+    "max":1991,
+    "min":1986
+  },
+  "defaultPaintName1":"Pearl White"
+}

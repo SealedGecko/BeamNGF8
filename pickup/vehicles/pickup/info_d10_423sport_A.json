@@ -1,0 +1,48 @@
+{
+  "0-100 km/h":8.8,
+  "0-100 mph":22.8,
+  "0-60 mph":8.4,
+  "100-0 km/h":39.2,
+  "60-0 mph":120,
+  "60-100 mph":14.4,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.58,
+      -1.41,
+      -0.3099
+    ],
+    [
+      1.68,
+      3.31,
+      1.42
+    ]
+  ],
+  "Braking G":1.004,
+  "Config Type":"Factory",
+  "Configuration":"D10 Charro 423 Sport (A)",
+  "Description":"Short Wheelbase SUV variant of the 423 Sport",
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":35,
+  "Performance Class":"5",
+  "Population":1000,
+  "Power":273,
+  "PowerPeakRPM":"4200 - 4800",
+  "Propulsion":"ICE",
+  "Top Speed":53.3658438,
+  "Torque":500,
+  "TorquePeakRPM":"2300 - 3700",
+  "Transmission":"Automatic",
+  "Value":16010,
+  "Weight":2055,
+  "Weight/Power":7.52747253,
+  "Years":{
+    "max":1991,
+    "min":1986
+  },
+  "defaultPaintName1":"Jet Black",
+  "defaultPaintName2":"Vibrant Red",
+  "defaultPaintName3":"Jet Black"
+}

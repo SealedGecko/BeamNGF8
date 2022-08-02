@@ -1,0 +1,93 @@
+{
+//"pickup_licenseplate_F_EU": {
+//    "information":{
+//        "authors":"BeamNG",
+//        "name":"EU Front License Plate",
+//        "value":0,
+//    },
+//    "slotType" : "pickup_licenseplate_F",
+//    "licenseplateFormat": "52-11",
+//    "flexbodies": [
+//         ["mesh", "[group]:", "nonFlexMaterials"],
+//         ["licenseplate-52-11", ["pickup_bumper_F"],[],{"pos":{"x":-0.57, "y":-2.2, "z":0.53}, "rot":{"x":7, "y":0, "z":-4.5}, "scale":{"x":1, "y":1, "z":1}}],
+//    ],
+//},
+"pickup_licenseplate_F_EU_bullbar": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"EU Front License Plate",
+        "value":0,
+    },
+    "slotType" : "pickup_licenseplate_F_bullbar",
+    "licenseplateFormat": "52-11",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["licenseplate-52-11", ["pickup_bullbar", "pickup_pushbar"],[],{"pos":{"x":0.0, "y":-2.375, "z":0.64}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":1, "y":1, "z":1}}],
+    ],
+},
+"pickup_licenseplate_R_EU": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"EU Rear License Plate",
+        "value":0,
+    },
+    "slotType" : "pickup_licenseplate_R",
+    "licenseplateFormat": "52-11",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["licenseplate-52-11", ["pickup_bumper_R"],[],{"pos":{"x":0.55, "y":2.68, "z":0.56}, "rot":{"x":-1, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+    ],
+},
+"pickup_licenseplate_R_EU_alt": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"EU Rear License Plate",
+        "value":0,
+    },
+    "slotType" : "pickup_licenseplate_R_alt",
+    "licenseplateFormat": "52-11",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["licenseplate-52-11", ["pickup_rollpan_R"],[],{"pos":{"x":0.55, "y":2.58, "z":0.63}, "rot":{"x":-6, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+    ],
+},
+"pickup_licenseplate_R_EU_flatbed": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"EU Rear License Plate",
+        "value":0,
+    },
+    "slotType" : "pickup_licenseplate_R_flatbed",
+    "licenseplateFormat": "52-11",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["licenseplate-52-11", ["pickup_flatbed"],[],{"pos":{"x":0.0, "y":2.605, "z":0.77}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+    ],
+},
+"pickup_licenseplate_F_EU_alt_offroad": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"EU Front License Plate",
+        "value":0,
+    },
+    "slotType" : "pickup_licenseplate_F_alt_offroad",
+    "licenseplateFormat": "52-11",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["licenseplate-52-11", ["pickup_bumper_F"],[],{"pos":{"x":0.0, "y":-2.295, "z":0.591}, "rot":{"x":20, "y":0, "z":0}, "scale":{"x":1, "y":1, "z":1}}],
+    ],
+},
+"pickup_licenseplate_R_EU_alt_offroad": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"EU Rear License Plate",
+        "value":0,
+    },
+    "slotType" : "pickup_licenseplate_R_alt_offroad",
+    "licenseplateFormat": "52-11",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["licenseplate-52-11-r4", ["pickup_bumper_R"],[],{"pos":{"x":0.6, "y":2.72, "z":0.625}, "rot":{"x":-12, "y":0, "z":175}, "scale":{"x":1, "y":1, "z":1}}],
+    ],
+},
+}

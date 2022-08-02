@@ -1,0 +1,214 @@
+{
+	"pickup_fenderflare_FR": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front Right Fender Flare (Body Colored)",
+        "value":120,
+    },
+    "slotType" : "pickup_fenderflare_FR",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_fenderflare_heavy_FR", ["pickup_fender_R"], [],{"pos":{"x":0,"y":0,"z":0}}],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+         //--FENDER--
+         {"selfCollision":true},
+         {"collision":true},
+         {"group":["pickup_fender_R", "pickup_fender_R_flared"]},
+         {"nodeWeight":1.88},
+         ["fe1r", -0.87, -0.86, 0.39],
+         ["fe2r", -0.88, -0.97, 0.39],
+         ["fe3r", -0.97, -0.88, 0.83],
+         ["fe4r", -1.01, -1.41, 0.91],
+         ["fe5r", -0.98, -1.86, 0.73],
+         {"group":""},
+    ],
+},
+"pickup_fenderflare_FL": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front Left Fender Flare (Body Colored)",
+        "value":120,
+    },
+    "slotType" : "pickup_fenderflare_FL",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_fenderflare_heavy_FL", ["pickup_fender_L"], [],{"pos":{"x":0,"y":0,"z":0}}],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+         //--FENDER--
+         {"selfCollision":true},
+         {"collision":true},
+         {"group":["pickup_fender_L", "pickup_fender_L_flared"]},
+         {"nodeWeight":1.88},
+         ["fe1l", 0.87, -0.86, 0.39],
+         ["fe2l", 0.88, -0.97, 0.39],
+         ["fe3l", 0.97, -0.88, 0.83],
+         ["fe4l", 1.01, -1.41, 0.91],
+         ["fe5l", 0.98, -1.86, 0.73],
+         {"group":""},
+    ],
+},
+"pickup_fenderflare_FR_alt": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front Right Fender Flare (Black)",
+        "value":80,
+    },
+    "slotType" : "pickup_fenderflare_FR",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_fenderflare_heavy_FR_alt", ["pickup_fender_R"], [],{"pos":{"x":0,"y":0,"z":0}}],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+         //--FENDER--
+         {"selfCollision":true},
+         {"collision":true},
+         {"group":["pickup_fender_R", "pickup_fender_R_flared"]},
+         {"nodeWeight":1.88},
+         ["fe1r", -0.87, -0.86, 0.39],
+         ["fe2r", -0.88, -0.97, 0.39],
+         ["fe3r", -0.97, -0.88, 0.83],
+         ["fe4r", -1.01, -1.41, 0.91],
+         ["fe5r", -0.98, -1.86, 0.73],
+         {"group":""},
+    ],
+},
+"pickup_fenderflare_FL_alt": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front Left Fender Flare (Black)",
+        "value":80,
+    },
+    "slotType" : "pickup_fenderflare_FL",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_fenderflare_heavy_FL_alt", ["pickup_fender_L"], [],{"pos":{"x":0,"y":0,"z":0}}],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+         //--FENDER--
+         {"selfCollision":true},
+         {"collision":true},
+         {"group":["pickup_fender_L", "pickup_fender_L_flared"]},
+         {"nodeWeight":1.88},
+         ["fe1l", 0.87, -0.86, 0.39],
+         ["fe2l", 0.88, -0.97, 0.39],
+         ["fe3l", 0.97, -0.88, 0.83],
+         ["fe4l", 1.01, -1.41, 0.91],
+         ["fe5l", 0.98, -1.86, 0.73],
+         {"group":""},
+    ],
+},
+"pickup_fenderflare_FR_offroad": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Off-Road Front Right Fender Flare (Black)",
+        "value":180,
+    },
+    "slotType" : "pickup_fenderflare_FR_offroad",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_fenderflare_FR", ["pickup_fender_R"], [],{"pos":{"x":0,"y":0,"z":0}}],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+         //--FENDER--
+         {"selfCollision":true},
+         {"collision":true},
+         {"group":"pickup_fender_R"},
+         {"nodeWeight":1.88},
+         ["fe4r", -1.02, -1.15, 0.92],
+         ["fe5r", -1.02, -1.79, 0.92],
+         {"group":""},
+    ],
+},
+"pickup_fenderflare_FL_offroad": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Off-Road Front Left Fender Flare (Black)",
+        "value":180,
+    },
+    "slotType" : "pickup_fenderflare_FL_offroad",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_fenderflare_FL", ["pickup_fender_L"], [],{"pos":{"x":0,"y":0,"z":0}}],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+         //--FENDER--
+         {"selfCollision":true},
+         {"collision":true},
+         {"group":"pickup_fender_L"},
+         {"nodeWeight":1.88},
+         ["fe4l", 1.02, -1.15, 0.92],
+         ["fe5l", 1.02, -1.79, 0.92],
+         {"group":""},
+    ],
+},
+"pickup_fenderflare_FR_offroad_alt": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Off-Road Front Right Fender Flare (Body Colored)",
+        "value":240,
+    },
+    "slotType" : "pickup_fenderflare_FR_offroad",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_fenderflare_FR_alt", ["pickup_fender_R"], [],{"pos":{"x":0,"y":0,"z":0}}],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+         //--FENDER--
+         {"selfCollision":true},
+         {"collision":true},
+         {"group":"pickup_fender_R"},
+         {"nodeWeight":1.88},
+         ["fe4r", -1.02, -1.15, 0.92],
+         ["fe5r", -1.02, -1.79, 0.92],
+         {"group":""},
+    ],
+},
+"pickup_fenderflare_FL_offroad_alt": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Off-Road Front Left Fender Flare (Body Colored)",
+        "value":240,
+    },
+    "slotType" : "pickup_fenderflare_FL_offroad",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_fenderflare_FL_alt", ["pickup_fender_L"], [],{"pos":{"x":0,"y":0,"z":0}}],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+         //--FENDER--
+         {"selfCollision":true},
+         {"collision":true},
+         {"group":"pickup_fender_L"},
+         {"nodeWeight":1.88},
+         ["fe4l", 1.02, -1.15, 0.92],
+         ["fe5l", 1.02, -1.79, 0.92],
+         {"group":""},
+    ],
+},
+}

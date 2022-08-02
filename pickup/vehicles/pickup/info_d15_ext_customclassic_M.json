@@ -1,0 +1,47 @@
+{
+  "0-100 km/h":9.9,
+  "0-100 mph":29.5,
+  "0-60 mph":9.3,
+  "100-0 km/h":41.9,
+  "60-0 mph":129,
+  "60-100 mph":20.2,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.6,
+      -1.41,
+      -0.2829
+    ],
+    [
+      1.7,
+      4.153,
+      1.41
+    ]
+  ],
+  "Braking G":0.938,
+  "Config Type":"Factory",
+  "Configuration":"D15 Custom Classic (M)",
+  "Description":"The Custom Classic features sport suspension and exhaust, and a retro-style cosmetic package reminiscent of earlier generations of D-Series trucks",
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":27,
+  "Performance Class":"4",
+  "Population":1400,
+  "Power":223,
+  "PowerPeakRPM":"4450 - 5150",
+  "Propulsion":"ICE",
+  "Top Speed":50.6819225,
+  "Torque":410,
+  "TorquePeakRPM":"2550 - 3400",
+  "Transmission":"Manual",
+  "Value":10000,
+  "Weight":2180,
+  "Weight/Power":9.77578475,
+  "Years":{
+    "max":1997,
+    "min":1992
+  },
+  "defaultPaintName1":"Autumn Yellow",
+  "defaultPaintName2":"Butterscotch"
+}

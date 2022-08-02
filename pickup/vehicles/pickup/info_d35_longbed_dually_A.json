@@ -1,0 +1,48 @@
+{
+  "0-100 km/h":8.1,
+  "0-100 mph":22,
+  "0-200 km/h":74.9,
+  "0-60 mph":7.6,
+  "100-0 km/h":55.7,
+  "100-200 km/h":66.8,
+  "60-0 mph":171.2,
+  "60-100 mph":14.4,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.72,
+      -1.42,
+      -0.4103
+    ],
+    [
+      1.82,
+      4.095,
+      1.41
+    ]
+  ],
+  "Braking G":0.706,
+  "Config Type":"Factory",
+  "Configuration":"D35 Fleet V8 Dually (A)",
+  "Description":"Barebones heavy duty work truck popular with construction, utility and logging companies. Featuring a heavy duty frame, dually rear axle and extra-stiff springs for improved carrying and towing ability",
+  "Drivetrain":"Other",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":39,
+  "Performance Class":"3",
+  "Population":2500,
+  "Power":298,
+  "PowerPeakRPM":4400,
+  "Propulsion":"ICE",
+  "Top Speed":55.9689111,
+  "Torque":515,
+  "TorquePeakRPM":"2350 - 3950",
+  "Transmission":"Automatic",
+  "Value":15050,
+  "Weight":2480,
+  "Weight/Power":8.32214765,
+  "Years":{
+    "max":2003,
+    "min":1998
+  },
+  "defaultPaintName1":"Pearl White"
+}

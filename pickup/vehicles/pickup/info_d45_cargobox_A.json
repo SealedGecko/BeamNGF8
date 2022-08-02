@@ -1,0 +1,44 @@
+{
+  "0-100 km/h":13.5,
+  "0-60 mph":12.6,
+  "100-0 km/h":60.1,
+  "60-0 mph":185.9,
+  "Body Style":"Box Truck",
+  "BoundingBox":[
+    [
+      -0.843,
+      -1.41,
+      -0.3733
+    ],
+    [
+      1.943,
+      5.91,
+      2.65
+    ]
+  ],
+  "Braking G":0.654,
+  "Config Type":"Service",
+  "Configuration":"D45 Cargo Box Upfit (A)",
+  "Description":"Heavy duty variant equipped with a cargo box upfit",
+  "Drivetrain":"Other",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":26,
+  "Performance Class":"2",
+  "Population":9000,
+  "Power":235,
+  "PowerPeakRPM":"4050 - 4800",
+  "Propulsion":"ICE",
+  "Top Speed":41.8068143,
+  "Torque":445,
+  "TorquePeakRPM":"1800 - 3550",
+  "Transmission":"Automatic",
+  "Value":22000,
+  "Weight":3420,
+  "Weight/Power":14.5531915,
+  "Years":{
+    "max":1991,
+    "min":1986
+  },
+  "defaultPaintName1":"Pearl White"
+}

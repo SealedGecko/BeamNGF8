@@ -1,0 +1,52 @@
+{
+"pickup_bumperstep_R": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rear Bumper Step",
+        "value":100,
+    },
+    "slotType" : "pickup_bumperstep_R",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_bumperstep_R", ["pickup_bumper_R"],[]{"pos":{"x":0,"y":0,"z":0}}],
+    ],
+},
+"pickup_bumperstep_R_heavy": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rear Bumper Step",
+        "value":100,
+    },
+    "slotType" : "pickup_bumperstep_R_heavy",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_bumperstep_R_heavy", ["pickup_bumper_R"],[]{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_bumperstep_R_heavy_lower", ["pickup_bumper_R"],[]{"pos":{"x":0,"y":0,"z":0}}],
+    ],
+},
+"pickup_bumperstep_R_prefacelift": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rear Bumper Step",
+        "value":100,
+    },
+    "slotType" : "pickup_bumperstep_R_prefacelift",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_bumperstep_R_prefacelift", ["pickup_bumper_R"],[]{"pos":{"x":0,"y":0,"z":0}}],
+    ],
+},
+"pickup_bumperstep_R_prefacelift_heavy": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rear Bumper Step",
+        "value":100,
+    },
+    "slotType" : "pickup_bumperstep_R_prefacelift_heavy",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_bumperstep_R_prefacelift_heavy", ["pickup_bumper_R"],[]{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_bumperstep_R_prefacelift_heavy_lower", ["pickup_bumper_R"],[]{"pos":{"x":0,"y":0,"z":0}}],
+    ],
+},
+}

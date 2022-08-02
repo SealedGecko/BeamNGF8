@@ -1,0 +1,48 @@
+{
+  "0-100 km/h":14.1,
+  "0-120 mph":15.9,
+  "0-60 mph":13.2,
+  "100-0 km/h":41.5,
+  "60-0 mph":124.8,
+  "60-120 mph":11.5,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.693,
+      -1.46,
+      -0.4233
+    ],
+    [
+      1.793,
+      3.395,
+      2.5
+    ]
+  ],
+  "Braking G":0.948,
+  "Config Type":"Custom",
+  "Configuration":"L-TRV Marauder (M)",
+  "Description":"A popular project base for offroad enthusiasts, this surplus military vehicle features heavy duty suspension and a powerful diesel V8",
+  "Drivetrain":"4WD",
+  "Fuel Type":"Diesel",
+  "Induction Type":"Turbo",
+  "Off-Road Score":58,
+  "Performance Class":"6",
+  "Population":600,
+  "Power":181,
+  "PowerPeakRPM":"2950 - 3500",
+  "Propulsion":"ICE",
+  "Top Speed":42.8474883,
+  "Torque":515,
+  "TorquePeakRPM":"1400 - 2200",
+  "Transmission":"Manual",
+  "Value":23500,
+  "Weight":2500,
+  "Weight/Power":13.8121547,
+  "Years":{
+    "max":1997,
+    "min":1992
+  },
+  "defaultPaintName1":"Matte Dune",
+  "defaultPaintName2":"Matte Black",
+  "defaultPaintName3":"Matte Dune"
+}

@@ -1,0 +1,500 @@
+{
+"pickup_signal_FL": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front Left Signal",
+        "value":70,
+    },
+    "slotType" : "pickup_signal_FL",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_signalframe_FL", ["pickup_fascia"]],
+
+         {"deformGroup":"headlightglass_L_break", "deformMaterialBase":"gavril_lights", "deformMaterialDamaged":"gavril_lights_dmg"},
+         ["pickup_signal_FL", ["pickup_fascia"],[]],
+         {"deformGroup":"headlightglass_L_break", "deformMaterialBase":"pickup_glass", "deformMaterialDamaged":"pickup_glass_dmg"},
+         ["pickup_signalglass_FL", ["pickup_fascia"],[]{"deformSound":"event:>Destruction>Vehicle>Glass>glassbreaksound1", "deformVolume":0.5}],
+         {"deformGroup":""},
+    ],
+    "props": [
+        ["func"      , "mesh"              , "idRef:", "idX:", "idY:"            , "baseRotation"        , "rotation"                 , "translation"        , "min", "max", "offset", "multiplier"],
+        {
+            "lightAttenuation":{"x":0, "y":1, "z":1},
+            "cookieName":"art/special/BNG_light_cookie_headlight.dds"
+            "texSize":512,
+            "shadowSoftness":0.5,
+        },
+        //turn signals
+        {
+            "lightInnerAngle":0,
+            "lightOuterAngle":120,
+            "lightRange":8,
+            "lightColor":{"r":255, "g":205, "b":0, "a":255},
+            "lightCastShadows":false,
+            "flareName":"vehicleBrakeLightFlare",
+        },
+        ["lowhighbeam" ,         "SPOTLIGHT"        , "fa2ll", "fa2l", "fa1ll", {"x":0, "y":0, "z":30} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.0, "y":0.5, "z":0.0},"flareScale":0.002,"lightBrightness":0.01,"deformGroup":"headlightglass_L_break"}],
+        ["parking" ,         "SPOTLIGHT"        , "fa2ll", "fa2l", "fa1ll", {"x":0, "y":0, "z":30} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.0, "y":0.5, "z":0.0},"flareScale":0.002,"lightBrightness":0.01,"deformGroup":"headlightglass_L_break"}],
+        ["signal_L" ,         "SPOTLIGHT"        , "fa2ll", "fa2l", "fa1ll", {"x":0, "y":0, "z":30} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.0, "y":0.5, "z":0.0},"flareScale":0.02,"lightBrightness":0.03,"deformGroup":"headlightglass_L_break"}],
+        ["FL" ,         "SPOTLIGHT"        , "fa2ll", "fa2l", "fa1ll", {"x":0, "y":0, "z":30} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.0, "y":0.5, "z":0.0},"flareScale":0.013,"lightBrightness":0.01,"deformGroup":"headlightglass_L_break"}],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"nodeMaterial":"|NM_PLASTIC"},
+         {"frictionCoef":0.5},
+         //--FRONT FASCIA--
+         {"collision":true},
+         {"selfCollision":true},
+         {"group":"pickup_fascia"},
+         {"nodeWeight":2.0},
+         ["fa1ll", 0.89, -2.08, 1.09],
+         ["fa2ll", 0.9, -2.01, 0.82],
+         {"group":""},
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          //--FRONT FASCIA--
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"beamSpring":129869.6,"beamDamp":73.32},
+          {"beamDeform":4175,"beamStrength":"FLT_MAX"},
+          //headlight deform
+          {"deformLimitExpansion":""},
+          {"deformGroup":"headlightglass_R_break","deformationTriggerRatio":0.02},
+		  {"optional":true}
+          ["fa2rr", "fa1r"],
+          ["fa2r", "fa1rr"],
+		  {"optional":false}
+          {"deformGroup":""},
+
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"deformLimitExpansion":1.2},
+    ],
+},
+"pickup_signal_FR": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front Right Signal",
+        "value":70,
+    },
+    "slotType" : "pickup_signal_FR",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_signalframe_FR", ["pickup_fascia"]],
+
+         {"deformGroup":"headlightglass_R_break", "deformMaterialBase":"gavril_lights", "deformMaterialDamaged":"gavril_lights_dmg"},
+         ["pickup_signal_FR", ["pickup_fascia"],[]],
+         {"deformGroup":"headlightglass_R_break", "deformMaterialBase":"pickup_glass", "deformMaterialDamaged":"pickup_glass_dmg"},
+         ["pickup_signalglass_FR", ["pickup_fascia"],[]{"deformSound":"event:>Destruction>Vehicle>Glass>glassbreaksound1", "deformVolume":0.5}],
+         {"deformGroup":""},
+    ],
+    "props": [
+        ["func"      , "mesh"              , "idRef:", "idX:", "idY:"            , "baseRotation"        , "rotation"                 , "translation"        , "min", "max", "offset", "multiplier"],
+        {
+            "lightAttenuation":{"x":0, "y":1, "z":1},
+            "cookieName":"art/special/BNG_light_cookie_headlight.dds"
+            "texSize":512,
+            "shadowSoftness":0.5,
+        },
+        //turn signals
+        {
+            "lightInnerAngle":0,
+            "lightOuterAngle":120,
+            "lightRange":8,
+            "lightColor":{"r":255, "g":205, "b":0, "a":255},
+            "lightCastShadows":false,
+            "flareName":"vehicleBrakeLightFlare",
+        },
+        ["lowhighbeam" ,         "SPOTLIGHT"        , "fa2rr", "fa2r", "fa1rr", {"x":180, "y":0, "z":-30} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.0, "y":0.5, "z":-0.0},"flareScale":0.002,"lightBrightness":0.01,"deformGroup":"headlightglass_R_break"}],
+        ["parking" ,         "SPOTLIGHT"        , "fa2rr", "fa2r", "fa1rr", {"x":180, "y":0, "z":-30} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.0, "y":0.5, "z":-0.0},"flareScale":0.002,"lightBrightness":0.01,"deformGroup":"headlightglass_R_break"}],
+        ["signal_R" ,         "SPOTLIGHT"        , "fa2rr", "fa2r", "fa1rr", {"x":180, "y":0, "z":-30} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.0, "y":0.5, "z":-0.0},"flareScale":0.02,"lightBrightness":0.03,"deformGroup":"headlightglass_R_break"}],
+        ["FR" ,         "SPOTLIGHT"        , "fa2rr", "fa2r", "fa1rr", {"x":180, "y":0, "z":-30} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.0, "y":0.5, "z":-0.0},"flareScale":0.013,"lightBrightness":0.01,"deformGroup":"headlightglass_R_break"}],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"nodeMaterial":"|NM_PLASTIC"},
+         {"frictionCoef":0.5},
+         //--FRONT FASCIA--
+         {"collision":true},
+         {"selfCollision":true},
+         {"group":"pickup_fascia"},
+         {"nodeWeight":2.0},
+         ["fa1rr", -0.89, -2.08, 1.09],
+         ["fa2rr", -0.9, -2.01, 0.82],
+         {"group":""},
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          //--FRONT FASCIA--
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"beamSpring":129869.6,"beamDamp":73.32},
+          {"beamDeform":4175,"beamStrength":"FLT_MAX"},
+          //headlight deform
+          {"deformLimitExpansion":""},
+          {"deformGroup":"headlightglass_L_break","deformationTriggerRatio":0.02},
+		  {"optional":true}
+          ["fa2ll", "fa1l"],
+          ["fa2l", "fa1ll"],
+		  {"optional":false}
+          {"deformGroup":""},
+
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"deformLimitExpansion":1.2},
+    ],
+},
+"pickup_signal_FR_prefacelift": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Early Front Right Signal",
+        "value":70,
+    },
+    "slotType" : "pickup_signal_FR_prefacelift",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_signalframe_FR_prefacelift", ["pickup_fascia"]],
+
+         ////lights
+         {"deformGroup":"headlightglass_R_break", "deformMaterialBase":"gavril_lights", "deformMaterialDamaged":"gavril_lights_dmg"},
+         ["pickup_signal_FR_prefacelift", ["pickup_fascia"],[]{"deformSound":"event:>Destruction>Vehicle>Glass>glassbreaksound3", "deformVolume":0.6}],
+         {"deformGroup":""},
+    ],
+    "props": [
+        ["func"      , "mesh"              , "idRef:", "idX:", "idY:"            , "baseRotation"        , "rotation"                 , "translation"        , "min", "max", "offset", "multiplier"],
+        {
+            "lightInnerAngle":0,
+            "lightOuterAngle":120,
+            "lightRange":8,
+            "lightColor":{"r":255, "g":205, "b":0, "a":255},
+            "lightCastShadows":false,
+            "flareName":"vehicleBrakeLightFlare",
+        },
+        ["lowhighbeam"    , "SPOTLIGHT"        , "fa2rr", "fa2r", "fa1rr", {"x":180, "y":0, "z":10} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.25, "y":0.25, "z":-0.0},"flareScale":0.002,"lightBrightness":0.01,"deformGroup":"headlightglass_R_break"}],
+        ["parking"    , "SPOTLIGHT"        , "fa2rr", "fa2r", "fa1rr", {"x":180, "y":0, "z":10} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.25, "y":0.25, "z":-0.0},"flareScale":0.002,"lightBrightness":0.01,"deformGroup":"headlightglass_R_break"}],
+        ["signal_R"    , "SPOTLIGHT"        , "fa2rr", "fa2r", "fa1rr", {"x":180, "y":0, "z":10} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.25, "y":0.25, "z":-0.0},"flareScale":0.02,"lightBrightness":0.03,"deformGroup":"headlightglass_R_break"}],
+        ["FR"    , "SPOTLIGHT"        , "fa2rr", "fa2r", "fa1rr", {"x":180, "y":0, "z":10} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.25, "y":0.25, "z":-0.0},"flareScale":0.013,"lightBrightness":0.01,"deformGroup":"headlightglass_R_break"}],
+		],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"nodeMateriar":"|NM_PLASTIC"},
+         {"frictionCoef":0.5},
+         //--FRONT FASCIA--
+         {"collision":true},
+         {"selfCollision":true},
+         {"group":"pickup_fascia"},
+         {"nodeWeight":2.0},
+         ["fa2rr", -0.9, -2.01, 0.82],
+         ["fa2r", -0.41, -2.09, 0.8],
+         {"group":""},
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          //--FRONT FASCIA--
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"beamSpring":129869.6,"beamDamp":73.32},
+          {"beamDeform":4175,"beamStrength":"FLT_MAX"},
+          //headlight deform
+          {"deformLimitExpansion":""},
+          {"deformGroup":"headlightglass_R_break","deformationTriggerRatio":0.02},
+		  {"optional":true}
+          ["fa2rr", "fa1r"],
+          ["fa2r", "fa1rr"],
+		  {"optional":false}
+          {"deformGroup":""},
+
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"deformLimitExpansion":1.2},
+    ],
+},
+"pickup_signal_FL_prefacelift": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Early Front Left Signal",
+        "value":70,
+    },
+    "slotType" : "pickup_signal_FL_prefacelift",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_signalframe_FL_prefacelift", ["pickup_fascia"]],
+
+         ////lights
+         {"deformGroup":"headlightglass_L_break", "deformMaterialBase":"gavril_lights", "deformMaterialDamaged":"gavril_lights_dmg"},
+         ["pickup_signal_FL_prefacelift", ["pickup_fascia"],[]{"deformSound":"event:>Destruction>Vehicle>Glass>glassbreaksound3", "deformVolume":0.6}],
+         {"deformGroup":""},
+    ],
+    "props": [
+        ["func"      , "mesh"              , "idRef:", "idX:", "idY:"            , "baseRotation"        , "rotation"                 , "translation"        , "min", "max", "offset", "multiplier"],
+        {
+            "lightInnerAngle":0,
+            "lightOuterAngle":120,
+            "lightRange":8,
+            "lightColor":{"r":255, "g":205, "b":0, "a":255},
+            "lightCastShadows":false,
+            "flareName":"vehicleBrakeLightFlare",
+        },
+        ["lowhighbeam"    , "SPOTLIGHT"        , "fa2ll", "fa2l", "fa1ll", {"x":0, "y":0, "z":-10} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.25, "y":0.25, "z":0.0},"flareScale":0.002,"lightBrightness":0.01,"deformGroup":"headlightglass_L_break"}],
+        ["parking"    , "SPOTLIGHT"        , "fa2ll", "fa2l", "fa1ll", {"x":0, "y":0, "z":-10} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.25, "y":0.25, "z":0.0},"flareScale":0.002,"lightBrightness":0.01,"deformGroup":"headlightglass_L_break"}],
+        ["signal_L"    , "SPOTLIGHT"        , "fa2ll", "fa2l", "fa1ll", {"x":0, "y":0, "z":-10} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.25, "y":0.25, "z":0.0},"flareScale":0.02,"lightBrightness":0.03,"deformGroup":"headlightglass_L_break"}],
+        ["signal_FL"    , "SPOTLIGHT"        , "fa2ll", "fa2l", "fa1ll", {"x":0, "y":0, "z":-10} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.25, "y":0.25, "z":0.0},"flareScale":0.013,"lightBrightness":0.01,"deformGroup":"headlightglass_L_break"}],
+		],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"nodeMateriar":"|NM_PLASTIC"},
+         {"frictionCoef":0.5},
+         //--FRONT FASCIA--
+         {"collision":true},
+         {"selfCollision":true},
+         {"group":"pickup_fascia"},
+         {"nodeWeight":2.0},
+         ["fa2ll", 0.9, -2.01, 0.82],
+         ["fa2l", 0.41, -2.09, 0.8],
+         {"group":""},
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          //--FRONT FASCIA--
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"beamSpring":129869.6,"beamDamp":73.32},
+          {"beamDeform":4175,"beamStrength":"FLT_MAX"},
+          //headlight deform
+          {"deformLimitExpansion":""},
+          {"deformGroup":"headlightglass_L_break","deformationTriggerRatio":0.02},
+		  {"optional":true}
+          ["fa2ll", "fa1l"],
+          ["fa2l", "fa1ll"],
+		  {"optional":false}
+          {"deformGroup":""},
+
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"deformLimitExpansion":1.2},
+    ],
+},
+"pickup_signal_FR_prefacelift_alt": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Intermediate Front Right Signal",
+        "value":90,
+    },
+    "slotType" : "pickup_signal_FR_prefacelift",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_signalframe_FR_prefacelift_alt", ["pickup_fascia"]],
+
+         ////lights
+         {"deformGroup":"headlightglass_R_break", "deformMaterialBase":"gavril_lights", "deformMaterialDamaged":"gavril_lights_dmg"},
+         ["pickup_signal_FR_prefacelift_alt", ["pickup_fascia"],[]{"deformSound":"event:>Destruction>Vehicle>Glass>glassbreaksound3", "deformVolume":0.6}],
+         {"deformGroup":""},
+    ],
+    "props": [
+        ["func"      , "mesh"              , "idRef:", "idX:", "idY:"            , "baseRotation"        , "rotation"                 , "translation"        , "min", "max", "offset", "multiplier"],
+        {
+            "lightInnerAngle":0,
+            "lightOuterAngle":120,
+            "lightRange":8,
+            "lightColor":{"r":255, "g":205, "b":0, "a":255},
+            "lightCastShadows":false,
+            "flareName":"vehicleBrakeLightFlare",
+        },
+        ["lowhighbeam"    , "SPOTLIGHT"        , "fa2rr", "fa2r", "fa1rr", {"x":180, "y":0, "z":10} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.25, "y":0.25, "z":-0.0},"flareScale":0.002,"lightBrightness":0.01,"deformGroup":"headlightglass_R_break"}],
+        ["parking"    , "SPOTLIGHT"        , "fa2rr", "fa2r", "fa1rr", {"x":180, "y":0, "z":10} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.25, "y":0.25, "z":-0.0},"flareScale":0.002,"lightBrightness":0.01,"deformGroup":"headlightglass_R_break"}],
+        ["signal_R"    , "SPOTLIGHT"        , "fa2rr", "fa2r", "fa1rr", {"x":180, "y":0, "z":10} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.25, "y":0.25, "z":-0.0},"flareScale":0.02,"lightBrightness":0.03,"deformGroup":"headlightglass_R_break"}],
+        ["FR"    , "SPOTLIGHT"        , "fa2rr", "fa2r", "fa1rr", {"x":180, "y":0, "z":10} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.25, "y":0.25, "z":-0.0},"flareScale":0.013,"lightBrightness":0.01,"deformGroup":"headlightglass_R_break"}],
+		],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"nodeMateriar":"|NM_PLASTIC"},
+         {"frictionCoef":0.5},
+         //--FRONT FASCIA--
+         {"collision":true},
+         {"selfCollision":true},
+         {"group":"pickup_fascia"},
+         {"nodeWeight":2.0},
+         ["fa2rr", -0.9, -2.01, 0.82],
+         ["fa2r", -0.41, -2.09, 0.8],
+         {"group":""},
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          //--FRONT FASCIA--
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"beamSpring":129869.6,"beamDamp":73.32},
+          {"beamDeform":4175,"beamStrength":"FLT_MAX"},
+          //headlight deform
+          {"deformLimitExpansion":""},
+          {"deformGroup":"headlightglass_R_break","deformationTriggerRatio":0.02},
+		  {"optional":true}
+          ["fa2rr", "fa1r"],
+          ["fa2r", "fa1rr"],
+		  {"optional":false}
+          {"deformGroup":""},
+
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"deformLimitExpansion":1.2},
+    ],
+},
+"pickup_signal_FL_prefacelift_alt": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Intermediate Front Left Signal",
+        "value":90,
+    },
+    "slotType" : "pickup_signal_FL_prefacelift",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_signalframe_FL_prefacelift_alt", ["pickup_fascia"]],
+
+         ////lights
+         {"deformGroup":"headlightglass_L_break", "deformMaterialBase":"gavril_lights", "deformMaterialDamaged":"gavril_lights_dmg"},
+         ["pickup_signal_FL_prefacelift_alt", ["pickup_fascia"],[]{"deformSound":"event:>Destruction>Vehicle>Glass>glassbreaksound3", "deformVolume":0.6}],
+         {"deformGroup":""},
+    ],
+    "props": [
+        ["func"      , "mesh"              , "idRef:", "idX:", "idY:"            , "baseRotation"        , "rotation"                 , "translation"        , "min", "max", "offset", "multiplier"],
+        {
+            "lightInnerAngle":0,
+            "lightOuterAngle":120,
+            "lightRange":8,
+            "lightColor":{"r":255, "g":205, "b":0, "a":255},
+            "lightCastShadows":false,
+            "flareName":"vehicleBrakeLightFlare",
+        },
+        ["lowhighbeam"    , "SPOTLIGHT"        , "fa2ll", "fa2l", "fa1ll", {"x":0, "y":0, "z":-10} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.25, "y":0.25, "z":0.0},"flareScale":0.002,"lightBrightness":0.01,"deformGroup":"headlightglass_L_break"}],
+        ["parking"    , "SPOTLIGHT"        , "fa2ll", "fa2l", "fa1ll", {"x":0, "y":0, "z":-10} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.25, "y":0.25, "z":0.0},"flareScale":0.002,"lightBrightness":0.01,"deformGroup":"headlightglass_L_break"}],
+        ["signal_L"    , "SPOTLIGHT"        , "fa2ll", "fa2l", "fa1ll", {"x":0, "y":0, "z":-10} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.25, "y":0.25, "z":0.0},"flareScale":0.02,"lightBrightness":0.03,"deformGroup":"headlightglass_L_break"}],
+        ["FL"    , "SPOTLIGHT"        , "fa2ll", "fa2l", "fa1ll", {"x":0, "y":0, "z":-10} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.25, "y":0.25, "z":0.0},"flareScale":0.013,"lightBrightness":0.01,"deformGroup":"headlightglass_L_break"}],
+		],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"nodeMateriar":"|NM_PLASTIC"},
+         {"frictionCoef":0.5},
+         //--FRONT FASCIA--
+         {"collision":true},
+         {"selfCollision":true},
+         {"group":"pickup_fascia"},
+         {"nodeWeight":2.0},
+         ["fa2ll", 0.9, -2.01, 0.82],
+         ["fa2l", 0.41, -2.09, 0.8],
+         {"group":""},
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          //--FRONT FASCIA--
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"beamSpring":129869.6,"beamDamp":73.32},
+          {"beamDeform":4175,"beamStrength":"FLT_MAX"},
+          //headlight deform
+          {"deformLimitExpansion":""},
+          {"deformGroup":"headlightglass_L_break","deformationTriggerRatio":0.02},
+		  {"optional":true}
+          ["fa2ll", "fa1l"],
+          ["fa2l", "fa1ll"],
+		  {"optional":false}
+          {"deformGroup":""},
+
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"deformLimitExpansion":1.2},
+    ],
+},
+"pickup_fendersignal_R": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front Right Fender Signal",
+        "value":40,
+    },
+    "slotType" : "pickup_fendersignal_R",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ////lights
+         {"deformGroup":"fendersignal_R_break", "deformMaterialBase":"gavril_lights", "deformMaterialDamaged":"gavril_lights_dmg"},
+         ["pickup_fendersignal_R", ["pickup_fender_R_base"],[]{"deformSound":"event:>Destruction>Vehicle>Glass>glassbreaksound3", "deformVolume":0.6}],
+         ["pickup_fendersignal_R_flared", ["pickup_fender_R_flared"],[]{"deformSound":"event:>Destruction>Vehicle>Glass>glassbreaksound3", "deformVolume":0.6}],
+         {"deformGroup":""},
+    ],
+    "props": [
+        ["func"      , "mesh"              , "idRef:", "idX:", "idY:"            , "baseRotation"        , "rotation"                 , "translation"        , "min", "max", "offset", "multiplier"],
+        {
+            "lightInnerAngle":0,
+            "lightOuterAngle":150,
+            "lightRange":8,
+            "lightColor":{"r":255, "g":205, "b":0, "a":255},
+            "lightAttenuation":{"x":0, "y":1, "z":1},
+            "lightCastShadows":false,
+            "flareName":"vehicleBrakeLightFlare",
+            "cookieName":"art/special/BNG_light_cookie_headlight.dds"
+            "texSize":512,
+            "shadowSoftness":0.1,
+        },
+        ["lowhighbeam"    , "SPOTLIGHT"        , "fe1r", "fe2r", "fe3r", {"x":0, "y":0, "z":190} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.5, "y":0.71, "z":0.0},"flareScale":0.003,"lightBrightness":0.01,"deformGroup":"fendersignal_R_break"}],
+        ["parking"    , "SPOTLIGHT"        , "fe1r", "fe2r", "fe3r", {"x":0, "y":0, "z":190} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.5, "y":0.71, "z":0.0},"flareScale":0.002,"lightBrightness":0.01,"deformGroup":"fendersignal_R_break"}],
+        ["signal_R"    , "SPOTLIGHT"        , "fe1r", "fe2r", "fe3r", {"x":0, "y":0, "z":190} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.5, "y":0.71, "z":0.0},"flareScale":0.02,"lightBrightness":0.03,"deformGroup":"fendersignal_R_break"}],
+        ["FR"    , "SPOTLIGHT"        , "fe1r", "fe2r", "fe3r", {"x":0, "y":0, "z":190} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.5, "y":0.71, "z":0.0},"flareScale":0.013,"lightBrightness":0.001,"deformGroup":"fendersignal_R_break"}],
+		],
+    "beams": [
+          ["id1:", "id2:"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"beamSpring":129869.6,"beamDamp":73.32},
+          {"beamDeform":4175,"beamStrength":"FLT_MAX"},
+          //headlight deform
+          {"deformLimitExpansion":""},
+          {"deformGroup":"fendersignal_R_break","deformationTriggerRatio":0.02},
+		  {"optional":true}
+          ["fe2r", "fe3r"],
+          ["fe1r", "fe4r"],
+		  {"optional":false}
+          {"deformGroup":""},
+
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"deformLimitExpansion":1.2},
+    ],
+},
+"pickup_fendersignal_L": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front Left Fender Signal",
+        "value":40,
+    },
+    "slotType" : "pickup_fendersignal_L",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ////lights
+         {"deformGroup":"fendersignal_L_break", "deformMaterialBase":"gavril_lights", "deformMaterialDamaged":"gavril_lights_dmg"},
+         ["pickup_fendersignal_L", ["pickup_fender_L_base"],[]{"deformSound":"event:>Destruction>Vehicle>Glass>glassbreaksound3", "deformVolume":0.6}],
+         ["pickup_fendersignal_L_flared", ["pickup_fender_L_flared"],[]{"deformSound":"event:>Destruction>Vehicle>Glass>glassbreaksound3", "deformVolume":0.6}],
+         {"deformGroup":""},
+    ],
+    "props": [
+        ["func"      , "mesh"              , "idRef:", "idX:", "idY:"            , "baseRotation"        , "rotation"                 , "translation"        , "min", "max", "offset", "multiplier"],
+        {
+            "lightInnerAngle":0,
+            "lightOuterAngle":150,
+            "lightRange":8,
+            "lightColor":{"r":255, "g":205, "b":0, "a":255},
+            "lightAttenuation":{"x":0, "y":1, "z":1},
+            "lightCastShadows":false,
+            "flareName":"vehicleBrakeLightFlare",
+            "cookieName":"art/special/BNG_light_cookie_headlight.dds"
+            "texSize":512,
+            "shadowSoftness":0.1,
+        },
+        ["lowhighbeam"    , "SPOTLIGHT"        , "fe1l", "fe2l", "fe3l", {"x":0, "y":0, "z":-10} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.5, "y":0.71, "z":0.0},"flareScale":0.003,"lightBrightness":0.01,"deformGroup":"fendersignal_L_break"}],
+        ["parking"    , "SPOTLIGHT"        , "fe1l", "fe2l", "fe3l", {"x":0, "y":0, "z":-10} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.5, "y":0.71, "z":0.0},"flareScale":0.002,"lightBrightness":0.01,"deformGroup":"fendersignal_L_break"}],
+        ["signal_L"    , "SPOTLIGHT"        , "fe1l", "fe2l", "fe3l", {"x":0, "y":0, "z":-10} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.5, "y":0.71, "z":0.0},"flareScale":0.02,"lightBrightness":0.03,"deformGroup":"fendersignal_L_break"}],
+        ["signal_FL"    , "SPOTLIGHT"        , "fe1l", "fe2l", "fe3l", {"x":0, "y":0, "z":-10} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.5, "y":0.71, "z":0.0},"flareScale":0.013,"lightBrightness":0.01,"deformGroup":"fendersignal_L_break"}],
+		],
+    "beams": [
+          ["id1:", "id2:"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"beamSpring":129869.6,"beamDamp":73.32},
+          {"beamDeform":4175,"beamStrength":"FLT_MAX"},
+          //headlight deform
+          {"deformLimitExpansion":""},
+          {"deformGroup":"fendersignal_L_break","deformationTriggerRatio":0.02},
+		  {"optional":true}
+          ["fe2l", "fe3l"],
+          ["fe1l", "fe4l"],
+		  {"optional":false}
+          {"deformGroup":""},
+
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"deformLimitExpansion":1.2},
+    ],
+},
+}

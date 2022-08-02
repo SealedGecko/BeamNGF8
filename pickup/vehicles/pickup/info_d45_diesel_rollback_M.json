@@ -1,0 +1,45 @@
+{
+  "0-100 km/h":19.6,
+  "0-60 mph":18.2,
+  "100-0 km/h":65.9,
+  "60-0 mph":202,
+  "Body Style":"Flatbed",
+  "BoundingBox":[
+    [
+      -0.843,
+      -1.54,
+      -0.3733
+    ],
+    [
+      1.943,
+      6.562,
+      1.66111
+    ]
+  ],
+  "Braking G":0.597,
+  "Config Type":"Service",
+  "Configuration":"D45 Diesel Rollback Upfit (M)",
+  "Description":"Heavy duty variant equipped with a rollback upfit",
+  "Drivetrain":"Other",
+  "Fuel Type":"Diesel",
+  "Induction Type":"Turbo",
+  "Off-Road Score":33,
+  "Performance Class":"2",
+  "Population":5000,
+  "Power":182,
+  "PowerPeakRPM":"3000 - 3500",
+  "Propulsion":"ICE",
+  "Top Speed":41.0340576,
+  "Torque":515,
+  "TorquePeakRPM":"1350 - 2200",
+  "Transmission":"Manual",
+  "Value":21000,
+  "Weight":3900,
+  "Weight/Power":21.4285714,
+  "Years":{
+    "max":1997,
+    "min":1992
+  },
+  "defaultPaintName1":"Flame Orange",
+  "defaultPaintName2":"Gray"
+}

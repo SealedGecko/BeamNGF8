@@ -1,0 +1,76 @@
+{
+"pickup_lettering_facelift": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Lettering",
+        "value":60,
+    },
+    "slotType" : "pickup_lettering_facelift",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_lettering_gavril_facelift", ["pickup_tailgate_standard"], [],{"pos":{"x":0,"y":0,"z":0}}],
+
+         ["pickup_lettering_gavril_facelift", ["pickup_tailgate_stepside"], [],{"pos":{"x":-0.186,"y":0.002,"z":0}}],
+    ],
+},
+"pickup_lettering_4WD_facelift": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"4WD Lettering",
+        "value":110,
+    },
+    "slotType" : "pickup_lettering_facelift",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_lettering_gavril_facelift", ["pickup_tailgate_standard"], [],{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_lettering_4wd_facelift", ["pickup_tailgate_standard"], [],{"pos":{"x":0,"y":0,"z":0}}],
+
+         ["pickup_lettering_gavril_facelift", ["pickup_tailgate_stepside"], [],{"pos":{"x":-0.186,"y":0.002,"z":0}}],
+         ["pickup_lettering_4wd_facelift", ["pickup_tailgate_stepside"], [],{"pos":{"x":0.1860,"y":0.002,"z":0}}],
+    ],
+},
+"pickup_lettering_v8_sport_facelift": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Sport Lettering",
+        "value":200,
+    },
+    "slotType" : "pickup_lettering_facelift",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_lettering_gavril_facelift", ["pickup_tailgate_standard"], [],{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_lettering_sport_facelift", ["pickup_tailgate_standard"], [],{"pos":{"x":0,"y":0,"z":0}}],
+
+         ["pickup_lettering_gavril_facelift", ["pickup_tailgate_stepside"], [],{"pos":{"x":-0.186,"y":0.002,"z":0}}],
+         ["pickup_lettering_sport_facelift", ["pickup_tailgate_stepside"], [],{"pos":{"x":0.186,"y":0.002,"z":0}}],
+    ],
+},
+"pickup_lettering_roadsport_facelift": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"RoadSport Lettering",
+        "value":350,
+    },
+    "slotType" : "pickup_lettering_facelift",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_lettering_gavril_facelift", ["pickup_tailgate_standard"], [],{"pos":{"x":0,"y":0,"z":0}}],
+         ["pickup_lettering_roadsport_facelift", ["pickup_tailgate_standard"], [],{"pos":{"x":0,"y":0,"z":0}}],
+
+         ["pickup_lettering_gavril_facelift", ["pickup_tailgate_stepside"], [],{"pos":{"x":-0.186,"y":0.002,"z":0}}],
+         ["pickup_lettering_roadsport_facelift", ["pickup_tailgate_stepside"], [],{"pos":{"x":0.186,"y":0.002,"z":0}}],
+    ],
+},
+"pickup_lettering_grille_facelift": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Grille Badge",
+        "value":80,
+    },
+    "slotType" : "pickup_lettering_grille_facelift",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_lettering_grille_facelift", ["pickup_fascia"]],
+    ],
+},
+}

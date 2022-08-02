@@ -1,0 +1,49 @@
+{
+  "0-100 km/h":12,
+  "0-100 mph":52,
+  "0-120 mph":18.8,
+  "0-60 mph":11.1,
+  "100-0 km/h":51.1,
+  "60-0 mph":153.6,
+  "60-100 mph":40.9,
+  "60-120 mph":12.7,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.615,
+      -1.7,
+      -0.6526
+    ],
+    [
+      1.715,
+      3.77076,
+      1.411
+    ]
+  ],
+  "Braking G":0.769,
+  "Config Type":"Custom",
+  "Configuration":"D15 Crawler Crew Cab (A)",
+  "Description":"Spacious and capable, this bob-tailed crew-cab will haul you and your buddies up whichever mountain you please",
+  "Drivetrain":"4WD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":55,
+  "Performance Class":"3",
+  "Population":20,
+  "Power":318,
+  "PowerPeakRPM":4400,
+  "Propulsion":"ICE",
+  "Top Speed":49.9036274,
+  "Torque":555,
+  "TorquePeakRPM":"2800 - 3900",
+  "Transmission":"Automatic",
+  "Value":68000,
+  "Weight":3195,
+  "Weight/Power":10.0471698,
+  "Years":{
+    "max":1997,
+    "min":1992
+  },
+  "defaultPaintName1":"Aquamarine",
+  "defaultPaintName3":"Charcoal"
+}

@@ -1,0 +1,47 @@
+{
+  "0-100 km/h":9.4,
+  "0-100 mph":30.3,
+  "0-60 mph":8.7,
+  "100-0 km/h":50,
+  "60-0 mph":152.8,
+  "60-100 mph":21.6,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.6,
+      -1.42,
+      -0.4233
+    ],
+    [
+      1.7,
+      4.2937,
+      1.42
+    ]
+  ],
+  "Braking G":0.786,
+  "Config Type":"Factory",
+  "Configuration":"Kentarch D30 V8 4WD (A)",
+  "Description":"Kentarch's highest level offering, the sought-after D30 melds a top-range D35 with the ubiquitous D10 for a heavy duty SUV like no other",
+  "Drivetrain":"4WD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":46,
+  "Performance Class":"4",
+  "Population":700,
+  "Power":258,
+  "PowerPeakRPM":"4250 - 4800",
+  "Propulsion":"ICE",
+  "Top Speed":52.5845545,
+  "Torque":465,
+  "TorquePeakRPM":"2000 - 3850",
+  "Transmission":"Automatic",
+  "Value":19250,
+  "Weight":2715,
+  "Weight/Power":10.5232558,
+  "Years":{
+    "max":1997,
+    "min":1992
+  },
+  "defaultPaintName1":"Jet Black",
+  "defaultPaintName2":"Burgundy"
+}

@@ -1,0 +1,33 @@
+{
+"pickup_pushbumper_F_inner": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front Push Bumper",
+        "value":50,
+    },
+    "slotType" : "pickup_bumper_F",
+    "slots": [
+        ["type", "default", "description"],
+        ["pickup_pushbumper_F","pickup_pushbumper_F","Front Push Bumper", {"nodeOffset":{"x":0,"y":0,"z":"$pushbumper_height"},"coreSlot":true}],
+    ],
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_pushbumper_F_inner", ["pickup_pushbumper_F"],[],{"pos":{"x":0.0, "y":0.0, "z":"$=-case($bodylift_height == nil, 0.0, $bodylift_height)"}}],
+    ],
+    "variables": [
+        ["name", "type", "unit", "category", "default", "min", "max", "title", "description"],
+        ["$pushbumper_height", "range", "m", "Bodywork", 0.0, -0.14, 0.04, "Push Bumper Height", "Raise or lower the height of the push bumper", {"stepDis":0.02}],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         //--FRONT BUMPER--
+         {"nodeMaterial":"|NM_METAL"},
+         {"collision":true},
+         {"selfCollision":true},
+         {"nodeWeight":1.88},
+         {"frictionCoef":0.5},
+         {"group":"pickup_pushbumper_F"},
+         {"group":""},
+    ],
+},
+}

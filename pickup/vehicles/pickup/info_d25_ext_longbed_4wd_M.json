@@ -1,0 +1,47 @@
+{
+  "0-100 km/h":10.8,
+  "0-100 mph":45.9,
+  "0-60 mph":9.4,
+  "100-0 km/h":58.4,
+  "60-0 mph":180.2,
+  "60-100 mph":36.4,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.693,
+      -1.41,
+      -0.4103
+    ],
+    [
+      1.793,
+      4.643,
+      1.41
+    ]
+  ],
+  "Braking G":0.673,
+  "Config Type":"Factory",
+  "Configuration":"D25 V8 4WD Extended Cab Long Bed (M)",
+  "Description":"This D25 features the extra cabin space of the extended cab as well as 4WD for comfortable, practical light off-road driving",
+  "Drivetrain":"4WD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":39,
+  "Performance Class":"3",
+  "Population":2500,
+  "Power":197,
+  "PowerPeakRPM":"4150 - 5050",
+  "Propulsion":"ICE",
+  "Top Speed":47.2739383,
+  "Torque":390,
+  "TorquePeakRPM":"2500 - 3300",
+  "Transmission":"Manual",
+  "Value":12500,
+  "Weight":2335,
+  "Weight/Power":11.8527919,
+  "Years":{
+    "max":1990,
+    "min":1985
+  },
+  "defaultPaintName1":"Clay Red",
+  "defaultPaintName2":"Chestnut"
+}

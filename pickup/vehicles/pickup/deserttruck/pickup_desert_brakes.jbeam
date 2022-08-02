@@ -1,0 +1,130 @@
+{
+"pickup_desert_brake_IFS": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front Disc Brakes",
+        "value":250,
+    },
+    "slotType" : "pickup_desert_brake_IFS",
+    "slots": [
+        ["type", "default", "description"],
+        ["brakepad_F","brakepad_F_premium", "Front Brake Pads", {"coreSlot":true}],
+    ],
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["brake_hub_6l",             ["wheel_FR","wheelhub_FR"],     [], {"pos":{"x":-0.94, "y":-1.53, "z":0.23006}, "scale":{"x":1.0, "y":1.0,  "z":1.0},  "rot":{"x":0,    "y":0,   "z":0  }}],
+        ["brake_hub_6l",             ["wheel_FL","wheelhub_FL"],     [], {"pos":{"x" :0.94, "y":-1.53, "z":0.23006}, "scale":{"x":1.0, "y":1.0,  "z":1.0},  "rot":{"x":0,    "y":0,   "z":180}}],
+        ["brake_disc_drilled",       ["wheel_FR","wheelhub_FR"],     [], {"pos":{"x":-0.94, "y":-1.53, "z":0.23006}, "scale":{"x":1.3, "y":1.0,  "z":1.0},  "rot":{"x":0,    "y":0,   "z":0  }}],
+        ["brake_disc_drilled",       ["wheel_FL","wheelhub_FL"],     [], {"pos":{"x": 0.94, "y":-1.53, "z":0.23006}, "scale":{"x":1.3, "y":1.0,  "z":1.0},  "rot":{"x":180,  "y":0,   "z":0  }}],
+        ["brake_caliper_4pot_plain", ["hub_FR"],                     [], {"pos":{"x":-0.94, "y":-1.53, "z":0.23006}, "scale":{"x":1.3, "y":1.05, "z":1.05}, "rot":{"x":-170, "y":0,   "z":0  }}],
+        ["brake_caliper_4pot_plain", ["hub_FL"],                     [], {"pos":{"x": 0.94, "y":-1.53, "z":0.23006}, "scale":{"x":1.3, "y":1.05, "z":1.05}, "rot":{"x":170,  "y":180, "z":0  }}],
+    ],
+    "variables": [
+        ["name", "type", "unit", "category", "default", "min", "max", "title", "description"],
+        ["$brakebias", "range", "", "Brakes", 0.75, 0, 1, "Front/Rear Bias", "Percent of brake torque to the front wheels", {"minDis":0, "maxDis":100}],
+    ],
+    "pressureWheels": [
+        ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+        //brakes
+        {"brakeTorque":"$=$brakestrength*8000*$brakebias"},
+        {"brakeInputSplit":1},
+        {"brakeSplitCoef":1},
+        {"parkingTorque":0},
+        {"brakeSpring":125},
+
+        //brake thermals
+        {"enableBrakeThermals":true},
+        {"brakeDiameter":0.30},
+        {"brakeMass":8.0},
+        {"brakeType":"vented-disc"},
+        {"rotorMaterial":"steel"},
+        {"brakeVentingCoef":1},
+        //brake sounds
+        {"squealCoefNatural": 0.0, "squealCoefLowSpeed": 0.4}
+    ],
+},
+"pickup_desert_brake_SFA": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front Disc Brakes",
+        "value":250,
+    },
+    "slotType" : "pickup_desert_brake_SFA",
+    "slots": [
+        ["type", "default", "description"],
+        ["brakepad_F","brakepad_F_premium", "Front Brake Pads", {"coreSlot":true}],
+    ],
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["brake_hub_6l",             ["wheel_FR","wheelhub_FR"],     [], {"pos":{"x":-0.97, "y":-1.5806, "z":0.2306}, "scale":{"x":0.5, "y":1.0,  "z":1.0},  "rot":{"x":0,    "y":0,   "z":0  }}],
+        ["brake_hub_6l",             ["wheel_FL","wheelhub_FL"],     [], {"pos":{"x" :0.97, "y":-1.5806, "z":0.2306}, "scale":{"x":0.5, "y":1.0,  "z":1.0},  "rot":{"x":0,    "y":0,   "z":180}}],
+        ["brake_disc_drilled",       ["wheel_FR","wheelhub_FR"],     [], {"pos":{"x":-0.98, "y":-1.5806, "z":0.2306}, "scale":{"x":1.3, "y":1.0,  "z":1.0},  "rot":{"x":0,    "y":0,   "z":0  }}],
+        ["brake_disc_drilled",       ["wheel_FL","wheelhub_FL"],     [], {"pos":{"x": 0.98, "y":-1.5806, "z":0.2306}, "scale":{"x":1.3, "y":1.0,  "z":1.0},  "rot":{"x":180,  "y":0,   "z":0  }}],
+        ["brake_caliper_4pot_plain", ["pickup_desert_hub_F"],        [], {"pos":{"x":-0.98, "y":-1.5806, "z":0.2306}, "scale":{"x":1.3, "y":1.05, "z":1.05}, "rot":{"x":-180, "y":0,   "z":0  }}],
+        ["brake_caliper_4pot_plain", ["pickup_desert_hub_F"],        [], {"pos":{"x": 0.98, "y":-1.5806, "z":0.2306}, "scale":{"x":1.3, "y":1.05, "z":1.05}, "rot":{"x":180,  "y":180, "z":0  }}],
+    ],
+    "variables": [
+        ["name", "type", "unit", "category", "default", "min", "max", "title", "description"],
+        ["$brakebias", "range", "", "Brakes", 0.75, 0, 1, "Front/Rear Bias", "Percent of brake torque to the front wheels", {"minDis":0, "maxDis":100}],
+    ],
+    "pressureWheels": [
+        ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+        //brakes
+        {"brakeTorque":"$=$brakestrength*8000*$brakebias"},
+        {"brakeInputSplit":1},
+        {"brakeSplitCoef":1},
+        {"parkingTorque":0},
+        {"brakeSpring":125},
+
+        //brake thermals
+        {"enableBrakeThermals":true},
+        {"brakeDiameter":0.30},
+        {"brakeMass":8.0},
+        {"brakeType":"vented-disc"},
+        {"rotorMaterial":"steel"},
+        {"brakeVentingCoef":1},
+        //brake sounds
+        {"squealCoefNatural": 0.0, "squealCoefLowSpeed": 0.4}
+    ],
+},
+"pickup_desert_brake_R": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rear Disc Brakes",
+        "value":250,
+    },
+    "slotType" : "pickup_desert_brake_R",
+    "slots": [
+        ["type", "default", "description"],
+        ["brakepad_R","brakepad_R_premium", "Rear Brake Pads", {"coreSlot":true}],
+    ],
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["brake_hub_6l",             ["wheel_RR","wheelhub_RR"],      [], {"pos":{"x":-0.895, "y":1.4878, "z":0.2304}, "scale":{"x":1.0, "y":1.0,  "z":1.0},  "rot":{"x":0,    "y":0,   "z":0  }}],
+        ["brake_hub_6l",             ["wheel_RL","wheelhub_RL"],      [], {"pos":{"x" :0.895, "y":1.4878, "z":0.2304}, "scale":{"x":1.0, "y":1.0,  "z":1.0},  "rot":{"x":0,    "y":0,   "z":180}}],
+        ["brake_disc_drilled",       ["wheel_RR","wheelhub_RR"],      [], {"pos":{"x":-0.895, "y":1.4878, "z":0.2304}, "scale":{"x":1.3, "y":1.0,  "z":1.0},  "rot":{"x":0,    "y":0,   "z":0  }}],
+        ["brake_disc_drilled",       ["wheel_RL","wheelhub_RL"],      [], {"pos":{"x": 0.895, "y":1.4878, "z":0.2304}, "scale":{"x":1.3, "y":1.0,  "z":1.0},  "rot":{"x":180,  "y":0,   "z":0  }}],
+        ["brake_caliper_4pot_plain", ["axle_R"],                      [], {"pos":{"x":-0.895, "y":1.4878, "z":0.2304}, "scale":{"x":1.3, "y":1.05, "z":1.05}, "rot":{"x":-170, "y":0,   "z":0  }}],
+        ["brake_caliper_4pot_plain", ["axle_R"],                      [], {"pos":{"x": 0.895, "y":1.4878, "z":0.2304}, "scale":{"x":1.3, "y":1.05, "z":1.05}, "rot":{"x":170,  "y":180, "z":0  }}],
+    ],
+    "pressureWheels": [
+        ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+        //brakes
+        {"brakeTorque":"$=$brakebias == nil and $brakestrength*2500 or $brakestrength*8000*(1-$brakebias)"},
+        {"brakeInputSplit":0.50},
+        {"brakeSplitCoef":0},
+        {"parkingTorque":2500},
+        {"brakeSpring":125},
+
+        //brake thermals
+        {"enableBrakeThermals":true},
+        {"brakeDiameter":0.27},
+        {"brakeMass":6.0},
+        {"brakeType":"disc"},
+        {"rotorMaterial":"steel"},
+        {"brakeVentingCoef":0.8},
+        //brake sounds
+        {"squealCoefNatural": 0.0, "squealCoefLowSpeed": 0.2}
+    ],
+},
+}

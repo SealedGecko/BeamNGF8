@@ -1,0 +1,46 @@
+{
+  "0-100 km/h":9.2,
+  "0-100 mph":27.9,
+  "0-60 mph":8.6,
+  "100-0 km/h":44.8,
+  "60-0 mph":135.7,
+  "60-100 mph":19.3,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.6,
+      -1.42,
+      -0.2999
+    ],
+    [
+      1.7,
+      4.623,
+      1.41
+    ]
+  ],
+  "Braking G":0.878,
+  "Config Type":"Factory",
+  "Configuration":"D15 V8 Extended Cab Long Bed (A)",
+  "Description":"An extra pair of doors and an extra 2 feet of bed make this D15 a more utilitarian option combining extra passenger space with extra cargo space",
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":27,
+  "Performance Class":"3",
+  "Population":4000,
+  "Power":233,
+  "PowerPeakRPM":"4100 - 4900",
+  "Propulsion":"ICE",
+  "Top Speed":51.5787943,
+  "Torque":425,
+  "TorquePeakRPM":"3000 - 3800",
+  "Transmission":"Automatic",
+  "Value":7550,
+  "Weight":2235,
+  "Weight/Power":9.59227468,
+  "Years":{
+    "max":2003,
+    "min":1998
+  },
+  "defaultPaintName1":"Quicksilver"
+}

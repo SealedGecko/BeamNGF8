@@ -1,0 +1,389 @@
+{
+"pickup_antenna_military_R": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Right Long Range Antenna",
+        "value":500,
+    },
+    "slotType" : "pickup_bedaccessory_R",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_antennamount_R", ["pickup_antennamount_R"],[],{"pos":{"x":0.0, "y":0.0, "z":0.0}}],
+         ["highfreq_antenna", ["pickup_antenna_RR", "pickup_antenna_flex_RR", "pickup_antennamount_R"],[],{"pos":{"x":-0.977, "y":2.273, "z":1.273}, "scale":{"x":2.9, "y":2.9, "z":2.78}}],
+    ],
+    "slidenodes": [
+        ["id:", "railName", "attached", "fixToRail", "tolerance", "spring", "strength", "capStrength"],
+        ["antm1r", "antm2r", true, false, 0.0, 15500, "FLT_MAX", "FLT_MAX"],
+        ["antm2r", "antm3r", true, false, 0.0, 7000, "FLT_MAX", "FLT_MAX"],
+        ["antm3r", "antm4r", true, false, 0.0, 7000, "FLT_MAX", "FLT_MAX"],
+        ["antm3r", "antm4r", true, false, 0.0, 7000, "FLT_MAX", "FLT_MAX"],
+        ["antm4r", "antm5r", true, false, 0.0, 7000, "FLT_MAX", "FLT_MAX"],
+        ["antm5r", "antm6r", true, false, 0.0, 7000, "FLT_MAX", "FLT_MAX"],
+        ["antm6r", "antm7r", true, false, 0.0, 7000, "FLT_MAX", "FLT_MAX"],
+    ],
+    "rails": {
+        "antm1r":{"links:":["antm1r", "antm2r"], "broken:":[], "looped":false, "capped":true},
+        "antm2r":{"links:":["antm2r", "antm3r"], "broken:":[], "looped":false, "capped":true},
+        "antm3r":{"links:":["antm3r", "antm4r"], "broken:":[], "looped":false, "capped":true},
+        "antm4r":{"links:":["antm4r", "antm5r"], "broken:":[], "looped":false, "capped":true},
+        "antm5r":{"links:":["antm5r", "antm6r"], "broken:":[], "looped":false, "capped":true},
+        "antm6r":{"links:":["antm6r", "antm7r"], "broken:":[], "looped":false, "capped":true},
+    },
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         //right
+         {"selfCollision":true},
+         {"collision":true},
+         {"nodeMaterial":"|NM_METAL"},
+         {"frictionCoef":0.5},
+         {"nodeWeight":0.8},
+         {"group":"pickup_antennamount_R"},
+		 ["am1r",-1.043,2.188,1.201],
+		 ["am2r",-0.972,2.188,0.963],
+		 ["am3r",-0.92,2.188,1.205],
+		 ["am4r",-1.043,2.359,1.201],
+		 ["am5r",-0.972,2.359,0.963],
+		 ["am6r",-0.92,2.359,1.205],
+         {"group":"pickup_antenna_RR"},
+         {"nodeWeight":0.7},
+		 ["antm1r",-0.977,2.273,1.05, {"selfCollision":false, "collision":false}]
+		 ["antm2r",-0.977,2.273,1.4]
+		 ["antm3r",-0.977,2.273,1.65]
+		 ["antm4r",-0.977,2.273,1.95]
+		 ["antm5r",-0.977,2.273,2.25]
+		 ["antm6r",-0.977,2.273,2.55]
+		 ["antm7r",-0.977,2.273,2.85]
+
+	     //antenna flexbody
+         {"group":"pickup_antenna_flex_RR"},
+		 ["antm8r",0.0,2.273,1.05, {"selfCollision":false, "collision":false}]
+         {"group":""},
+    ],
+
+    "beams": [
+          ["id1:", "id2:"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"beamSpring":658940,"beamDamp":18.8},
+          {"beamDeform":7000,"beamStrength":42000},
+          //main shape
+          {"deformLimitExpansion":1.2},
+          ["am5r", "am4r"],
+          ["am4r", "am6r"],
+          ["am3r", "am1r"],
+          ["am1r", "am2r"],
+          ["am5r", "am2r"],
+          ["am4r", "am1r"],
+          ["am3r", "am6r"],
+		  //cross
+          {"deformLimitExpansion":""},
+          ["am5r", "am1r"],
+          ["am4r", "am2r"],
+          ["am4r", "am3r"],
+          ["am6r", "am1r"],
+		  //corner
+          ["am6r", "am5r"],
+          ["am3r", "am2r"],
+
+		  //flexbody fix
+          ["antm8r", "am5r"],
+          ["antm8r", "am2r"],
+          ["antm8r", "am3r"],
+          ["antm8r", "am6r"],
+          ["antm8r", "antm2r"],
+
+          //antenna
+          {"beamSpring":235940,"beamDamp":65.8},
+          {"beamDeform":14000,"beamStrength":"FLT_MAX"},
+          {"deformLimitExpansion":1.2},
+          ["antm2r", "antm3r"],
+          ["antm3r", "antm4r"],
+          ["antm4r", "antm5r"],
+          ["antm5r", "antm6r"],
+          ["antm6r", "antm7r"],
+	      //attach
+          ["antm1r", "antm2r"],
+          ["antm2r", "am1r"],
+          ["antm2r", "am4r"],
+          ["antm2r", "am6r"],
+          ["antm2r", "am3r"],
+          ["antm1r", "am3r"],
+          ["antm1r", "am1r"],
+          ["antm1r", "am6r"],
+          ["antm1r", "am4r"],
+          ["antm1r", "am2r"],
+          ["antm1r", "am5r"],
+
+          //damping
+          {"deformLimitExpansion":""},
+          {"beamSpring":940,"beamDamp":56.4},
+          ["am1r", "antm3r"],
+          ["am3r", "antm3r"],
+          ["am6r", "antm3r"],
+          ["am4r", "antm3r"],
+
+          ["am1r", "antm4r"],
+          ["am3r", "antm4r"],
+          ["am6r", "antm4r"],
+          ["am4r", "antm4r"],
+
+          ["am1r", "antm5r"],
+          ["am3r", "antm5r"],
+          ["am6r", "antm5r"],
+          ["am4r", "antm5r"],
+
+          ["am1r", "antm6r"],
+          ["am3r", "antm6r"],
+          ["am6r", "antm6r"],
+          ["am4r", "antm6r"],
+
+          ["am1r", "antm7r"],
+          ["am3r", "antm7r"],
+          ["am6r", "antm7r"],
+          ["am4r", "antm7r"],
+
+          //attach
+          {"deformLimitExpansion":""},
+          {"beamSpring":370940,"beamDamp":18.8},
+          {"beamDeform":2800,"beamStrength":8400},
+          {"breakGroup":"pickup_antennamount_R"},
+          ["am2r", "bd9rr"],
+          ["am2r", "bd10rr"],
+          ["am2r", "bd4rr"],
+          ["am2r", "bd5rr"],
+          ["am2r", "bd9r"],
+          ["am2r", "bd10r"],
+
+          ["am5r", "bd9rr"],
+          ["am5r", "bd10rr"],
+          ["am5r", "bd4rr"],
+          ["am5r", "bd5rr"],
+          ["am5r", "bd9r"],
+          ["am5r", "bd10r"],
+
+          ["am3r", "bd9rr"],
+          ["am3r", "bd10rr"],
+          ["am3r", "bd4rr"],
+          ["am3r", "bd5rr"],
+          ["am3r", "bd9r"],
+          ["am3r", "bd10r"],
+
+          ["am6r", "bd9rr"],
+          ["am6r", "bd10rr"],
+          ["am6r", "bd4rr"],
+          ["am6r", "bd5rr"],
+          ["am6r", "bd9r"],
+          ["am6r", "bd10r"],
+          {"breakGroup":""},
+
+          //taillight support beams
+          {"beamType":"|SUPPORT", "beamLongBound":4},
+          {"beamSpring":376940,"beamDamp":18.8},
+          {"beamDeform":1400,"beamStrength":231000},
+
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"deformLimitExpansion":1.2},
+    ],
+    "triangles": [
+            ["id1:","id2:","id3:"],
+            {"groundModel":"metal"},
+            {"dragCoef":6.25},
+            {"group":"pickup_antennamount_R"},
+            ["am6r", "am4r", "am1r"],
+            ["am3r", "am6r", "am1r"],
+            ["am4r", "am5r", "am2r"],
+            ["am1r", "am4r", "am2r"],
+            {"group":""},
+    ],
+},
+"pickup_antenna_military_L": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Left Long Range Antenna",
+        "value":500,
+    },
+    "slotType" : "pickup_bedaccessory_L",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_antennamount_L", ["pickup_antennamount_L"],[],{"pos":{"x":0.0, "y":0.0, "z":0.0}}],
+         ["highfreq_antenna", ["pickup_antenna_LL", "pickup_antenna_flex_LL", "pickup_antennamount_L"],[],{"pos":{"x":0.977, "y":2.273, "z":1.273}, "scale":{"x":2.9, "y":2.9, "z":2.78}}],
+    ],
+    "slidenodes": [
+        ["id:", "railName", "attached", "fixToRail", "tolerance", "spring", "strength", "capStrength"],
+        ["antm1l", "antm2l", true, false, 0.0, 15500, "FLT_MAX", "FLT_MAX"],
+        ["antm2l", "antm3l", true, false, 0.0, 7000, "FLT_MAX", "FLT_MAX"],
+        ["antm3l", "antm4l", true, false, 0.0, 7000, "FLT_MAX", "FLT_MAX"],
+        ["antm3l", "antm4l", true, false, 0.0, 7000, "FLT_MAX", "FLT_MAX"],
+        ["antm4l", "antm5l", true, false, 0.0, 7000, "FLT_MAX", "FLT_MAX"],
+        ["antm5l", "antm6l", true, false, 0.0, 7000, "FLT_MAX", "FLT_MAX"],
+        ["antm6l", "antm7l", true, false, 0.0, 7000, "FLT_MAX", "FLT_MAX"],
+    ],
+    "rails": {
+        "antm1l":{"links:":["antm1l", "antm2l"], "broken:":[], "looped":false, "capped":true},
+        "antm2l":{"links:":["antm2l", "antm3l"], "broken:":[], "looped":false, "capped":true},
+        "antm3l":{"links:":["antm3l", "antm4l"], "broken:":[], "looped":false, "capped":true},
+        "antm4l":{"links:":["antm4l", "antm5l"], "broken:":[], "looped":false, "capped":true},
+        "antm5l":{"links:":["antm5l", "antm6l"], "broken:":[], "looped":false, "capped":true},
+        "antm6l":{"links:":["antm6l", "antm7l"], "broken:":[], "looped":false, "capped":true},
+    },
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         //right
+         {"selfCollision":true},
+         {"collision":true},
+         {"nodeMaterial":"|NM_METAL"},
+         {"frictionCoef":0.5},
+         {"nodeWeight":0.8},
+         {"group":"pickup_antennamount_L"},
+		 ["am1l",1.043,2.188,1.201],
+		 ["am2l",0.972,2.188,0.963],
+		 ["am3l",0.92,2.188,1.205],
+		 ["am4l",1.043,2.359,1.201],
+		 ["am5l",0.972,2.359,0.963],
+		 ["am6l",0.92,2.359,1.205],
+         {"group":"pickup_antenna_LL"},
+         {"nodeWeight":0.7},
+		 ["antm1l",0.977,2.273,1.05, {"selfCollision":false, "collision":false}]
+		 ["antm2l",0.977,2.273,1.4]
+		 ["antm3l",0.977,2.273,1.65]
+		 ["antm4l",0.977,2.273,1.95]
+		 ["antm5l",0.977,2.273,2.25]
+		 ["antm6l",0.977,2.273,2.55]
+		 ["antm7l",0.977,2.273,2.85]
+
+	     //antenna flexbody
+         {"group":"pickup_antenna_flex_LL"},
+		 ["antm8l",0.0,2.273,1.05, {"selfCollision":false, "collision":false}]
+         {"group":""},
+    ],
+
+    "beams": [
+          ["id1:", "id2:"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"beamSpring":658940,"beamDamp":18.8},
+          {"beamDeform":7000,"beamStrength":42000},
+          //main shape
+          {"deformLimitExpansion":1.2},
+          ["am5l", "am4l"],
+          ["am4l", "am6l"],
+          ["am3l", "am1l"],
+          ["am1l", "am2l"],
+          ["am5l", "am2l"],
+          ["am4l", "am1l"],
+          ["am3l", "am6l"],
+		  //cross
+          {"deformLimitExpansion":""},
+          ["am5l", "am1l"],
+          ["am4l", "am2l"],
+          ["am4l", "am3l"],
+          ["am6l", "am1l"],
+		  //corner
+          ["am6l", "am5l"],
+          ["am3l", "am2l"],
+
+		  //flexbody fix
+          ["antm8l", "am5l"],
+          ["antm8l", "am2l"],
+          ["antm8l", "am3l"],
+          ["antm8l", "am6l"],
+          ["antm8l", "antm2l"],
+
+          //antenna
+          {"beamSpring":235940,"beamDamp":65.8},
+          {"beamDeform":14000,"beamStrength":"FLT_MAX"},
+          {"deformLimitExpansion":1.2},
+          ["antm2l", "antm3l"],
+          ["antm3l", "antm4l"],
+          ["antm4l", "antm5l"],
+          ["antm5l", "antm6l"],
+          ["antm6l", "antm7l"],
+	      //attach
+          ["antm1l", "antm2l"],
+          ["antm2l", "am1l"],
+          ["antm2l", "am4l"],
+          ["antm2l", "am6l"],
+          ["antm2l", "am3l"],
+          ["antm1l", "am3l"],
+          ["antm1l", "am1l"],
+          ["antm1l", "am6l"],
+          ["antm1l", "am4l"],
+          ["antm1l", "am2l"],
+          ["antm1l", "am5l"],
+
+          //damping
+          {"deformLimitExpansion":""},
+          {"beamSpring":940,"beamDamp":56.4},
+          ["am1l", "antm3l"],
+          ["am3l", "antm3l"],
+          ["am6l", "antm3l"],
+          ["am4l", "antm3l"],
+
+          ["am1l", "antm4l"],
+          ["am3l", "antm4l"],
+          ["am6l", "antm4l"],
+          ["am4l", "antm4l"],
+
+          ["am1l", "antm5l"],
+          ["am3l", "antm5l"],
+          ["am6l", "antm5l"],
+          ["am4l", "antm5l"],
+
+          ["am1l", "antm6l"],
+          ["am3l", "antm6l"],
+          ["am6l", "antm6l"],
+          ["am4l", "antm6l"],
+
+          ["am1l", "antm7l"],
+          ["am3l", "antm7l"],
+          ["am6l", "antm7l"],
+          ["am4l", "antm7l"],
+
+          //attach
+          {"deformLimitExpansion":""},
+          {"beamSpring":370940,"beamDamp":18.8},
+          {"beamDeform":2800,"beamStrength":8400},
+          {"breakGroup":"pickup_antennamount_L"},
+          ["am2l", "bd9ll"],
+          ["am2l", "bd10ll"],
+          ["am2l", "bd4ll"],
+          ["am2l", "bd5ll"],
+          ["am2l", "bd9l"],
+          ["am2l", "bd10l"],
+
+          ["am5l", "bd9ll"],
+          ["am5l", "bd10ll"],
+          ["am5l", "bd4ll"],
+          ["am5l", "bd5ll"],
+          ["am5l", "bd9l"],
+          ["am5l", "bd10l"],
+
+          ["am3l", "bd9ll"],
+          ["am3l", "bd10ll"],
+          ["am3l", "bd4ll"],
+          ["am3l", "bd5ll"],
+          ["am3l", "bd9l"],
+          ["am3l", "bd10l"],
+
+          ["am6l", "bd9ll"],
+          ["am6l", "bd10ll"],
+          ["am6l", "bd4ll"],
+          ["am6l", "bd5ll"],
+          ["am6l", "bd9l"],
+          ["am6l", "bd10l"],
+          {"breakGroup":""},
+
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"deformLimitExpansion":1.2},
+    ],
+    "triangles": [
+            ["id1:","id2:","id3:"],
+            {"groundModel":"metal"},
+            {"dragCoef":6.25},
+            {"group":"pickup_antennamount_L"},
+            ["am4l", "am6l", "am1l"],
+            ["am6l", "am3l", "am1l"],
+            ["am5l", "am4l", "am2l"],
+            ["am4l", "am1l", "am2l"],
+            {"group":""},
+    ],
+},
+}

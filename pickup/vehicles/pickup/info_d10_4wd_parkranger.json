@@ -1,0 +1,46 @@
+{
+  "0-100 km/h":9.9,
+  "0-100 mph":48.1,
+  "0-60 mph":9.2,
+  "100-0 km/h":44.3,
+  "60-0 mph":133.9,
+  "60-100 mph":38.9,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.6,
+      -1.54,
+      -0.3399
+    ],
+    [
+      1.7,
+      3.4773,
+      1.539
+    ]
+  ],
+  "Braking G":0.888,
+  "Config Type":"Police",
+  "Configuration":"D10 Park Ranger (A)",
+  "Description":"Built for prowling around national parks, with off-road extras. If the name of your game is telling off misbehaving tourists and tranquilizing bears, then this is the vehicle for you",
+  "Drivetrain":"4WD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":49,
+  "Performance Class":"4",
+  "Population":10,
+  "Power":223,
+  "PowerPeakRPM":"4450 - 5150",
+  "Propulsion":"ICE",
+  "Top Speed":46.1607121,
+  "Torque":410,
+  "TorquePeakRPM":"2550 - 3400",
+  "Transmission":"Automatic",
+  "Value":11500,
+  "Weight":2305,
+  "Weight/Power":10.3363229,
+  "Years":{
+    "max":1997,
+    "min":1992
+  },
+  "defaultPaintName1":"Pearl White"
+}

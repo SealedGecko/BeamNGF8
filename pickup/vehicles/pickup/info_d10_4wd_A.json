@@ -1,0 +1,47 @@
+{
+  "0-100 km/h":11.1,
+  "0-100 mph":55.1,
+  "0-60 mph":10.4,
+  "100-0 km/h":40.1,
+  "60-0 mph":120.5,
+  "60-100 mph":44.6,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.58,
+      -1.41,
+      -0.3099
+    ],
+    [
+      1.68,
+      3.476,
+      1.42
+    ]
+  ],
+  "Braking G":0.98,
+  "Config Type":"Factory",
+  "Configuration":"D10 Charro V8 4WD (A)",
+  "Description":"Short wheelbase, integral bed model with a factory bed cap",
+  "Drivetrain":"4WD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":46,
+  "Performance Class":"4",
+  "Population":6000,
+  "Power":177,
+  "PowerPeakRPM":"3800 - 4400",
+  "Propulsion":"ICE",
+  "Top Speed":45.7405645,
+  "Torque":350,
+  "TorquePeakRPM":"2900 - 3500",
+  "Transmission":"Automatic",
+  "Value":8250,
+  "Weight":2070,
+  "Weight/Power":11.6949153,
+  "Years":{
+    "max":1991,
+    "min":1986
+  },
+  "defaultPaintName1":"Navy Blue",
+  "defaultPaintName2":"Butterscotch"
+}

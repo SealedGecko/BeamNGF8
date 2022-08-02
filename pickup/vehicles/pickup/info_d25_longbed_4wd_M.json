@@ -1,0 +1,46 @@
+{
+  "0-100 km/h":9.1,
+  "0-100 mph":31,
+  "0-60 mph":7.9,
+  "100-0 km/h":55.6,
+  "60-0 mph":171.2,
+  "60-100 mph":23.1,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.72,
+      -1.42,
+      -0.4103
+    ],
+    [
+      1.82,
+      4.06,
+      1.41
+    ]
+  ],
+  "Braking G":0.707,
+  "Config Type":"Factory",
+  "Configuration":"D25 V8 4WD Long Bed (M)",
+  "Description":"Featuring a driven solid front axle and medium-duty suspension, the D25 4WD is a good starting point for an off-road build",
+  "Drivetrain":"4WD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":46,
+  "Performance Class":"3",
+  "Population":2000,
+  "Power":223,
+  "PowerPeakRPM":"4450 - 5150",
+  "Propulsion":"ICE",
+  "Top Speed":50.3488935,
+  "Torque":410,
+  "TorquePeakRPM":"2550 - 3400",
+  "Transmission":"Manual",
+  "Value":11250,
+  "Weight":2150,
+  "Weight/Power":9.64125561,
+  "Years":{
+    "max":1997,
+    "min":1992
+  },
+  "defaultPaintName1":"Forest Green"
+}

@@ -1,0 +1,209 @@
+{"pickup_desert_rearframe":
+{
+    "information":{
+        "authors":"BeamNG",
+        "name":"Long Rear Frame",
+        "value":2000,
+    },
+
+    "slotType" :"pickup_desert_rearframe",
+
+    "slots":[
+        ["type", "default", "description"],
+        ["pickup_desert_sparewheel","pickup_desert_sparewheel_05a_17x9","Spare Wheel"],
+        ["pickup_quarterpanel_R","pickup_quarterpanel_R_wide","Rear Right Quarter Panel"],
+        ["pickup_quarterpanel_L","pickup_quarterpanel_L_wide","Rear Left Quarter Panel"],
+    ],
+    "flexbodies":[
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["pickup_desert_cage_rear", ["pickup_frame"]],
+    ],
+   "torsionbars":[
+       ["id1:", "id2:", "id3:", "id4:"],
+       //rigidify frame
+       {"spring":500000, "damp":500, "deform":20000, "strength":200000},
+       ["frr4rr", "fr4rr", "fr4ll", "fr6ll"],
+       ["frr4ll", "fr4ll", "fr4rr", "fr6rr"],
+
+    ],
+    "nodes":[
+         ["id", "posX", "posY", "posZ"],
+         {"selfCollision":true},
+         {"collision":true},
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+         {"group":"pickup_frame"},
+
+         //--CAGE--
+         //rear cage
+         {"nodeWeight":7.0},
+         ["frr1rr",-0.276,2.329,0.832],
+         ["frr1r",-0.145,2.373,0.929],
+         ["frr1l",0.145,2.373,0.929],
+         ["frr1ll",0.276,2.329,0.832],
+
+         ["frr2rr",-0.553,1.985,1.006],
+         ["frr2ll",0.553,1.985,1.006],
+
+         ["frr3rr",-0.553,1.985,0.828, {"nodeWeight":70.0}], //ballast
+         ["frr3ll",0.553,1.985,0.828, {"nodeWeight":70.0}], //ballast
+
+         ["frr4rr",-0.222,2.201,0.592],
+         ["frr4ll",0.222,2.201,0.592],
+
+         ["frr5rr",-0.396,1.876,0.692],
+         ["frr5r",-0.115,1.876,0.692],
+         ["frr5",0.0, 1.8,0.9, {"nodeWeight":4.0, "selfCollision":false, "collision":false}],
+         ["frr5l",0.115,1.876,0.692],
+         ["frr5ll",0.396,1.876,0.692],
+         {"group":""},
+    ],
+    "beams":[
+          ["id1:", "id2:"],
+          //--CAGE--
+
+          //front frame main shape
+          {"beamSpring":2001000,"beamDamp":125},
+          {"beamDeform":65000,"beamStrength":"FLT_MAX"},
+          {"deformLimitExpansion":1.2},
+          //lengthwise
+          ["fr4ll", "frr5ll"],
+          ["frr5ll", "frr4ll"],
+          ["fr4", "frr5l"],
+          ["frr5l", "frr4ll"],
+          ["fr4", "frr5r"],
+          ["frr5r", "frr4rr"],
+          ["fr4rr", "frr5rr"],
+          ["frr5rr", "frr4rr"],
+          ["fr1ll", "frr2ll"],
+          ["frr2ll", "frr1ll"],
+          ["fr1rr", "frr2rr"],
+          ["frr2rr", "frr1rr"],
+          ["fr4ll", "frr3ll"],
+          ["frr3ll", "frr1ll"],
+          ["fr4rr", "frr3rr"],
+          ["frr3rr", "frr1rr"],
+          //widthwise
+          ["frr4ll", "frr4rr"],
+          ["frr1l", "frr1r"],
+          //vertical
+          ["frr4ll", "frr1ll"],
+          ["frr1ll", "frr1l"],
+          ["frr4rr", "frr1rr"],
+          ["frr1rr", "frr1r"],
+
+          //crossing
+          {"beamDeform":16000,"beamStrength":"FLT_MAX"},
+          {"deformLimitExpansion":""},
+          ["frr5l", "frr4rr"],
+          ["frr5r", "frr4ll"],
+          ["frr5l", "fr4ll"],
+          ["frr5ll", "fr4"],
+          ["frr5r", "fr4rr"],
+          ["frr5rr", "fr4"],
+          ["frr2rr", "fr4rr"],
+          ["frr3rr", "fr1rr"],
+          ["frr2rr", "frr3rr"],
+          ["frr3ll", "fr1ll"],
+          ["frr2ll", "fr4ll"],
+          ["frr3ll", "frr2ll"],
+          ["frr1ll", "frr1rr"],
+          ["frr1rr", "frr4ll"],
+          ["frr1ll", "frr4rr"],
+          ["frr1l", "frr1rr"],
+          ["frr1r", "frr1ll"],
+
+          //rigids
+          {"beamDeform":16000,"beamStrength":"FLT_MAX"},
+          //corner
+          ["frr3ll", "frr1rr"],
+          ["frr1ll", "frr3rr"],
+          ["frr3ll", "fr4"],
+          ["fr4", "frr3rr"],
+          ["frr1rr", "frr5rr"],
+          ["frr5rr", "fr1rr"],
+          ["frr1ll", "frr5ll"],
+          ["frr5ll", "fr1ll"],
+          ["frr2ll", "fr4"],
+          ["frr2ll", "frr1rr"],
+          ["frr2rr", "fr4"],
+          ["frr2rr", "frr1ll"],
+          ["frr1l", "frr3ll"],
+          ["frr1r", "frr3rr"],
+          ["frr5l", "frr1ll"],
+          ["frr5r", "frr1rr"],
+          ["frr5r", "fr1rr"],
+          ["frr5l", "fr1ll"],
+          ["frr5r", "frr1ll"],
+          ["frr5l", "frr1rr"],
+          ["frr5ll", "frr1rr"],
+          ["frr5rr", "frr1ll"],
+          //extra
+          ["frr5r", "fr1ll"],
+          ["frr5l", "fr1rr"],
+          ["frr5ll", "fr1rr"],
+          ["frr5rr", "fr1ll"],
+
+          //spare tire mount
+          {"beamDeform":10000,"beamStrength":"FLT_MAX"},
+          ["frr5", "frr5l"],
+          ["frr5", "frr5r"],
+          ["frr5", "fr4"],
+          ["frr5", "frr4ll"],
+          ["frr5", "frr4rr"],
+          ["frr5", "frr5rr"],
+          ["frr5", "frr5ll"],
+          ["frr5", "frr3rr"],
+          ["frr5", "frr3ll"],
+          ["frr5", "fr4ll"],
+          ["frr5", "fr4rr"],
+          ["frr5", "fr1rr"],
+          ["frr5", "fr1ll"],
+          ["frr5", "frr1ll"],
+          ["frr5", "frr1rr"],
+
+    ],
+
+    "triangles":[
+        ["id1:", "id2:", "id3:"],
+        {"groundModel":"metal"},
+        {"dragCoef":12},
+        //rear wall
+        {"group":"pickup_rearcage"},
+        ["fr1ll", "fr4ll", "fr5l"],
+        ["fr5l", "fr10", "fr1ll"],
+        ["fr10", "fr5l", "fr5r"],
+        ["fr10", "fr5r", "fr1rr"],
+        ["fr5r", "fr4rr", "fr1rr"],
+        //bottom
+        ["fr4", "frr5r", "frr5l"],
+        ["frr5r", "frr4rr", "frr4ll"],
+        ["frr4ll", "frr5l", "frr5r"],
+        ["frr5r", "frr5rr", "frr4rr"],
+        ["frr5l", "frr4ll", "frr5ll"],
+        ["frr5rr", "frr5r", "fr4"],
+        ["fr4", "frr5l", "frr5ll"],
+        ["frr5ll", "fr4ll", "fr4"],
+        ["fr4", "fr4rr", "frr5rr"],
+        ["frr1ll", "frr4ll", "frr4rr"],
+        ["frr4rr", "frr1rr", "frr1ll"],
+        ["frr1l", "frr1ll", "frr1rr"],
+        ["frr1rr", "frr1r", "frr1l"],
+        //side
+        {"group":"pickup_rearcage_R"},
+        ["frr5rr", "frr3rr", "frr4rr"],
+        ["frr3rr", "frr1rr", "frr4rr"],
+        ["fr4rr",  "frr3rr", "frr5rr"],
+        ["frr3rr", "frr2rr", "frr1rr"],
+        ["fr1rr",  "frr2rr", "frr3rr"],
+        ["fr4rr",  "fr1rr",  "frr3rr"],
+        {"group":"pickup_rearcage_L"},
+        ["frr3ll", "frr5ll", "frr4ll"],
+        ["frr1ll", "frr3ll", "frr4ll"],
+        ["frr3ll", "fr4ll",  "frr5ll"],
+        ["frr2ll", "frr3ll", "frr1ll"],
+        ["frr2ll", "fr1ll",  "frr3ll"],
+        ["fr1ll",  "fr4ll",  "frr3ll"],
+        ],
+},
+}

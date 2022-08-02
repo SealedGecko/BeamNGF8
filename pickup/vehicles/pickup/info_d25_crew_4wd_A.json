@@ -1,0 +1,47 @@
+{
+  "0-100 km/h":10.2,
+  "0-100 mph":37.6,
+  "0-60 mph":9.4,
+  "100-0 km/h":59.1,
+  "60-0 mph":179.7,
+  "60-100 mph":28.1,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.72,
+      -1.42,
+      -0.4103
+    ],
+    [
+      1.82,
+      4.96,
+      1.41
+    ]
+  ],
+  "Braking G":0.665,
+  "Config Type":"Factory",
+  "Configuration":"D25 V8 4WD Crew Cab (A)",
+  "Description":"This D25's 4WD and crew cab allow for transporting 5 to 6 people and a large quantity of cargo comfortably over light terrain",
+  "Drivetrain":"4WD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":34,
+  "Performance Class":"3",
+  "Population":3000,
+  "Power":223,
+  "PowerPeakRPM":"4450 - 5150",
+  "Propulsion":"ICE",
+  "Top Speed":49.4655899,
+  "Torque":410,
+  "TorquePeakRPM":"2550 - 3400",
+  "Transmission":"Automatic",
+  "Value":13520,
+  "Weight":2480,
+  "Weight/Power":11.1210762,
+  "Years":{
+    "max":1997,
+    "min":1992
+  },
+  "defaultPaintName1":"Forest Green",
+  "defaultPaintName2":"Opal Green"
+}

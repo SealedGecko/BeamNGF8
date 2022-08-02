@@ -1,0 +1,46 @@
+{
+  "0-100 km/h":10.4,
+  "0-100 mph":37.2,
+  "0-60 mph":9.7,
+  "100-0 km/h":53.6,
+  "60-0 mph":164.6,
+  "60-100 mph":27.5,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.5875,
+      -1.7,
+      -0.60294
+    ],
+    [
+      1.6875,
+      3.34978,
+      1.671
+    ]
+  ],
+  "Braking G":0.733,
+  "Config Type":"Custom",
+  "Configuration":"D15 Rock Racer (A)",
+  "Description":"A capable multi-purpose vehicle featuring IFS portal hub 4WD, designed for enduring races involving both slow, technical crawling and high speed racing",
+  "Drivetrain":"4WD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":74,
+  "Performance Class":"6",
+  "Population":50,
+  "Power":318,
+  "PowerPeakRPM":4400,
+  "Propulsion":"ICE",
+  "Top Speed":52.3841954,
+  "Torque":555,
+  "TorquePeakRPM":"2800 - 3900",
+  "Transmission":"Automatic",
+  "Value":79000,
+  "Weight":3120,
+  "Weight/Power":9.81132075,
+  "Years":{
+    "max":1997,
+    "min":1992
+  },
+  "defaultPaintName1":"Scarlet Red"
+}

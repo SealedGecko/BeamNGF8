@@ -1,0 +1,46 @@
+{
+  "0-100 km/h":13.1,
+  "0-100 mph":123.5,
+  "0-60 mph":12.2,
+  "100-0 km/h":41.5,
+  "60-0 mph":124.9,
+  "60-100 mph":111.3,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.58,
+      -1.41,
+      -0.2999
+    ],
+    [
+      1.68,
+      4.03,
+      1.41
+    ]
+  ],
+  "Braking G":0.948,
+  "Config Type":"Factory",
+  "Configuration":"D15 Fleet Long Bed (M)",
+  "Description":"A longer frame and 8-foot bed allow for a high carrying capacity, popular with smaller construction firms",
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":35,
+  "Performance Class":"3",
+  "Population":3000,
+  "Power":152,
+  "PowerPeakRPM":"4200 - 4850",
+  "Propulsion":"ICE",
+  "Top Speed":44.7720183,
+  "Torque":275,
+  "TorquePeakRPM":"1700 - 3700",
+  "Transmission":"Manual",
+  "Value":5300,
+  "Weight":1990,
+  "Weight/Power":13.0921053,
+  "Years":{
+    "max":1991,
+    "min":1986
+  },
+  "defaultPaintName1":"Pearl White"
+}

@@ -1,0 +1,47 @@
+{
+  "0-100 km/h":17.7,
+  "0-120 mph":18.8,
+  "0-60 mph":16,
+  "100-0 km/h":47.7,
+  "60-0 mph":145.1,
+  "60-120 mph":12.7,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.4825,
+      -1.57,
+      -0.5063
+    ],
+    [
+      1.5825,
+      3.45,
+      1.635
+    ]
+  ],
+  "Braking G":0.825,
+  "Config Type":"Custom",
+  "Configuration":"D35 'Pig' (M)",
+  "Description":"Named for both its mud-bogging prowess and its handling on asphalt, the Pig features 38 inch crawler tires, 3-link suspension and a custom flatbed",
+  "Drivetrain":"4WD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":77,
+  "Performance Class":"3",
+  "Population":20,
+  "Power":164,
+  "PowerPeakRPM":"4300 - 4950",
+  "Propulsion":"ICE",
+  "Top Speed":39.6957172,
+  "Torque":290,
+  "TorquePeakRPM":"1850 - 3900",
+  "Transmission":"Manual",
+  "Value":11750,
+  "Weight":2230,
+  "Weight/Power":13.597561,
+  "Years":{
+    "max":1997,
+    "min":1992
+  },
+  "defaultPaintName1":"Carbon Gray",
+  "defaultPaintName3":"Charcoal"
+}

@@ -1,0 +1,394 @@
+{
+"pickup_rollpan_R": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rear Roll Pan",
+        "value":150,
+    },
+    "slotType" : "pickup_bumper_R",
+    "slots": [
+        ["type", "default", "description"],
+        ["pickup_licenseplate_R_alt","pickup_licenseplate_R_alt","Rear License Plate"],
+    ],
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_rollpan_R", ["pickup_rollpan_R"],[],{"pos":{"x":0.0, "y":0.0, "z":0.0}}],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         //--REAR ROLL PAN--
+         {"collision":true},
+         {"selfCollision":true},
+         {"nodeMaterial":"|NM_METAL"},
+         {"nodeWeight":0.94},
+         {"frictionCoef":0.5},
+         {"group":"pickup_rollpan_R"},
+         ["rp1rr",-0.82, 2.58, 0.68],
+         ["rp1r",-0.42, 2.58, 0.68],
+         ["rp1",0.0, 2.58, 0.68],
+         ["rp1l",0.42, 2.58, 0.68],
+         ["rp1ll",0.82, 2.58, 0.68],
+
+         ["rp2rr",-0.82, 2.535, 0.49],
+         ["rp2r",-0.42, 2.535, 0.49],
+         ["rp2",0.0, 2.535, 0.49],
+         ["rp2l",0.42, 2.535, 0.49],
+         ["rp2ll",0.82, 2.535, 0.49],
+
+         //rigidifier
+         {"group":""},
+         {"collision":false},
+         {"selfCollision":false},
+         ["rp3", 0.0, 2.40, 0.51],
+
+    ],
+
+    "beams": [
+          ["id1:", "id2:"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          //--REAR ROLL PAN--
+          {"beamSpring":940940,"beamDamp":70.5},
+          {"beamDeform":21525,"beamStrength":"FLT_MAX"},
+          //main shape
+          {"deformLimitExpansion":1.2},
+          ["rp1rr","rp1r"],
+          ["rp1r","rp1"],
+          ["rp1","rp1l"],
+          ["rp1l","rp1ll"],
+          ["rp2rr","rp2r"],
+          ["rp2r","rp2"],
+          ["rp2","rp2l"],
+          ["rp2l","rp2ll"],
+
+          //v
+          ["rp1rr","rp2rr"],
+          ["rp1r","rp2r"],
+          ["rp1","rp2"],
+          ["rp1l","rp2l"],
+          ["rp1ll","rp2ll"],
+          //surficial crossing
+          {"beamDeform":6125,"beamStrength":"FLT_MAX"},
+          ["rp1rr","rp2r"],
+          ["rp1r","rp2rr"],
+          ["rp1r","rp2"],
+          ["rp1","rp2r"],
+          ["rp1ll","rp2l"],
+          ["rp1l","rp2ll"],
+          ["rp1l","rp2"],
+          ["rp1","rp2l"],
+
+          //rigids
+          {"deformLimitExpansion":""},
+          {"beamDeform":4725,"beamStrength":"FLT_MAX"},
+
+          ["rp1rr","rp1"],
+          ["rp1r","rp1l"],
+          ["rp1ll","rp1"],
+          ["rp2rr","rp2"],
+          ["rp2r","rp2l"],
+          ["rp2ll","rp2"],
+
+          //rigidifier
+          ["rp1rr","rp3"],
+          ["rp1r","rp3"],
+          ["rp1","rp3"],
+          ["rp1l","rp3"],
+          ["rp1ll","rp3"],
+          ["rp2rr","rp3"],
+          ["rp2r","rp3"],
+          ["rp2","rp3"],
+          ["rp2l","rp3"],
+          ["rp2ll","rp3"],
+
+          //attach
+          {"optional":true},
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1, "beamShortBound":1},
+          {"beamSpring":425669.6,"beamDamp":84.6},
+          {"beamDeform":4235,"beamStrength":9191},
+          {"breakGroup":"rollpan_R"},
+          //r
+          ["rp1rr","bd14rr"],
+          ["rp2rr","bd14rr"],
+          ["rp1r","bd14rr"],
+          ["rp2r","bd14rr"],
+          ["rp1rr","bd10rr"],
+          ["rp2rr","bd10rr"],
+          ["rp1r","bd10rr"],
+          ["rp2r","bd10rr"],
+
+          {"breakGroup":"rollpan_R_frame"},
+          ["f20r", "rp1r"],
+          ["f20r", "rp2r"],
+          ["f20r", "rp1rr"],
+          ["f20r", "rp2rr"],
+
+          ["f10r", "rp1r"],
+          ["f10r", "rp2r"],
+          ["f10r", "rp1rr"],
+          ["f10r", "rp2rr"],
+
+          ["rp1r", "f19r"],
+          ["rp2r", "f9r"],
+
+          {"breakGroup":"rollpan_L"},
+          //l
+          ["rp1ll","bd14ll"],
+          ["rp2ll","bd14ll"],
+          ["rp1l","bd14ll"],
+          ["rp2l","bd14ll"],
+          ["rp1ll","bd10ll"],
+          ["rp2ll","bd10ll"],
+          ["rp1l","bd10ll"],
+          ["rp2l","bd10ll"],
+
+          {"breakGroup":"rollpan_L_frame"},
+          ["f20l", "rp1l"],
+          ["f20l", "rp2l"],
+          ["f20l", "rp1ll"],
+          ["f20l", "rp2ll"],
+
+          ["f10l", "rp1l"],
+          ["f10l", "rp2l"],
+          ["f10l", "rp1ll"],
+          ["f10l", "rp2ll"],
+
+          ["rp1l", "f19l"],
+          ["rp2l", "f9l"],
+          {"breakGroup":""},
+
+          //--REAR ROLL PAN SUPPORT BEAMS--
+          {"beamSpring":237669.6,"beamDamp":112.8},
+          {"beamType":"|SUPPORT","beamLongBound":4},
+          {"beamDeform":3675,"beamStrength":99680},
+          ["rp2rr", "bd5rr"],
+          ["rp2ll", "bd5ll"],
+          ["rp2rr", "bd13rr"],
+          ["rp1rr", "bd9rr"],
+          ["rp2ll", "bd13ll"],
+          ["rp1ll", "bd9ll"],
+          ["rp1r", "bd9r"],
+          ["rp1l", "bd9l"],
+          ["rp2ll", "f9l"],
+          ["rp1ll", "f19l"],
+          ["rp2rr", "f9r"],
+          ["rp1rr", "f19r"],
+          {"optional":false},
+          {"deformLimitExpansion":1.2},
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+
+    ],
+    "triangles": [
+            ["id1:","id2:","id3:"],
+            //rear rollpan
+            {"groundModel":"metal"},
+            {"group":"pickup_rollpan_R"},
+            {"dragCoef":7.5},
+            ["rp1ll","rp2ll","rp2l"],
+            ["rp1ll","rp2l","rp1l"],
+            ["rp1l","rp2l","rp2"],
+            ["rp1l","rp2","rp1"],
+
+            ["rp1rr","rp2r","rp2rr"],
+            ["rp1rr","rp1r","rp2r"],
+            ["rp1r","rp2","rp2r"],
+            ["rp1r","rp1","rp2"],
+            {"dragCoef":0},
+    ],
+},
+"pickup_rollpan_R_stepside": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Stepside Rear Roll Pan",
+        "value":150,
+    },
+    "slotType" : "pickup_bumper_R",
+    "slots": [
+        ["type", "default", "description"],
+        ["pickup_licenseplate_R_alt","pickup_licenseplate_R_alt","Rear License Plate"],
+    ],
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_rollpan_R_stepside", ["pickup_rollpan_R"],[],{"pos":{"x":0.0, "y":0.0, "z":0.0}}],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         //--REAR ROLL PAN--
+         {"collision":true},
+         {"selfCollision":true},
+         {"nodeMaterial":"|NM_METAL"},
+         {"nodeWeight":0.94},
+         {"frictionCoef":0.5},
+         {"group":"pickup_rollpan_R"},
+         ["rp1rr",-0.65, 2.58, 0.68],
+         ["rp1r",-0.32, 2.58, 0.68],
+         ["rp1",0.0, 2.58, 0.68],
+         ["rp1l",0.32, 2.58, 0.68],
+         ["rp1ll",0.65, 2.58, 0.68],
+
+         ["rp2rr",-0.65, 2.535, 0.49],
+         ["rp2r",-0.32, 2.535, 0.49],
+         ["rp2",0.0, 2.535, 0.49],
+         ["rp2l",0.32, 2.535, 0.49],
+         ["rp2ll",0.65, 2.535, 0.49],
+
+         //rigidifier
+         {"group":""},
+         {"collision":false},
+         {"selfCollision":false},
+         ["rp3", 0.0, 2.40, 0.51],
+
+    ],
+
+    "beams": [
+          ["id1:", "id2:"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          //--REAR ROLL PAN--
+          {"beamSpring":940940,"beamDamp":70.5},
+          {"beamDeform":21525,"beamStrength":"FLT_MAX"},
+          //main shape
+          {"deformLimitExpansion":1.2},
+          ["rp1rr","rp1r"],
+          ["rp1r","rp1"],
+          ["rp1","rp1l"],
+          ["rp1l","rp1ll"],
+          ["rp2rr","rp2r"],
+          ["rp2r","rp2"],
+          ["rp2","rp2l"],
+          ["rp2l","rp2ll"],
+
+          //v
+          ["rp1rr","rp2rr"],
+          ["rp1r","rp2r"],
+          ["rp1","rp2"],
+          ["rp1l","rp2l"],
+          ["rp1ll","rp2ll"],
+          //surficial crossing
+          {"beamDeform":6125,"beamStrength":"FLT_MAX"},
+          ["rp1rr","rp2r"],
+          ["rp1r","rp2rr"],
+          ["rp1r","rp2"],
+          ["rp1","rp2r"],
+          ["rp1ll","rp2l"],
+          ["rp1l","rp2ll"],
+          ["rp1l","rp2"],
+          ["rp1","rp2l"],
+
+          //rigids
+          {"deformLimitExpansion":""},
+          {"beamDeform":4725,"beamStrength":"FLT_MAX"},
+
+          ["rp1rr","rp1"],
+          ["rp1r","rp1l"],
+          ["rp1ll","rp1"],
+          ["rp2rr","rp2"],
+          ["rp2r","rp2l"],
+          ["rp2ll","rp2"],
+
+          //rigidifier
+          ["rp1rr","rp3"],
+          ["rp1r","rp3"],
+          ["rp1","rp3"],
+          ["rp1l","rp3"],
+          ["rp1ll","rp3"],
+          ["rp2rr","rp3"],
+          ["rp2r","rp3"],
+          ["rp2","rp3"],
+          ["rp2l","rp3"],
+          ["rp2ll","rp3"],
+
+          //attach
+          {"optional":true},
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1, "beamShortBound":1},
+          {"beamSpring":425669.6,"beamDamp":84.6},
+          {"beamDeform":4235,"beamStrength":9191},
+          {"breakGroup":"rollpan_R"},
+          //r
+          ["rp1rr","bd14rr"],
+          ["rp2rr","bd14rr"],
+          ["rp1r","bd14rr"],
+          ["rp2r","bd14rr"],
+          ["rp1rr","bd10rr"],
+          ["rp2rr","bd10rr"],
+          ["rp1r","bd10rr"],
+          ["rp2r","bd10rr"],
+
+          {"breakGroup":"rollpan_R_frame"},
+          ["f20r", "rp1r"],
+          ["f20r", "rp2r"],
+          ["f20r", "rp1rr"],
+          ["f20r", "rp2rr"],
+
+          ["f10r", "rp1r"],
+          ["f10r", "rp2r"],
+          ["f10r", "rp1rr"],
+          ["f10r", "rp2rr"],
+
+          ["rp1r", "f19r"],
+          ["rp2r", "f9r"],
+
+          {"breakGroup":"rollpan_L"},
+          //l
+          ["rp1ll","bd14ll"],
+          ["rp2ll","bd14ll"],
+          ["rp1l","bd14ll"],
+          ["rp2l","bd14ll"],
+          ["rp1ll","bd10ll"],
+          ["rp2ll","bd10ll"],
+          ["rp1l","bd10ll"],
+          ["rp2l","bd10ll"],
+
+          {"breakGroup":"rollpan_L_frame"},
+          ["f20l", "rp1l"],
+          ["f20l", "rp2l"],
+          ["f20l", "rp1ll"],
+          ["f20l", "rp2ll"],
+
+          ["f10l", "rp1l"],
+          ["f10l", "rp2l"],
+          ["f10l", "rp1ll"],
+          ["f10l", "rp2ll"],
+
+          ["rp1l", "f19l"],
+          ["rp2l", "f9l"],
+          {"breakGroup":""},
+
+          //--REAR ROLL PAN SUPPORT BEAMS--
+          {"beamSpring":237669.6,"beamDamp":112.8},
+          {"beamType":"|SUPPORT","beamLongBound":4},
+          {"beamDeform":3675,"beamStrength":99680},
+          ["rp2rr", "bd5rr"],
+          ["rp2ll", "bd5ll"],
+          ["rp2rr", "bd13rr"],
+          ["rp1rr", "bd9rr"],
+          ["rp2ll", "bd13ll"],
+          ["rp1ll", "bd9ll"],
+          ["rp1r", "bd9r"],
+          ["rp1l", "bd9l"],
+          ["rp2ll", "f9l"],
+          ["rp1ll", "f19l"],
+          ["rp2rr", "f9r"],
+          ["rp1rr", "f19r"],
+          {"optional":false},
+          {"deformLimitExpansion":1.2},
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+
+    ],
+    "triangles": [
+            ["id1:","id2:","id3:"],
+            //rear rollpan
+            {"groundModel":"metal"},
+            {"group":"pickup_rollpan_R"},
+            {"dragCoef":7.5},
+            ["rp1ll","rp2ll","rp2l"],
+            ["rp1ll","rp2l","rp1l"],
+            ["rp1l","rp2l","rp2"],
+            ["rp1l","rp2","rp1"],
+
+            ["rp1rr","rp2r","rp2rr"],
+            ["rp1rr","rp1r","rp2r"],
+            ["rp1r","rp2","rp2r"],
+            ["rp1r","rp1","rp2"],
+            {"dragCoef":0},
+    ],
+},
+}

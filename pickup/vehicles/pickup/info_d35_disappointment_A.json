@@ -1,0 +1,48 @@
+{
+  "0-100 km/h":8.5,
+  "0-100 mph":26.6,
+  "0-60 mph":8,
+  "100-0 km/h":52.9,
+  "60-0 mph":165.1,
+  "60-100 mph":18.7,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.44,
+      -1.49,
+      -0.3713
+    ],
+    [
+      1.54,
+      3.56,
+      1.41
+    ]
+  ],
+  "Braking G":0.743,
+  "Config Type":"Custom",
+  "Configuration":"The Disappointment (A)",
+  "Description":"You can take this to the dirt oval and win without a scratch, but you won't really enjoy it. Is it the truck, or is it you? Questions like these keep us awake at night",
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":39,
+  "Performance Class":"3",
+  "Population":0,
+  "Power":273,
+  "PowerPeakRPM":"4300 - 4800",
+  "Propulsion":"ICE",
+  "Top Speed":52.8321523,
+  "Torque":485,
+  "TorquePeakRPM":"2350 - 3900",
+  "Transmission":"Automatic",
+  "Value":2300,
+  "Weight":2130,
+  "Weight/Power":7.8021978,
+  "Years":{
+    "max":1997,
+    "min":1992
+  },
+  "defaultPaintName1":"Army Green",
+  "defaultPaintName2":"Army Green",
+  "defaultPaintName3":"Charcoal"
+}

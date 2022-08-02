@@ -1,0 +1,46 @@
+{
+  "0-100 km/h":8.9,
+  "0-100 mph":28.9,
+  "0-60 mph":8.3,
+  "100-0 km/h":48.4,
+  "60-0 mph":150.3,
+  "60-100 mph":20.6,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.72,
+      -1.42,
+      -0.4233
+    ],
+    [
+      1.82,
+      4.095,
+      1.41
+    ]
+  ],
+  "Braking G":0.813,
+  "Config Type":"Factory",
+  "Configuration":"D35 4WD Long Bed V8 (A)",
+  "Description":"Barebones heavy duty work truck popular with construction, utility and logging companies. Featuring a heavy duty frame and extra-stiff springs for improved carrying and towing ability",
+  "Drivetrain":"4WD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":46,
+  "Performance Class":"3",
+  "Population":2500,
+  "Power":258,
+  "PowerPeakRPM":"4250 - 4800",
+  "Propulsion":"ICE",
+  "Top Speed":52.5613675,
+  "Torque":465,
+  "TorquePeakRPM":"2000 - 3850",
+  "Transmission":"Automatic",
+  "Value":16020,
+  "Weight":2450,
+  "Weight/Power":9.49612403,
+  "Years":{
+    "max":1997,
+    "min":1992
+  },
+  "defaultPaintName1":"Chocolate Brown"
+}

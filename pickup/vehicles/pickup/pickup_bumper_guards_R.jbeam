@@ -1,0 +1,70 @@
+{
+"pickup_bumper_guards_R": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rear Bumper Guards",
+        "value":30,
+    },
+    "slotType" : "pickup_bumper_guards_R",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_bumper_guards_R", ["pickup_bumper_R"],[]{"pos":{"x":0,"y":0,"z":0}}],
+    ],
+},
+"pickup_bumper_guards_R_facelift": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Late Rear Bumper Cladding",
+        "value":300,
+    },
+    "slotType" : "pickup_bumper_guards_R",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_bumper_R_addon_facelift", ["pickup_bumper_R"]],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         //--REAR BUMPER--
+         {"collision":true},
+         {"selfCollision":true},
+         {"nodeMaterial":"|NM_PLASTIC"},
+         {"nodeWeight":1.35},
+         {"frictionCoef":0.5},
+         {"group":"pickup_bumper_R"},
+         ["rb2rr",-0.90, 2.67, 0.49],
+         ["rb2r",-0.44, 2.67, 0.49],
+         ["rb2",0.0, 2.67, 0.49],
+         ["rb2l",0.44, 2.67, 0.49],
+         ["rb2ll",0.90, 2.67, 0.49],
+         {"group":""},
+    ],
+},
+"pickup_bumper_insert_R_heavy": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Late Rear Bumper Cladding",
+        "value":400,
+    },
+    "slotType" : "pickup_bumper_insert_R_heavy",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pickup_bumper_R_heavy_addon_facelift", ["pickup_bumper_R"]],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         //--REAR BUMPER--
+         {"collision":true},
+         {"selfCollision":true},
+         {"nodeMaterial":"|NM_PLASTIC"},
+         {"nodeWeight":1.55},
+         {"frictionCoef":0.5},
+         {"group":"pickup_bumper_R"},
+         ["rb2rr",-0.88, 2.71, 0.5],
+         ["rb2r",-0.45, 2.71, 0.5],
+         ["rb2",0.0, 2.74, 0.48],
+         ["rb2l",0.45, 2.71, 0.5],
+         ["rb2ll",0.88, 2.71, 0.5],
+         {"group":""},
+    ],
+},
+}

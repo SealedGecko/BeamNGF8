@@ -1,0 +1,47 @@
+{
+  "0-100 km/h":10,
+  "0-100 mph":36.6,
+  "0-60 mph":9.3,
+  "100-0 km/h":57.6,
+  "60-0 mph":177.6,
+  "60-100 mph":27.3,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.72,
+      -1.42,
+      -0.4233
+    ],
+    [
+      1.82,
+      4.96,
+      1.41
+    ]
+  ],
+  "Braking G":0.683,
+  "Config Type":"Factory",
+  "Configuration":"D35 Chief Rancher Diesel (A)",
+  "Description":"The Chief Rancher is the top-of-the-line model of the D35, coming standard with all the bells and whistles",
+  "Drivetrain":"4WD",
+  "Fuel Type":"Diesel",
+  "Induction Type":"Turbo",
+  "Off-Road Score":34,
+  "Performance Class":"3",
+  "Population":1250,
+  "Power":245,
+  "PowerPeakRPM":3050,
+  "Propulsion":"ICE",
+  "Top Speed":51.3305679,
+  "Torque":610,
+  "TorquePeakRPM":"1300 - 2750",
+  "Transmission":"Automatic",
+  "Value":18000,
+  "Weight":2880,
+  "Weight/Power":11.755102,
+  "Years":{
+    "max":2003,
+    "min":1998
+  },
+  "defaultPaintName1":"Steel Blue",
+  "defaultPaintName2":"Silver"
+}

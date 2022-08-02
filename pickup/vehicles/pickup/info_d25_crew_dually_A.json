@@ -1,0 +1,49 @@
+{
+  "0-100 km/h":10.3,
+  "0-100 mph":35.1,
+  "0-120 mph":59.9,
+  "0-60 mph":9.6,
+  "100-0 km/h":53.1,
+  "60-0 mph":165.7,
+  "60-100 mph":25.5,
+  "60-120 mph":52.2,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.72,
+      -1.42,
+      -0.3933
+    ],
+    [
+      1.82,
+      4.96,
+      1.41
+    ]
+  ],
+  "Braking G":0.741,
+  "Config Type":"Factory",
+  "Configuration":"D25 V8 Crew Cab Dually (A)",
+  "Description":"Extra long frame and cab with medium duty suspension and dual rear wheels",
+  "Drivetrain":"Other",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":27,
+  "Performance Class":"3",
+  "Population":3000,
+  "Power":223,
+  "PowerPeakRPM":"4450 - 5150",
+  "Propulsion":"ICE",
+  "Top Speed":50.1784264,
+  "Torque":410,
+  "TorquePeakRPM":"2550 - 3400",
+  "Transmission":"Automatic",
+  "Value":12750,
+  "Weight":2490,
+  "Weight/Power":11.1659193,
+  "Years":{
+    "max":1997,
+    "min":1992
+  },
+  "defaultPaintName1":"Chestnut",
+  "defaultPaintName2":"Champagne"
+}

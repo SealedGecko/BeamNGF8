@@ -1,0 +1,44 @@
+{
+  "0-100 km/h":16.3,
+  "0-60 mph":15.1,
+  "100-0 km/h":58.7,
+  "60-0 mph":181.4,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.693,
+      -1.41,
+      -0.4103
+    ],
+    [
+      1.793,
+      4.708,
+      1.41
+    ]
+  ],
+  "Braking G":0.67,
+  "Config Type":"Factory",
+  "Configuration":"D35 Diesel V8 Extended Cab Dually (M)",
+  "Description":"Extended cab truck with dual rear wheels and a diesel V8 engine",
+  "Drivetrain":"Other",
+  "Fuel Type":"Diesel",
+  "Induction Type":"Turbo",
+  "Off-Road Score":34,
+  "Performance Class":"3",
+  "Population":2000,
+  "Power":151,
+  "PowerPeakRPM":"2700 - 3450",
+  "Propulsion":"ICE",
+  "Top Speed":42.8458137,
+  "Torque":480,
+  "TorquePeakRPM":"1150 - 1800",
+  "Transmission":"Manual",
+  "Value":16050,
+  "Weight":2690,
+  "Weight/Power":17.8145695,
+  "Years":{
+    "max":1991,
+    "min":1986
+  },
+  "defaultPaintName1":"Steel Blue"
+}

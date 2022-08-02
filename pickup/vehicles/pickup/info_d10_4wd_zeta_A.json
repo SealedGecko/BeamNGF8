@@ -1,0 +1,48 @@
+{
+  "0-100 km/h":7.6,
+  "0-100 mph":25.3,
+  "0-60 mph":7.1,
+  "100-0 km/h":37.7,
+  "60-0 mph":115.1,
+  "60-100 mph":18.1,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.6,
+      -1.59071,
+      -0.3349
+    ],
+    [
+      1.7,
+      3.41158,
+      1.42
+    ]
+  ],
+  "Braking G":1.044,
+  "Config Type":"Factory",
+  "Configuration":"D10 Zeta (A)",
+  "Description":"The D10 Zeta includes a supercharged 5.5L V8, lifted off-road suspension and a unique cosmetic package",
+  "Drivetrain":"4WD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"SC",
+  "Off-Road Score":59,
+  "Performance Class":"6",
+  "Population":1600,
+  "Power":293,
+  "PowerPeakRPM":"4100 - 4900",
+  "Propulsion":"ICE",
+  "Top Speed":52.6959558,
+  "Torque":560,
+  "TorquePeakRPM":"2750 - 3500",
+  "Transmission":"Automatic",
+  "Value":26000,
+  "Weight":2400,
+  "Weight/Power":8.19112628,
+  "Years":{
+    "max":1997,
+    "min":1992
+  },
+  "defaultPaintName1":"Brilliant Blue",
+  "defaultPaintName2":"Matte Black",
+  "defaultPaintName3":"Vibrant Red"
+}

@@ -1,0 +1,46 @@
+{
+  "0-100 km/h":8.1,
+  "0-100 mph":25.4,
+  "0-60 mph":7.6,
+  "100-0 km/h":40.5,
+  "60-0 mph":124.4,
+  "60-100 mph":17.8,
+  "Body Style":"Pickup",
+  "BoundingBox":[
+    [
+      -0.6,
+      -1.42,
+      -0.3099
+    ],
+    [
+      1.7,
+      3.54,
+      1.41
+    ]
+  ],
+  "Braking G":0.971,
+  "Config Type":"Factory",
+  "Configuration":"D15 V8 4WD (A)",
+  "Description":"Equipped with 4-wheel drive and a powerful V8 engine",
+  "Drivetrain":"4WD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":46,
+  "Performance Class":"4",
+  "Population":12000,
+  "Power":233,
+  "PowerPeakRPM":"4100 - 4900",
+  "Propulsion":"ICE",
+  "Top Speed":51.9875864,
+  "Torque":425,
+  "TorquePeakRPM":"3000 - 3800",
+  "Transmission":"Automatic",
+  "Value":7270,
+  "Weight":2080,
+  "Weight/Power":8.92703863,
+  "Years":{
+    "max":2003,
+    "min":1998
+  },
+  "defaultPaintName1":"Forest Green"
+}

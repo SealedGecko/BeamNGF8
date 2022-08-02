@@ -1,0 +1,107 @@
+{
+"pickup_airbump_R": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rear Air Bump Stop",
+        "value":250,
+    },
+    "slotType" : "pickup_airbump_R",
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["pickup_desert_airbump_RL", ["bumpstop_RL"]],
+        ["pickup_desert_airbump_RR", ["bumpstop_RR"]],
+        ["pickup_desert_airbump_R_body", ["pickup_frame", "bumpstop_R"]],
+    ],
+    "nodes": [
+        ["id", "posX", "posY", "posZ"],
+        {"nodeMaterial":"|NM_METAL"},
+        {"frictionCoef":0.5},
+        {"collision":true},
+        {"selfCollision":false},
+        //air bump stops
+        {"nodeWeight":2},
+        //bottom
+        ["rbs1r", -0.62, 1.55, 0.55, {"group":""}],
+        ["rbs1l",  0.62, 1.55, 0.55, {"group":""}],
+        {"nodeWeight":4.5},
+        //piston
+        ["rbs2r", -0.62, 1.55, 0.55, {"group":"bumpstop_RR"}],
+        ["rbs2l",  0.62, 1.55, 0.55, {"group":"bumpstop_RL"}],
+        //top
+        ["rbs3r", -0.62, 1.55, 0.96, {"group":["bumpstop_R","bumpstop_RR","bumpstop_RL"]}],
+        ["rbs3l",  0.62, 1.55, 0.96, {"group":["bumpstop_R","bumpstop_RR","bumpstop_RL"]}],
+        {"group":""},
+    ],
+    "rails": {
+        "bumpstop_RR":{"links:":["rbs1r", "rbs3r"], "broken:":[], "looped":false, "capped":true},
+        "bumpstop_RL":{"links:":["rbs1l", "rbs3l"], "broken:":[], "looped":false, "capped":true},
+    },
+    "slidenodes": [
+        ["id:", "railName", "attached", "fixToRail", "tolerance", "spring", "strength", "capStrength"],
+        ["rbs2r", "bumpstop_RR", true, true, 0.0, 5001000, 500000, 500000],
+        ["rbs2l", "bumpstop_RL", true, true, 0.0, 5001000, 500000, 500000],
+    ],
+    "beams": [
+        ["id1:", "id2:"],
+        {"beamPrecompression":1, "beamType":"|NORMAL"},
+        //air bump rail
+        {"beamDeform":105000,"beamStrength":"FLT_MAX"},
+        {"beamSpring":1201000,"beamDamp":70},
+        ["rbs3r", "fr1rr"],
+        ["rbs3r", "fr4rr"],
+        ["rbs3r", "fr5rr"],
+        ["rbs3r", "fr4"],
+        ["rbs3r", "fr2rr"],
+
+        ["rbs1r", "fr1rr"],
+        ["rbs1r", "fr4rr"],
+        ["rbs1r", "fr5rr"],
+        ["rbs1r", "fr4"],
+        ["rbs1r", "fr2rr"],
+
+        ["rbs3l", "fr1ll"],
+        ["rbs3l", "fr4ll"],
+        ["rbs3l", "fr5ll"],
+        ["rbs3l", "fr4"],
+        ["rbs3l", "fr2ll"],
+
+        ["rbs1l", "fr1ll"],
+        ["rbs1l", "fr4ll"],
+        ["rbs1l", "fr5ll"],
+        ["rbs1l", "fr4"],
+        ["rbs1l", "fr2ll"],
+
+        ["rbs1r", "rbs3r"],
+        ["rbs1l", "rbs3l"],
+
+        //bump stop hit point adjustment
+        {"beamPrecompression":0.365, "beamType":"|SUPPORT", "beamLongBound":4.0},
+        {"beamSpring":5001000,"beamDamp":150},
+        ["ax4r", "rbs2r"],
+        ["ax4l", "rbs2l"],
+
+        //air bumpstop
+        {"beamPrecompression":1, "beamType":"|BOUNDED", "beamLongBound":1, "beamShortBound":1},
+        {"beamSpring":0,"beamDamp":17000},
+        {"beamLimitSpring":1001000,"beamLimitDamp":17000},
+        ["rbs2r", "rbs3r", {"longBoundRange":0,"shortBoundRange":0.1,"boundZone":0.01,"beamDampRebound":17000,"beamLimitDampRebound":17000,"dampCutoffHz":400}],
+        ["rbs2l", "rbs3l", {"longBoundRange":0,"shortBoundRange":0.1,"boundZone":0.01,"beamDampRebound":17000,"beamLimitDampRebound":17000,"dampCutoffHz":400}],
+
+        {"beamPrecompression":1, "beamType":"|PRESSURED"},
+        {"beamSpring":0,"beamDamp":0},
+        {"beamLimitSpring":0,"beamLimitDamp":0},
+        ["rbs2r", "rbs3r", {"pressurePSI":150,"surface":0.00203,"volumeCoef":2}],
+        ["rbs2l", "rbs3l", {"pressurePSI":150,"surface":0.00203,"volumeCoef":2}],
+        {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+    ],
+    "triangles":[
+        ["id1:", "id2:", "id3:"],
+        {"triangleType":"NONCOLLIDABLE"},
+        ["fr4rr", "rbs2r", "rbs3r"],
+        ["fr1rr", "fr4rr", "rbs3r"],
+        ["rbs3l", "rbs2l", "fr4ll"],
+        ["rbs3l", "fr4ll", "fr1ll"],
+        {"triangleType":"NORMALTYPE"},
+    ],
+},
+}

@@ -1,0 +1,95 @@
+{"pickup_desert_rearframe_alt":
+{
+    "information":{
+        "authors":"BeamNG",
+        "name":"Bob Tail Rear Frame",
+        "value":1000,
+    },
+
+    "slotType" :"pickup_desert_rearframe",
+
+    "flexbodies":[
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["pickup_desert_cage_rear_short", ["pickup_frame"]],
+    ],
+    "nodes":[
+         ["id", "posX", "posY", "posZ"],
+         {"selfCollision":true},
+         {"collision":true},
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+         {"group":"pickup_frame"},
+
+         //--CAGE--
+         //rear cage
+         {"nodeWeight":8.0},
+         ["frr1r",-0.224,1.743,0.85],
+         ["frr1l",0.224,1.743,0.85],
+         ["frr2r",-0.259,1.873,1.1],
+         ["frr2l",0.259,1.873,1.1],
+         {"group":""},
+    ],
+    "beams":[
+          ["id1:", "id2:"],
+          //--CAGE--
+
+          //front frame main shape
+          {"beamSpring":2001000,"beamDamp":125},
+          {"beamDeform":65000,"beamStrength":"FLT_MAX"},
+          {"deformLimitExpansion":1.2},
+          //widthwise
+          ["fr1ll", "frr2l"],
+          ["frr2l", "frr2r"],
+          ["frr2r", "fr1rr"],
+          ["fr4ll", "frr1l"],
+          ["frr1l", "frr1r"],
+          ["frr1r", "fr4rr"],
+          //vertical
+          ["frr2l", "frr1l"],
+          ["frr2r", "frr1r"],
+
+          //crossing
+          {"beamDeform":16000,"beamStrength":"FLT_MAX"},
+          {"deformLimitExpansion":""},
+          ["frr1l", "frr2r"],
+          ["frr1r", "frr2l"],
+          ["frr2l", "fr4ll"],
+          ["fr1ll", "frr1l"],
+          ["frr1r", "fr1rr"],
+          ["fr4rr", "frr2r"],
+
+          //rigids
+          {"beamDeform":16000,"beamStrength":"FLT_MAX"},
+          //corner
+          ["frr1l", "fr4"],
+          ["frr1r", "fr4"],
+          ["frr2r", "fr4ll"],
+          ["frr2l", "fr4rr"],
+          //widthwise
+          ["fr1ll", "frr2r"],
+          ["fr4ll", "frr1r"],
+          ["frr1l", "fr4rr"],
+          ["frr2l", "fr1rr"],
+    ],
+
+    "triangles":[
+        ["id1:", "id2:", "id3:"],
+        {"groundModel":"metal"},
+
+        {"dragCoef":14},
+        {"group":"pickup_rearcage"},
+        ["fr10", "fr1ll", "fr1rr"],
+        ["frr1l", "fr4", "frr1r"],
+        ["frr1r", "fr4", "fr4rr"],
+        ["frr1l", "fr4ll", "fr4"],
+        ["frr2r", "frr1r", "fr4rr"],
+        ["frr2l", "fr4ll", "frr1l"],
+        ["frr2r", "fr4rr", "fr1rr"],
+        ["fr1ll", "fr4ll", "frr2l"],
+        ["frr2l", "frr1l", "frr1r"],
+        ["frr1r", "frr2r", "frr2l"],
+        ["fr1ll", "frr2l", "frr2r"],
+        ["fr1ll", "frr2r", "fr1rr"],
+        ],
+},
+}
